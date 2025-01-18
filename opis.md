@@ -68,25 +68,3 @@ pracownik dolny
 pracownik górny
 
 semctl(entry_sem_id,LEFT_ENTRY_IDX,SETVAL,N/4);
-*/
-long ticketBuy(){
-    long Bt = 0;
-    int wybor = dice(4);
-    if(wybor == 1){
-        //printf("Kupuje bilet na 1 godzine");
-        Bt = Bt + 60*minuta;
-    }
-    else if(wybor == 2){
-        //printf("Kupuje bilet na 2 godziny");
-        Bt = Bt + 120*minuta;
-    }
-    else if(wybor == 3){
-        //printf("Kupuje bilet na 3 godziny");
-        Bt = Bt + 180*minuta;
-    }
-    else if(wybor == 4){
-        //printf("Kupuje bilet na caly dzien");
-        Bt = Bt + duration*minuta;
-    }
-    return Bt;
-}

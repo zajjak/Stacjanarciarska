@@ -9,17 +9,30 @@
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/sem.h>
+#include <sys/shm.h>
+#include <pthread.h>
 
 
-#define PERON_CAPACITY 3
-#define NUM_RESOURCES 2 // liczba blokujaca semafory / bramki
-#define N 4 // liczba bramek na wejsciu/semaforow 4 + 1
+#define NUM_RESOURCES 10 // ilość miejsca za każdą bramką
+#define N 4 // liczba bramek na dole stacji
 
-#define minuta 1000
-#define strt 480
-#define duration 540
+#define MINUTA 1000 // czas jednej minuty w usleep
+#define SEKUNDA 17 // czas jednej sekundy w usleep
+#define STRT 480 // czas startu symulacji 00:00 + <STRT> minut
+#define DURATION 480 // Czas trwania symulacji w minutach
 
+#define P 100 // ilosc narciarzy
+#define SEAT_CAPACITY 3 // ilość miejsc na krześle
+#define NUM_CHAIRS 80 // ilość krzeselek
 
+struct Chair {
+    pid_t pids[SEAT_CAPACITY];
+    int count;
+};
+
+struct SharedNum{
+    int current_chair;
+};
 
 int dice(int n)
 {
@@ -34,22 +47,20 @@ void wyswietl_czas(long stala_minuty, long dodane_minuty) {
     printf("Czas: %02ld:%02ld\n", godziny, minuty);
 }
 
-pid_t spawnNarciarz()
-{
-    pid_t ski_pid = fork();
-    if (ski_pid == 0){
-        execl("./narciarz","narciarz",NULL);
-        perror("Failed to exec workerBee");
-        exit(EXIT_FAILURE);
-    }
-    else if (ski_pid == -1){
-        perror("Failed to fork bee");
-        exit(EXIT_FAILURE);
-    }
-    return ski_pid;
-}
+
 
 // ===========================Działanie semaforów===========================
+
+void sem_wait(int semid, int semnum) {
+    struct sembuf op = {semnum, -1, 0};
+    semop(semid, &op, 1);
+}
+
+void sem_signal(int semid, int semnum) {
+    struct sembuf op = {semnum, 1, 0};
+    semop(semid, &op, 1);
+}
+
 
 int alokujSemafor(key_t klucz, int number, int flagi)
 {
