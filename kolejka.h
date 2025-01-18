@@ -13,17 +13,17 @@
 #include <pthread.h>
 
 
-#define NUM_RESOURCES 10 // ilość miejsca za każdą bramką
+#define NUM_RESOURCES 2 // ilość miejsca za każdą bramką
 #define N 4 // liczba bramek na dole stacji
 
 #define MINUTA 1000 // czas jednej minuty w usleep
 #define SEKUNDA 17 // czas jednej sekundy w usleep
 #define STRT 480 // czas startu symulacji 00:00 + <STRT> minut
-#define DURATION 480 // Czas trwania symulacji w minutach
+#define DURATION 120 // Czas trwania symulacji w minutach
 
 #define P 100 // ilosc narciarzy
 #define SEAT_CAPACITY 3 // ilość miejsc na krześle
-#define NUM_CHAIRS 80 // ilość krzeselek
+#define NUM_CHAIRS 10 // ilość krzeselek
 
 struct Chair {
     pid_t pids[SEAT_CAPACITY];

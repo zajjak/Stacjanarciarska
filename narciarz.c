@@ -33,7 +33,7 @@ long ticketBuy(){
     }
     else if(wybor == 4){
         //printf("Kupuje bilet na caly dzien");
-        Bt = DURATION;
+        Bt = DURATION*MINUTA;
     }
     return Bt;
 }
@@ -126,17 +126,17 @@ int main(){
         waitSemafor(semID1, wybBramki, 0);
         // Przejscie przez bramke
         usleep(333); 
-        printf("Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
+        //printf("Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
         // Wybor krzesla
         
         while(1){
             waitSemafor(semID4, 0, 0);
-            printf("current_chair = %d\n", sharedNum->current_chair);
+            //printf("current_chair = %d\n", sharedNum->current_chair);
             wybKrzesla=sharedNum->current_chair;
             if (chairs[wybKrzesla].count < SEAT_CAPACITY) {
                 chairs[wybKrzesla].pids[chairs[wybKrzesla].count] = getpid();
                 chairs[wybKrzesla].count++;
-                printf("Process %d wybrał krzeselko %d\n", getpid(), wybKrzesla);
+                //printf("Process %d wybrał krzeselko %d\n", getpid(), wybKrzesla);
                 signalSemafor(semID4, 0);
                 //printf("chairs[%d].count = %d\n", wybKrzesla, chairs[wybKrzesla].count);
                 waitSemafor(semID2, wybKrzesla, 0); // Czeka na przyjazd krzesla
@@ -145,7 +145,7 @@ int main(){
 
                 break;
             } else {
-                printf("Process %d couldn't find a seat\n", getpid());
+                //printf("Process %d couldn't find a seat\n", getpid());
                 sharedNum->current_chair=(sharedNum->current_chair+1)%NUM_CHAIRS;
                 signalSemafor(semID4, 0);
             }
@@ -161,8 +161,9 @@ int main(){
         gettimeofday(&systemTime, NULL);
         timeNow = systemTime.tv_usec;
     }
-
+    
     printf("Process %d konczy jazde\n", getpid());
+    wyswietl_czas(STRT,timeNow/MINUTA);
 
     return 0;
 }

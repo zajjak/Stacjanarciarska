@@ -50,28 +50,62 @@ int main() {
     }
     semID3 = alokujSemafor(klucz3, NUM_CHAIRS, IPC_CREAT | 0666);
 
-
+    // Poczatek czasu symulacji
+    gettimeofday(&systemTime, NULL);
+    printf("Start of kolej simulation\n");
+    wyswietl_czas(STRT, systemTime.tv_usec/MINUTA);
+    long Tp = systemTime.tv_usec;
+    long Tk = Tp + DURATION*MINUTA + (15*MINUTA); // 15 minut na rozładownie krzesełka po zamknieciu
     long timeNow = systemTime.tv_usec/MINUTA;
-    while (timeNow < (STRT + DURATION)) {
+    /*
+     for(int i=0;i<NUM_CHAIRS;i++){
+            // Wyświetlanie zawartości pamięci dzielonej `chairs`
+            printf("Chair %d status:\n", i);
+            printf("  Count: %d\n", chairs[i].count);
+            for (int j = 0; j < SEAT_CAPACITY; j++) {
+                printf("  PID[%d]: %d\n", j, chairs[i].pids[j]);
+            }
+    }   
+    */ 
+
+
+    while (systemTime.tv_usec < Tk) {
         for (int i = 0; i < NUM_CHAIRS; i++) {
             gettimeofday(&systemTime, NULL);
             timeNow = systemTime.tv_usec/MINUTA;
 
-            usleep(333);
+            usleep(SEKUNDA*10);
             semctl(semID2, i, SETVAL, 3); // Odblokownaie sem
-            usleep(SEKUNDA*20);
+            usleep(SEKUNDA*10);
             semctl(semID2, i, SETVAL, 0); // Blokowanie sem
             
             printf("Chair %d departed with %d people\n", i, chairs[i].count);
-            usleep(5*MINUTA);  // Symulacja czasu jazdy
+           
+           for(int k=0;k<NUM_CHAIRS;k++){
+            // Wyświetlanie zawartości pamięci dzielonej `chairs`
+            printf("Chair %d status:\n", k);
+            printf("  Count: %d\n", chairs[k].count);
+            for (int j = 0; j < SEAT_CAPACITY; j++) {
+                printf("  PID[%d]: %d\n", j, chairs[k].pids[j]);
+            }
+            }
+            usleep(13*MINUTA);  // Symulacja czasu jazdy
             printf("Chair %d arrived, people are disembarking\n", i);
             semctl(semID3, i, SETVAL, chairs[i].count); // Odblokowanie sem
             for (int j = 0; j < chairs[i].count; j++) {
-                //printf("Process %d disembarked from chair %d\n", chairs[i].pids[j], i);
+                printf("Process %d disembarked from chair %d\n", chairs[i].pids[j], i);
                 chairs[i].pids[j] = 0;  // Usunięcie procesu z krzesełka
             }
             chairs[i].count = 0;  // Resetowanie licznika po wysiadaniu
+
+            if(systemTime.tv_usec >= Tk) {
+                wyswietl_czas(STRT, systemTime.tv_usec/MINUTA);
+                break;
+            }
         }
     }
+
+
+    printf("End of kolej simulation\n");
     return 0;
 }
