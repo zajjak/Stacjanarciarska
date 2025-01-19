@@ -40,6 +40,20 @@ long ticketBuy(){
 /*
 Bt = czas dzialania biletu
 */
+void zjazd(int wybor){
+    if(wybor == 1){
+        printf("Wybrano latwa trase\n");
+        usleep(1*MINUTA);
+    }
+    else if(wybor == 2){
+        printf("Wybrano srednia trase\n");
+        usleep(2*MINUTA);
+    }
+    else if(wybor == 3){
+        printf("Wybrano trudna trase\n");
+        usleep(3*MINUTA);
+    }
+}
 
 
 int main(){
@@ -115,18 +129,26 @@ int main(){
     }
     struct SharedNum* sharedNum = (struct SharedNum*)shmat(shmID2, NULL, 0);
     
+    bool czyVIP = FALSE;
+    if(dice(10)==1){
+        printf("witamy Vipa ");
+        czyVIP = TRUE;
+    }
     int wybKrzesla;
-   
+    int wybBramki;
     while(timeNow < Be){
         //printf("Process %d zaczyna jazde\n", getpid());
         // Losowa bramka na wejscie
-        int wybBramki = dice(4)-1; 
+        if(czyVIP==TRUE)
+            wybBramki = 0;
+
+        wybBramki = dice(3);
         
 
         waitSemafor(semID1, wybBramki, 0);
         // Przejscie przez bramke
         usleep(333); 
-        //printf("Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
+        printf("Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
         // Wybor krzesla
         
         while(1){
@@ -154,7 +176,7 @@ int main(){
         waitSemafor(semID3, wybKrzesla, 0);
         //printf("Process %d zszedl z krzeselka i zaczyna zjezdzac%d\n", getpid(), wybKrzesla);
         // Symulacja jazdy
-        usleep(1*MINUTA);
+        zjazd(dice(3));
 
 
         // Time update

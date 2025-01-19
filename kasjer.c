@@ -68,9 +68,10 @@ void init_time(long poczatek, long koniec){
 
     pracownik_pid=spawnPracownik();
     for(int i=0;i<P;i++){
-    usleep(MINUTA*dice(2));
-    ski_pid[i]=spawnNarciarz();
+    usleep(100*dice(2));
+    ski_pid[i]=spawnNarciarz();        
     }
+    
     
 
 
@@ -85,6 +86,8 @@ void init_time(long poczatek, long koniec){
     }
     waitpid(pracownik_pid, NULL, 0);
     kill(pracownik_pid, SIGTERM);
+
+    gettimeofday(&systemTime,NULL);
     printf("Koniec symulacji\n");
     wyswietl_czas(STRT,systemTime.tv_usec/MINUTA);
 }
@@ -153,6 +156,7 @@ void init_kolejka(){
         exit(1);
     }
     for (int i = 0; i < NUM_CHAIRS; i++) {
+        chairs[i].timeTop = 999999;
         chairs[i].count = 0;
         for (int j = 0; j < SEAT_CAPACITY; j++) {
             chairs[i].pids[j] = 0;
