@@ -16,7 +16,43 @@ int shmID2,semID4, semID5; // ID numeru krzesla
 pid_t ski_pid[P];
 pid_t pracownik_pid;
 
+// Funkcja obsługi sygnału SIGTERM
+void handle_sigterm(int signum) {
+    //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
+    if (semctl(semID1, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID1)");
+        exit(1);
+    }
+    if (semctl(semID2, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID2)");
+        exit(1);
+    }
+    if (semctl(semID3, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
+    if (semctl(semID4, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
+    if (semctl(semID5, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
+    if (shmctl(shmID1, IPC_RMID, NULL) == -1) {
+        perror("Blad shmctl (main shmID1)");
+        exit(1);
+    }
+    if (shmctl(shmID2, IPC_RMID, NULL) == -1) {
+        perror("Blad shmctl (main shmID2)");
+        exit(1);
+    }
 
+    printf("Semafory i pamięć dzielona zostały usunięte.\n");
+    exit(0);
+}
+
+// Start procesu Pracownika
 pid_t spawnPracownik()
 {
     pid_t pracownik_pid = fork();
@@ -31,7 +67,7 @@ pid_t spawnPracownik()
     }
     return pracownik_pid;
 }
-
+// Start procesu Narciarza
 pid_t spawnNarciarz()
 {
     pid_t ski_pid = fork();
@@ -47,44 +83,44 @@ pid_t spawnNarciarz()
     return ski_pid;
 }
 
+// Inicjacja czasu symulacji
 void init_time(long poczatek, long koniec){
 
     struct timeval systemTime;
     gettimeofday(&systemTime, NULL);
     long Tps = systemTime.tv_usec/MINUTA;
-    long Ts;
+    //long Ts;
 
     // Ustawienie czasu startu symulacji na 0
     while(Tps != 0){
         gettimeofday(&systemTime, NULL);
         Tps = systemTime.tv_usec/MINUTA;
     }
+
     // Poczatek czasu symulacji
     gettimeofday(&systemTime, NULL);
-    long Tp = systemTime.tv_usec;
-    long Tk = Tp + koniec*MINUTA;
+    long Tk = koniec*MINUTA;
+
     printf("Start symulacji\n");
     wyswietl_czas(poczatek, systemTime.tv_usec/MINUTA);
 
+    // Stwożeni procesow potomnych
     pracownik_pid=spawnPracownik();
     for(int i=0;i<P;i++){
     usleep(100*dice(2));
     ski_pid[i]=spawnNarciarz();        
     }
     
-    
-
-
     // Warunek zakonczenia symulacji
     while(systemTime.tv_usec < Tk){
         gettimeofday(&systemTime, NULL);
     }
 
     // Zakonczenie symulacji
+    waitpid(pracownik_pid, NULL, 0);
     for (int i = 0; i < P; i++) {
         kill(ski_pid[i], SIGTERM);
     }
-    waitpid(pracownik_pid, NULL, 0);
     kill(pracownik_pid, SIGTERM);
 
     gettimeofday(&systemTime,NULL);
@@ -95,10 +131,9 @@ void init_time(long poczatek, long koniec){
 start = liczba minut od 00:00
 koniec = liczba minut symulacji
 */
-
+// Inicjalizacja bramek na dole krzeselka
 void init_bramki(){
     key_t klucz1;
-
     if ( (klucz1 = ftok(".", 'A')) == -1 )
     {
         printf("Blad ftok (main A)\n");
@@ -108,7 +143,6 @@ void init_bramki(){
         perror("Blad semget (main semID1)");
         exit(1);
     }
-
     for (int i = 0; i < N; i++) {
         if (semctl(semID1, i, SETVAL, NUM_RESOURCES) == -1) {
             perror("Blad semctl (main semID1)");
@@ -122,6 +156,7 @@ Wartosc poczatkowa semaforow = NUM_RESOURCES
 NUM_RESOURCES * N = liczba narciarzy możliwych na dolnym peronie
 */
 
+// Inicjalizacja semaforow do kolejki
 void init_kolejka(){
     key_t klucz2, kluczm1, klucz3;
 
@@ -181,6 +216,7 @@ void init_kolejka(){
 
 }
 
+// Incjalizacja numera krzesleka pamiecia dzielona
 void init_numer() {
     key_t klucz4, kluczm2, klucz5;
 
@@ -221,7 +257,6 @@ void init_numer() {
     // Zakończenie operacji na pamięci współdzielonej
     shmdt(sharedNum);
 
-        // Tworzenie semafora
     if ((klucz5 = ftok(".", 'G')) == -1) {
         printf("Blad ftok (main G)\n");
         exit(1);
@@ -236,7 +271,7 @@ void init_numer() {
     }
 }
 
-
+// Funkcja zwalniajaca zasoby
 void destroy() {
     // Usuwanie semaforów
     if (semctl(semID1, 0, IPC_RMID) == -1) {
@@ -255,6 +290,10 @@ void destroy() {
         perror("Blad semctl (main semID3)");
         exit(1);
     }
+    if (semctl(semID5, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
     if (shmctl(shmID1, IPC_RMID, NULL) == -1) {
         perror("Blad shmctl (main shmID1)");
         exit(1);
@@ -266,7 +305,6 @@ void destroy() {
 
     printf("Semafory i pamięć dzielona zostały usunięte.\n");
 }
-
 /*
 Usuwanie semaforow i pamieci dzielonej.
 */
@@ -274,7 +312,8 @@ Usuwanie semaforow i pamieci dzielonej.
 
 int main(){
 
-    //current_chair=0;
+    // Ustawienie obsługi sygnału SIGTERM
+    signal(SIGTERM, handle_sigterm);
 
     // Semafory do bramek
     init_bramki();

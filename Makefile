@@ -1,34 +1,35 @@
-# Kompilator i flagi kompilacji
+# Makefile
+
+# Kompilatory i flagi
 CC = gcc
 CFLAGS = -Wall -g
 
 # Pliki źródłowe
-SOURCES = kasjer.c narciarz.c pracownik.c
+SRC_NARCIARZ = narciarz.c
+SRC_PRACOWNIK = pracownik.c
+SRC_KASJER = kasjer.c
 
-# Nazwy plików wykonywalnych
-EXEC_KASJER = kasjer
-EXEC_NARCIARZ = narciarz
-EXEC_PRACOWNIK = pracownik
+# Pliki wykonywalne
+BIN_NARCIARZ = narciarz
+BIN_PRACOWNIK = pracownik
+BIN_KASJER = kasjer
 
-# Reguła domyślna - kompiluje wszystkie pliki wykonywalne
-all: $(EXEC_KASJER) $(EXEC_NARCIARZ) $(EXEC_PRACOWNIK)
+# Cele
+all: $(BIN_NARCIARZ) $(BIN_PRACOWNIK) $(BIN_KASJER) run_kasjer
 
-# Reguła do kompilacji kasjer.c
-$(EXEC_KASJER): kasjer.c
-	$(CC) $(CFLAGS) kasjer.c -o $(EXEC_KASJER)
+$(BIN_NARCIARZ): $(SRC_NARCIARZ)
+	$(CC) $(CFLAGS) -o $@ $<
 
-# Reguła do kompilacji narciarz.c
-$(EXEC_NARCIARZ): narciarz.c
-	$(CC) $(CFLAGS) narciarz.c -o $(EXEC_NARCIARZ)
+$(BIN_PRACOWNIK): $(SRC_PRACOWNIK)
+	$(CC) $(CFLAGS) -o $@ $<
 
-# Reguła do kompilacji pracownik.c
-$(EXEC_PRACOWNIK): pracownik.c
-	$(CC) $(CFLAGS) pracownik.c -o $(EXEC_PRACOWNIK)
+$(BIN_KASJER): $(SRC_KASJER)
+	$(CC) $(CFLAGS) -o $@ $<
 
-# Reguła do czyszczenia plików wykonywalnych
+run_kasjer: $(BIN_KASJER)
+	./$(BIN_KASJER)
+
 clean:
-	rm -f $(EXEC_KASJER) $(EXEC_NARCIARZ) $(EXEC_PRACOWNIK)
+	rm -f $(BIN_NARCIARZ) $(BIN_PRACOWNIK) $(BIN_KASJER)
 
-# Reguła do uruchamiania programu kasjer
-run: $(EXEC_KASJER)
-	./$(EXEC_KASJER)
+.PHONY: all clean run_kasjer

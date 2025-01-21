@@ -1,4 +1,3 @@
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -22,27 +21,31 @@
 #define MINUTA 1000 // czas jednej minuty w usleep
 #define SEKUNDA 17 // czas jednej sekundy w usleep
 #define STRT 480 // czas startu symulacji 00:00 + <STRT> minut
-#define DURATION 60 // Czas trwania symulacji w minutach
+#define DURATION 360 // Czas trwania symulacji w minutach
 
-#define P 100 // ilosc narciarzy
+#define P 200 // ilosc narciarzy
 #define SEAT_CAPACITY 3 // ilość miejsc na krześle
 #define NUM_CHAIRS 80 // ilość krzeselek
 
+// pamiec dzielona krzeselka
 struct Chair {
-    pid_t pids[SEAT_CAPACITY];
-    long timeTop;
-    int count;
+    pid_t pids[SEAT_CAPACITY]; // pid na krzeselku
+    long timeTop; // czas o ktorym dotrze na gore
+    int count; // liczba osob na krzeselku
 };
 
+// pamiec dzielona aktualnego numeru krzesla
 struct SharedNum{
     int current_chair;
 };
 
+// funkcja rzutu kostka
 int dice(int n)
 {
     return rand() % n + 1;
 }
 
+// funkcja do wyswietlania czasu symulacyjnego
 void wyswietl_czas(long stala_minuty, long dodane_minuty) {
     long calkowite_minuty = stala_minuty + dodane_minuty;
     long godziny = calkowite_minuty / 60;
@@ -53,7 +56,7 @@ void wyswietl_czas(long stala_minuty, long dodane_minuty) {
 
 
 
-// ===========================Działanie semaforów===========================
+// ===========================Działania semaforów===========================
 
 void sem_wait(int semid, int semnum) {
     struct sembuf op = {semnum, -1, 0};
@@ -94,7 +97,6 @@ void inicjalizujSemafor(int semID, int number, int val)
 
 int waitSemafor(int semID, int number, int flags)
 {
-   int result;
    struct sembuf operacje[1];
    operacje[0].sem_num = number;
    operacje[0].sem_op = -1;

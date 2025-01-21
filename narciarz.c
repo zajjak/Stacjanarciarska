@@ -9,9 +9,22 @@
 #include <sys/sem.h>
 #include <signal.h> // obsluga sygnalow
 #include <sys/wait.h>
+#include <sys/shm.h>
+#include <pthread.h>
 
 #include "kolejka.h"
 
+pthread_t child_thread;
+
+// Funkcja obsługi sygnału SIGTERM
+void handle_sigterm(int signum) {
+    //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
+    if (child_thread != 0) {
+        // Czekanie na zakończenie wątku
+        pthread_join(child_thread, NULL);
+    }
+    exit(0);
+}
 
 
 long ticketBuy(){
@@ -24,12 +37,12 @@ long ticketBuy(){
         Bt = Bt + 60*MINUTA;
     }
     else if(wybor == 2){
-        //printf("Kupuje bilet na 2 godziny");
-        Bt = Bt + 120*MINUTA;
-    }
-    else if(wybor == 3){
         //printf("Kupuje bilet na 3 godziny");
         Bt = Bt + 180*MINUTA;
+    }
+    else if(wybor == 3){
+        //printf("Kupuje bilet na 6 godziny");
+        Bt = Bt + 360*MINUTA;
     }
     else if(wybor == 4){
         //printf("Kupuje bilet na caly dzien");
@@ -40,23 +53,54 @@ long ticketBuy(){
 /*
 Bt = czas dzialania biletu
 */
+// Funkcja symulujaca zjazd osoby doroslej
 void zjazd(int wybor){
     if(wybor == 1){
-        printf("Wybrano latwa trase\n");
+        //printf("Wybrano latwa trase\n");
         usleep(1*MINUTA);
     }
     else if(wybor == 2){
-        printf("Wybrano srednia trase\n");
+        //printf("Wybrano srednia trase\n");
         usleep(2*MINUTA);
     }
     else if(wybor == 3){
-        printf("Wybrano trudna trase\n");
+        //printf("Wybrano trudna trase\n");
         usleep(3*MINUTA);
     }
 }
+// Funkcja symulujaca zjazd osoby niepelnoletniej (wolniej od osoby doroslej)
+void zjazdDzieci(int wybor){
+    if(wybor == 1){
+        //printf("Wybrano latwa trase\n");
+        usleep(2*MINUTA);
+    }
+    else if(wybor == 2){
+        //printf("Wybrano srednia trase\n");
+        usleep(3*MINUTA);
+    }
+    else if(wybor == 3){
+        //printf("Wybrano trudna trase\n");
+        usleep(4*MINUTA);
+    }
+}
 
+// Funkcja watku dizcka
+void* child_thread_function(void* arg) {
+    zjazdDzieci(dice(3));
+    return NULL;
+}
 
 int main(){
+
+    // Ustawienie obsługi sygnału SIGTERM
+    signal(SIGTERM, handle_sigterm);
+
+    // losowanie wieku z przedzialu 18-93
+    int wiek=dice(65)+18;
+    if (wiek > 65){
+        //printf("znizka seniora przy zakupie biletu");
+    }
+
 
     // ustawienie czasu
     struct timeval systemTime;
@@ -66,6 +110,7 @@ int main(){
     long Be = systemTime.tv_usec + ticketBuy();// bilet end
     long timeNow=systemTime.tv_usec;
 
+    // =============================Semafors and Sherememory==============================
     key_t klucz1;
     int semID1;
     if ( (klucz1 = ftok(".", 'A')) == -1 )
@@ -73,8 +118,7 @@ int main(){
         printf("Blad ftok (A)\n");
         exit(2);
     }
-
-   semID1 = alokujSemafor(klucz1, N, IPC_CREAT | 0666);
+    semID1 = alokujSemafor(klucz1, N, IPC_CREAT | 0666);
 
     key_t klucz2;
     int semID2;
@@ -129,64 +173,136 @@ int main(){
     }
     struct SharedNum* sharedNum = (struct SharedNum*)shmat(shmID2, NULL, 0);
     
+    // ========= Czy VIP ============
     bool czyVIP = FALSE;
-    if(dice(10)==1){
-        printf("witamy Vipa ");
+    if(dice(25)==1){ // losowanie, szansa 1/25
+        //printf("witamy Vipa %d\n",getpid());
         czyVIP = TRUE;
     }
+
+    // =========== Czy ma dziecko =============
+    bool czyDziecko = FALSE;
+    if(dice(20)==1){ // losowanie, szansa 1/20
+        //printf("narciarz z dzieckiem %d\n",getpid());
+        int iloscLat= dice(15) + 3;
+        if(iloscLat<12){
+            // printf("znizka ulogwa przy kupowaniu biletu\n");
+        }
+        czyDziecko = TRUE;
+    }
+
     int wybKrzesla;
     int wybBramki;
+    // ============= Wybieranie bramki i krzesleka ================
     while(timeNow < Be){
-        //printf("Process %d zaczyna jazde\n", getpid());
+        // ------------------- Przejscie przez bramke -----------------
         // Losowa bramka na wejscie
-        if(czyVIP==TRUE)
-            wybBramki = 0;
-
         wybBramki = dice(3);
-        
+        // Bramka VIP
+        if(czyVIP==TRUE){
+            wybBramki = 0;
+        }
 
+        // czeka na miejsce za bramka
         waitSemafor(semID1, wybBramki, 0);
+        if(czyDziecko==TRUE){
+            waitSemafor(semID1, wybBramki, 0);
+        }
+            
         // Przejscie przez bramke
-        usleep(333); 
+        usleep(10*SEKUNDA); 
         printf("Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
-        // Wybor krzesla
-        
+        if(czyDziecko==TRUE){
+            printf("z dzieckiem\n");
+        }
+
+        // --------------- Wybor krzesla ---------------
         while(1){
+            // Sekacja krytyczna wyboru krzeselka
             waitSemafor(semID4, 0, 0);
             //printf("current_chair = %d\n", sharedNum->current_chair);
-            wybKrzesla=sharedNum->current_chair;
-            if (chairs[wybKrzesla].count < SEAT_CAPACITY) {
+
+            // Sekcja z dzickiem
+            if(czyDziecko == TRUE){
+                wybKrzesla=sharedNum->current_chair;
+                if (chairs[wybKrzesla].count + 1< SEAT_CAPACITY) {
                 chairs[wybKrzesla].pids[chairs[wybKrzesla].count] = getpid();
                 chairs[wybKrzesla].count++;
-                //printf("Process %d wybrał krzeselko %d\n", getpid(), wybKrzesla);
+                chairs[wybKrzesla].pids[chairs[wybKrzesla].count] = getpid();
+                chairs[wybKrzesla].count++;
+                printf("    Process %d wybrał krzeselko z dzicekiem %d\n", getpid(), wybKrzesla);
                 signalSemafor(semID4, 0);
                 //printf("chairs[%d].count = %d\n", wybKrzesla, chairs[wybKrzesla].count);
                 waitSemafor(semID2, wybKrzesla, 0); // Czeka na przyjazd krzesla
                 //printf("Process %d wszedl na krzeselko %d\n", getpid(), wybKrzesla);
-                signalSemafor(semID1,wybBramki);
-
+                if (systemTime.tv_usec < DURATION*MINUTA){
+                    signalSemafor(semID1,wybBramki);
+                }
+                // Znaleziono miejsce wyjscie z petli
                 break;
             } else {
                 //printf("Process %d couldn't find a seat\n", getpid());
                 sharedNum->current_chair=(sharedNum->current_chair+1)%NUM_CHAIRS;
                 signalSemafor(semID4, 0);
             }
+            // Sekcja bez dziecka
+            }else if(czyDziecko == FALSE){
+                wybKrzesla=sharedNum->current_chair;
+                if (chairs[wybKrzesla].count < SEAT_CAPACITY) {
+                    chairs[wybKrzesla].pids[chairs[wybKrzesla].count] = getpid();
+                    chairs[wybKrzesla].count++;
+                    printf("    Process %d wybrał krzeselko %d\n", getpid(), wybKrzesla);
+                    signalSemafor(semID4, 0);
+                    //printf("chairs[%d].count = %d\n", wybKrzesla, chairs[wybKrzesla].count);
+                    waitSemafor(semID2, wybKrzesla, 0); // Czeka na przyjazd krzesla
+                    //printf("Process %d wszedl na krzeselko %d\n", getpid(), wybKrzesla);
+                    gettimeofday(&systemTime,NULL);
+                    if (systemTime.tv_usec < DURATION*MINUTA){
+                        signalSemafor(semID1,wybBramki);
+                    }
+                    // Znaleziono miejsce wyjscie z petli
+                    break;
+                } else {
+                    //printf("Process %d couldn't find a seat\n", getpid());
+                    sharedNum->current_chair=(sharedNum->current_chair+1)%NUM_CHAIRS;
+                    signalSemafor(semID4, 0);
+                }
+
+            }
+
         }
 
+        // Czekanie na dojechanie na gore kolejki
         waitSemafor(semID3, wybKrzesla, 0);
+
+        // =============================== Czesc zjazdowa =========================
+        // pozwala zacząc zjeżdżać dziecku
+        if(czyDziecko==TRUE){
+            child_thread = getpid();
+            pthread_create(&child_thread, NULL, child_thread_function, &child_thread);
+        }
+        
         //printf("Process %d zszedl z krzeselka i zaczyna zjezdzac%d\n", getpid(), wybKrzesla);
         // Symulacja jazdy
         zjazd(dice(3));
 
+        if(czyDziecko==TRUE){
+            // czeka aż dziecko dojedzie
+            pthread_join(child_thread, NULL);
+        }
 
         // Time update
         gettimeofday(&systemTime, NULL);
         timeNow = systemTime.tv_usec;
     }
     
+    // =========== Koniec jazdy ================
     printf("Process %d konczy jazde\n", getpid());
-    wyswietl_czas(STRT,timeNow/MINUTA);
-
+    if(czyDziecko == TRUE){
+        //Czekanie na zakończenie wątku 
+        pthread_join(child_thread, NULL);
+    }
+    // wyswietl_czas(STRT,timeNow/MINUTA);
     return 0;
 }
 /*
