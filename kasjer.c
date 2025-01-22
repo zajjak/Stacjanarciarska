@@ -85,6 +85,13 @@ pid_t spawnNarciarz()
 
 // Inicjacja czasu symulacji
 void init_time(long poczatek, long koniec){
+    
+    const char *filename = "raport.txt";
+    if (remove(filename) == 0) {
+        // printf("Plik %s został usunięty.\n", filename);
+    } else {
+        perror("Błąd usuwania pliku");
+    }  
 
     struct timeval systemTime;
     gettimeofday(&systemTime, NULL);
