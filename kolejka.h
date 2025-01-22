@@ -21,11 +21,11 @@
 #define MINUTA 1000 // czas jednej minuty w usleep
 #define SEKUNDA 17 // czas jednej sekundy w usleep
 #define STRT 480 // czas startu symulacji 00:00 + <STRT> minut
-#define DURATION 540 // Czas trwania symulacji w minutach
+#define DURATION 60 // Czas trwania symulacji w minutach
 
-#define P 200 // ilosc narciarzy
+#define P 50 // ilosc narciarzy
 #define SEAT_CAPACITY 3 // ilość miejsc na krześle
-#define NUM_CHAIRS 80 // ilość krzeselek
+#define NUM_CHAIRS 8 // ilość krzeselek
 
 // pamiec dzielona krzeselka
 struct Chair {
@@ -54,8 +54,14 @@ void wyswietl_czas(long stala_minuty, long dodane_minuty) {
     printf("Czas: %02ld:%02ld\n", godziny, minuty);
 }
 
+// ============ Kolorowe teksty =================
+void set_color(const char* color_code) {
+    printf("%s", color_code);
+}
 
-
+void reset_color() {
+    printf("\033[0m");
+}
 
 // ===========================Działania semaforów===========================
 

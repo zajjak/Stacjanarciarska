@@ -85,6 +85,7 @@ int main() {
 
     // ================= Poczatek czasu symulacji ========================
     gettimeofday(&systemTime, NULL);
+    set_color("\033[32m"); // Zielony
     printf("Start of kolej simulation\n");
     wyswietl_czas(STRT, systemTime.tv_usec/MINUTA);
     long Tk =DURATION*MINUTA; // czas zamykania
@@ -99,6 +100,7 @@ int main() {
         while(1){
             gettimeofday(&systemTime,NULL);
             if(systemTime.tv_usec>=chairs[i].timeTop){
+                set_color("\033[32m"); // Zielony
                 printf("Chair %d arrived, people are disembarking[%d]\n", i,chairs[i].count);
                 semctl(semID3, i, SETVAL, chairs[i].count); // Odblokowanie sem
                 for (int j = 0; j < chairs[i].count; j++) {
@@ -131,6 +133,7 @@ int main() {
 
             gettimeofday(&systemTime,NULL);
             chairs[i].timeTop=systemTime.tv_usec+(13*MINUTA);
+            set_color("\033[32m"); // Zielony
             printf("Chair %d departed with %d people %ld, %ld\n", i, chairs[i].count,chairs[i].timeTop,systemTime.tv_usec);
             // Koniec czasu oficjalnego blokowanie semaforow
             if(systemTime.tv_usec>Tk){
@@ -154,6 +157,7 @@ int main() {
     }
 
     // ========================== Koniec dzialania dolnej stacji ======================
+    set_color("\033[32m"); // Zielony
     printf("Koniec wysyłania krzesełek, czekanie na dotarcie krzeselek\n");
     gettimeofday(&systemTime,NULL);
     wyswietl_czas(STRT,systemTime.tv_usec/MINUTA);
@@ -174,6 +178,7 @@ int main() {
     }     
     */
     // ================== Koniec symulacji krzeselka =======================
+    set_color("\033[32m"); // Zielony
     printf("End of kolej simulation\n");
     return 0;
 }

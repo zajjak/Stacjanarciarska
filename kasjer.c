@@ -52,6 +52,48 @@ void handle_sigterm(int signum) {
     exit(0);
 }
 
+// Funkcja obsługi sygnału SIGINT
+void handle_sigint(int signum) {
+    //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
+    if (semctl(semID1, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID1)");
+        exit(1);
+    }
+    if (semctl(semID2, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID2)");
+        exit(1);
+    }
+    if (semctl(semID3, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
+    if (semctl(semID4, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
+    if (semctl(semID5, 0, IPC_RMID) == -1) {
+        perror("Blad semctl (main semID3)");
+        exit(1);
+    }
+    if (shmctl(shmID1, IPC_RMID, NULL) == -1) {
+        perror("Blad shmctl (main shmID1)");
+        exit(1);
+    }
+    if (shmctl(shmID2, IPC_RMID, NULL) == -1) {
+        perror("Blad shmctl (main shmID2)");
+        exit(1);
+    }
+
+    printf("Semafory i pamięć dzielona zostały usunięte.\n");
+    exit(0);
+}
+
+// Funkcja obsługi sygnału SIGINT
+void handle_sigstop(int signum) {
+    printf("Otrzymano sygnał SIGSTOP, zakończenie programu\n");
+    exit(0);
+}
+
 // Start procesu Pracownika
 pid_t spawnPracownik()
 {
@@ -85,7 +127,7 @@ pid_t spawnNarciarz()
 
 // Inicjacja czasu symulacji
 void init_time(long poczatek, long koniec){
-    
+
     const char *filename = "raport.txt";
     if (remove(filename) == 0) {
         // printf("Plik %s został usunięty.\n", filename);
@@ -128,8 +170,7 @@ void init_time(long poczatek, long koniec){
     for (int i = 0; i < P; i++) {
         kill(ski_pid[i], SIGTERM);
     }
-    kill(pracownik_pid, SIGTERM);
-
+    void reset_color();
     gettimeofday(&systemTime,NULL);
     printf("Koniec symulacji\n");
     wyswietl_czas(STRT,systemTime.tv_usec/MINUTA);
@@ -319,9 +360,11 @@ Usuwanie semaforow i pamieci dzielonej.
 
 int main(){
 
-    // Ustawienie obsługi sygnału SIGTERM
+    // Ustawienie obsługi sygnału
     signal(SIGTERM, handle_sigterm);
-
+    signal(SIGINT, handle_sigint);
+    signal(SIGSTOP, handle_sigstop);
+    
     // Semafory do bramek
     init_bramki();
 

@@ -1,24 +1,35 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
-SRCS = kasjer.c pracownik.c narciarz.c
+# Makefile
 
-# Pliki nagłówkowe
-HEADERS = kolejka.h
-OBJS = $(SRCS:.c=.o)
+# Kompilatory i flagi
+CC = gcc
+CFLAGS = -Wall -g
+
+# Pliki źródłowe
+SRC_NARCIARZ = narciarz.c
+SRC_PRACOWNIK = pracownik.c
+SRC_KASJER = kasjer.c
 
 # Pliki wykonywalne
-TARGETS = kasjer pracownik narciarz
+BIN_NARCIARZ = narciarz
+BIN_PRACOWNIK = pracownik
+BIN_KASJER = kasjer
 
-all: $(TARGETS)
+# Cele
+all: $(BIN_NARCIARZ) $(BIN_PRACOWNIK) $(BIN_KASJER) run_kasjer
 
-kasjer: kasjer.o
-	$(CC) $(CFLAGS) -o $@ $^
+$(BIN_NARCIARZ): $(SRC_NARCIARZ)
+	$(CC) $(CFLAGS) -o $@ $<
 
-pracownik: pracownik.o
-	$(CC) $(CFLAGS) -o $@ $^
+$(BIN_PRACOWNIK): $(SRC_PRACOWNIK)
+	$(CC) $(CFLAGS) -o $@ $<
 
-narciarz: narciarz.o
-	$(CC) $(CFLAGS) -o $@ $^
+$(BIN_KASJER): $(SRC_KASJER)
+	$(CC) $(CFLAGS) -o $@ $<
+
+run_kasjer: $(BIN_KASJER)
+	./$(BIN_KASJER)
 
 clean:
-	rm -f $(OBJS) $(TARGETS)
+	rm -f $(BIN_NARCIARZ) $(BIN_PRACOWNIK) $(BIN_KASJER)
+
+.PHONY: all clean run_kasjer

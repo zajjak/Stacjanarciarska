@@ -242,7 +242,8 @@ int main(){
                 chairs[wybKrzesla].count++;
                 chairs[wybKrzesla].pids[chairs[wybKrzesla].count] = getpid();
                 chairs[wybKrzesla].count++;
-                printf("    Process %d wybrał krzeselko z dzicekiem %d\n", getpid(), wybKrzesla);
+                set_color("\033[31m"); // Czerwony
+                printf("Process %d wybrał krzeselko z dzicekiem %d\n", getpid(), wybKrzesla);
                 signalSemafor(semID4, 0);
                 //printf("chairs[%d].count = %d\n", wybKrzesla, chairs[wybKrzesla].count);
                 waitSemafor(semID2, wybKrzesla, 0); // Czeka na przyjazd krzesla
@@ -263,7 +264,8 @@ int main(){
                 if (chairs[wybKrzesla].count < SEAT_CAPACITY) {
                     chairs[wybKrzesla].pids[chairs[wybKrzesla].count] = getpid();
                     chairs[wybKrzesla].count++;
-                    printf("    Process %d wybrał krzeselko %d\n", getpid(), wybKrzesla);
+                    set_color("\033[31m"); // Czerwony
+                    printf("Process %d wybrał krzeselko %d\n", getpid(), wybKrzesla);
                     signalSemafor(semID4, 0);
                     //printf("chairs[%d].count = %d\n", wybKrzesla, chairs[wybKrzesla].count);
                     waitSemafor(semID2, wybKrzesla, 0); // Czeka na przyjazd krzesla
