@@ -26,7 +26,6 @@ void handle_sigterm(int signum) {
     exit(0);
 }
 
-
 long ticketBuy(){
     struct timeval systemTime;
     gettimeofday(&systemTime, NULL);
@@ -109,6 +108,12 @@ int main(){
 
     long Be = systemTime.tv_usec + ticketBuy();// bilet end
     long timeNow=systemTime.tv_usec;
+
+    FILE *file = fopen("raport.txt", "a");
+    if (file == NULL) {
+        perror("Blad otwarcia pliku raport.txt");
+        exit(1);
+    }
 
     // =============================Semafors and Sherememory==============================
     key_t klucz1;
@@ -211,9 +216,16 @@ int main(){
             
         // Przejscie przez bramke
         usleep(10*SEKUNDA); 
-        printf("Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
-        if(czyDziecko==TRUE){
-            printf("z dzieckiem\n");
+        gettimeofday(&systemTime,NULL);
+        
+        long calkowite_minuty = STRT + systemTime.tv_usec/MINUTA;
+        long godziny = calkowite_minuty / 60;
+        long minuty = calkowite_minuty % 60;
+
+        fprintf(file,"Czas: %02ld:%02ld\n", godziny, minuty);
+        fprintf(file, "Process %d przeszedl przez bramke %d\n", getpid(), wybBramki);
+        if (czyDziecko == TRUE) {
+            fprintf(file, "z dzieckiem\n");
         }
 
         // --------------- Wybor krzesla ---------------
@@ -303,6 +315,7 @@ int main(){
         pthread_join(child_thread, NULL);
     }
     // wyswietl_czas(STRT,timeNow/MINUTA);
+    fclose(file);
     return 0;
 }
 /*

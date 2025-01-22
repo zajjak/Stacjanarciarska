@@ -56,6 +56,7 @@ void wyswietl_czas(long stala_minuty, long dodane_minuty) {
 
 
 
+
 // ===========================Działania semaforów===========================
 
 void sem_wait(int semid, int semnum) {
