@@ -181,7 +181,7 @@ int main(){
     // ========= Czy VIP ============
     bool czyVIP = FALSE;
     if(dice(25)==1){ // losowanie, szansa 1/25
-        //printf("witamy Vipa %d\n",getpid());
+        // printf("witamy Vipa %d\n",getpid());
         czyVIP = TRUE;
     }
 

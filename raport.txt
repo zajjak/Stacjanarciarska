@@ -1,1500 +1,1598 @@
 Czas: 08:01
-Process 12120 przeszedl przez bramke 1
-Czas: 08:17
-Process 12120 przeszedl przez bramke 2
-Czas: 08:36
-Process 12120 przeszedl przez bramke 1
-Czas: 09:23
-Process 12120 przeszedl przez bramke 3
-Czas: 11:06
-Process 12120 przeszedl przez bramke 3
-Czas: 12:30
-Process 12120 przeszedl przez bramke 3
-Czas: 13:44
-Process 12120 przeszedl przez bramke 3
-Czas: 08:13
-Process 12145 przeszedl przez bramke 2
-Czas: 08:30
-Process 12145 przeszedl przez bramke 2
-Czas: 09:11
-Process 12145 przeszedl przez bramke 3
-Czas: 10:44
-Process 12145 przeszedl przez bramke 1
-Czas: 12:29
-Process 12145 przeszedl przez bramke 2
-Czas: 13:53
-Process 12145 przeszedl przez bramke 2
-Czas: 08:03
-Process 12123 przeszedl przez bramke 1
-Czas: 08:21
-Process 12123 przeszedl przez bramke 3
-Czas: 09:00
-Process 12123 przeszedl przez bramke 1
-Czas: 10:24
-Process 12123 przeszedl przez bramke 2
-Czas: 12:36
-Process 12123 przeszedl przez bramke 1
-Czas: 13:56
-Process 12123 przeszedl przez bramke 3
-Czas: 08:16
-Process 12151 przeszedl przez bramke 3
-Czas: 08:34
-Process 12151 przeszedl przez bramke 3
-Czas: 09:19
-Process 12151 przeszedl przez bramke 3
-Czas: 10:54
-Process 12151 przeszedl przez bramke 2
-Czas: 12:42
-Process 12151 przeszedl przez bramke 2
-Czas: 13:59
-Process 12151 przeszedl przez bramke 2
+Process 29287 przeszedl przez bramke 1
+Czas: 08:18
+Process 29287 przeszedl przez bramke 2
+Czas: 08:48
+Process 29287 przeszedl przez bramke 2
+Czas: 10:11
+Process 29287 przeszedl przez bramke 1
+Czas: 12:15
+Process 29287 przeszedl przez bramke 1
 Czas: 08:02
-Process 12122 przeszedl przez bramke 1
+Process 29288 przeszedl przez bramke 3
 Czas: 08:18
-Process 12122 przeszedl przez bramke 3
-Czas: 08:40
-Process 12122 przeszedl przez bramke 3
-Czas: 09:51
-Process 12122 przeszedl przez bramke 1
-Czas: 11:27
-Process 12122 przeszedl przez bramke 3
-Czas: 13:06
-Process 12122 przeszedl przez bramke 2
-Czas: 08:01
-Process 12119 przeszedl przez bramke 2
-Czas: 08:17
-Process 12119 przeszedl przez bramke 1
-Czas: 08:44
-Process 12119 przeszedl przez bramke 1
-Czas: 09:39
-Process 12119 przeszedl przez bramke 3
-Czas: 11:23
-Process 12119 przeszedl przez bramke 2
-Czas: 08:03
-Process 12124 przeszedl przez bramke 3
-Czas: 08:18
-Process 12124 przeszedl przez bramke 1
-Czas: 08:38
-Process 12124 przeszedl przez bramke 2
-Czas: 09:46
-Process 12124 przeszedl przez bramke 1
-Czas: 11:46
-Process 12124 przeszedl przez bramke 1
-Czas: 08:04
-Process 12126 przeszedl przez bramke 1
-Czas: 08:22
-Process 12126 przeszedl przez bramke 3
-Czas: 08:49
-Process 12126 przeszedl przez bramke 3
-Czas: 10:10
-Process 12126 przeszedl przez bramke 1
-Czas: 12:19
-Process 12126 przeszedl przez bramke 1
-Czas: 13:33
-Process 12126 przeszedl przez bramke 3
-Czas: 08:16
-Process 12152 przeszedl przez bramke 1
-Czas: 08:34
-Process 12152 przeszedl przez bramke 2
-Czas: 09:18
-Process 12152 przeszedl przez bramke 3
-Czas: 10:56
-Process 12152 przeszedl przez bramke 1
-Czas: 12:20
-Process 12152 przeszedl przez bramke 3
-Czas: 13:43
-Process 12152 przeszedl przez bramke 2
-Czas: 08:12
-Process 12144 przeszedl przez bramke 3
-Czas: 08:29
-Process 12144 przeszedl przez bramke 1
-Czas: 09:19
-Process 12144 przeszedl przez bramke 1
-Czas: 10:54
-Process 12144 przeszedl przez bramke 2
-Czas: 12:18
-Process 12144 przeszedl przez bramke 3
-Czas: 08:03
-Process 12125 przeszedl przez bramke 3
-Czas: 08:20
-Process 12125 przeszedl przez bramke 1
-Czas: 08:43
-Process 12125 przeszedl przez bramke 3
-Czas: 10:05
-Process 12125 przeszedl przez bramke 1
-Czas: 12:07
-Process 12125 przeszedl przez bramke 1
-Czas: 13:17
-Process 12125 przeszedl przez bramke 3
-Czas: 08:18
-Process 12155 przeszedl przez bramke 3
-Czas: 08:40
-Process 12155 przeszedl przez bramke 3
-Czas: 09:48
-Process 12155 przeszedl przez bramke 2
-Czas: 11:48
-Process 12155 przeszedl przez bramke 1
-Czas: 13:05
-Process 12155 przeszedl przez bramke 3
-Czas: 08:30
-Process 12177 przeszedl przez bramke 3
-Czas: 09:20
-Process 12177 przeszedl przez bramke 2
-Czas: 11:02
-Process 12177 przeszedl przez bramke 3
-Czas: 12:11
-Process 12177 przeszedl przez bramke 3
-Czas: 08:31
-Process 12179 przeszedl przez bramke 3
-Czas: 09:18
-Process 12179 przeszedl przez bramke 2
-Czas: 11:00
-Process 12179 przeszedl przez bramke 1
-Czas: 13:22
-Process 12179 przeszedl przez bramke 1
-Czas: 08:34
-Process 12185 przeszedl przez bramke 3
-Czas: 09:12
-Process 12185 przeszedl przez bramke 3
-Czas: 10:41
-Process 12185 przeszedl przez bramke 3
-Czas: 12:22
-Process 12185 przeszedl przez bramke 2
-Czas: 08:50
-Process 12193 przeszedl przez bramke 1
-Czas: 10:01
-Process 12193 przeszedl przez bramke 2
-Czas: 11:49
-Process 12193 przeszedl przez bramke 2
-Czas: 08:33
-Process 12181 przeszedl przez bramke 1
-Czas: 09:29
-Process 12181 przeszedl przez bramke 1
-Czas: 11:20
-Process 12181 przeszedl przez bramke 1
-Czas: 13:54
-Process 12181 przeszedl przez bramke 1
-Czas: 08:24
-Process 12167 przeszedl przez bramke 2
-Czas: 08:56
-Process 12167 przeszedl przez bramke 3
-Czas: 10:12
-Process 12167 przeszedl przez bramke 2
-Czas: 11:42
-Process 12167 przeszedl przez bramke 3
-Czas: 12:57
-Process 12167 przeszedl przez bramke 3
-Czas: 08:33
-Process 12182 przeszedl przez bramke 3
-Czas: 09:26
-Process 12182 przeszedl przez bramke 2
-Czas: 11:18
-Process 12182 przeszedl przez bramke 1
-Czas: 12:36
-Process 12182 przeszedl przez bramke 3
-Czas: 09:03
-Process 12204 przeszedl przez bramke 2
-z dzieckiem
-Czas: 12:16
-Process 12204 przeszedl przez bramke 1
-z dzieckiem
-Czas: 08:21
-Process 12160 przeszedl przez bramke 2
-Czas: 08:40
-Process 12160 przeszedl przez bramke 2
-Czas: 09:44
-Process 12160 przeszedl przez bramke 2
-Czas: 11:48
-Process 12160 przeszedl przez bramke 1
-Czas: 08:38
-Process 12186 przeszedl przez bramke 1
-Czas: 09:44
-Process 12186 przeszedl przez bramke 2
-Czas: 11:22
-Process 12186 przeszedl przez bramke 3
-Czas: 12:43
-Process 12186 przeszedl przez bramke 3
-Czas: 08:29
-Process 12175 przeszedl przez bramke 2
-Czas: 09:12
-Process 12175 przeszedl przez bramke 2
-Czas: 10:47
-Process 12175 przeszedl przez bramke 2
-Czas: 13:09
-Process 12175 przeszedl przez bramke 1
-Czas: 08:49
-Process 12206 przeszedl przez bramke 2
-Czas: 09:59
-Process 12206 przeszedl przez bramke 3
-Czas: 12:05
-Process 12206 przeszedl przez bramke 1
-Czas: 13:18
-Process 12206 przeszedl przez bramke 3
-Czas: 08:47
-Process 12191 przeszedl przez bramke 1
-Czas: 09:49
-Process 12191 przeszedl przez bramke 3
-Czas: 11:41
-Process 12191 przeszedl przez bramke 2
-Czas: 13:17
-Process 12191 przeszedl przez bramke 2
-Czas: 08:44
-Process 12189 przeszedl przez bramke 1
-Czas: 10:05
-Process 12189 przeszedl przez bramke 1
-Czas: 11:33
-Process 12189 przeszedl przez bramke 3
-Czas: 09:05
-Process 12210 przeszedl przez bramke 1
-Czas: 10:36
-Process 12210 przeszedl przez bramke 1
-Czas: 12:56
-Process 12210 przeszedl przez bramke 1
-Czas: 08:43
-Process 12197 przeszedl przez bramke 3
-Czas: 09:58
-Process 12197 przeszedl przez bramke 1
-Czas: 12:04
-Process 12197 przeszedl przez bramke 1
-Czas: 08:57
-Process 12199 przeszedl przez bramke 1
-Czas: 10:19
-Process 12199 przeszedl przez bramke 2
-Czas: 12:32
-Process 12199 przeszedl przez bramke 1
+Process 29288 przeszedl przez bramke 2
 Czas: 08:36
-Process 12188 przeszedl przez bramke 2
-Czas: 09:38
-Process 12188 przeszedl przez bramke 1
-Czas: 11:39
-Process 12188 przeszedl przez bramke 1
-Czas: 12:57
-Process 12188 przeszedl przez bramke 3
-Czas: 09:05
-Process 12216 przeszedl przez bramke 2
-Czas: 10:28
-Process 12216 przeszedl przez bramke 3
-Czas: 12:42
-Process 12216 przeszedl przez bramke 1
-Czas: 08:45
-Process 12202 przeszedl przez bramke 3
-Czas: 10:03
-Process 12202 przeszedl przez bramke 1
-Czas: 11:35
-Process 12202 przeszedl przez bramke 3
-Czas: 08:41
-Process 12198 przeszedl przez bramke 0
-Czas: 09:10
-Process 12198 przeszedl przez bramke 0
-Czas: 09:38
-Process 12198 przeszedl przez bramke 0
-Czas: 10:09
-Process 12198 przeszedl przez bramke 0
-Czas: 10:36
-Process 12198 przeszedl przez bramke 0
-Czas: 11:04
-Process 12198 przeszedl przez bramke 0
-Czas: 11:29
-Process 12198 przeszedl przez bramke 0
-Czas: 11:55
-Process 12198 przeszedl przez bramke 0
-Czas: 12:20
-Process 12198 przeszedl przez bramke 0
-Czas: 12:45
-Process 12198 przeszedl przez bramke 0
-Czas: 13:08
-Process 12198 przeszedl przez bramke 0
-Czas: 13:30
-Process 12198 przeszedl przez bramke 0
-Czas: 13:51
-Process 12198 przeszedl przez bramke 0
-Czas: 08:41
-Process 12195 przeszedl przez bramke 2
-Czas: 09:46
-Process 12195 przeszedl przez bramke 2
-Czas: 11:25
-Process 12195 przeszedl przez bramke 3
-Czas: 12:47
-Process 12195 przeszedl przez bramke 3
-Czas: 08:56
-Process 12208 przeszedl przez bramke 3
-Czas: 10:25
-Process 12208 przeszedl przez bramke 1
-Czas: 11:52
-Process 12208 przeszedl przez bramke 3
-Czas: 09:06
-Process 12219 przeszedl przez bramke 2
-Czas: 10:31
-Process 12219 przeszedl przez bramke 3
-Czas: 12:47
-Process 12219 przeszedl przez bramke 1
-Czas: 09:06
-Process 12211 przeszedl przez bramke 1
-Czas: 10:28
-Process 12211 przeszedl przez bramke 3
-Czas: 12:19
-Process 12211 przeszedl przez bramke 2
-Czas: 13:32
-Process 12211 przeszedl przez bramke 3
-Czas: 08:59
-Process 12212 przeszedl przez bramke 2
-Czas: 10:27
-Process 12212 przeszedl przez bramke 1
-Czas: 11:53
-Process 12212 przeszedl przez bramke 3
-Czas: 09:15
-Process 12217 przeszedl przez bramke 1
-Czas: 10:51
-Process 12217 przeszedl przez bramke 2
-Czas: 13:16
-Process 12217 przeszedl przez bramke 1
-Czas: 09:13
-Process 12225 przeszedl przez bramke 2
-Czas: 10:50
-Process 12225 przeszedl przez bramke 3
-Czas: 12:15
-Process 12225 przeszedl przez bramke 3
-Czas: 13:38
-Process 12225 przeszedl przez bramke 2
-Czas: 09:08
-Process 12220 przeszedl przez bramke 2
-Czas: 10:34
-Process 12220 przeszedl przez bramke 2
-Czas: 12:05
-Process 12220 przeszedl przez bramke 3
-Czas: 13:32
-Process 12220 przeszedl przez bramke 2
-Czas: 09:16
-Process 12224 przeszedl przez bramke 2
-Czas: 10:57
-Process 12224 przeszedl przez bramke 3
-Czas: 12:22
-Process 12224 przeszedl przez bramke 3
-Czas: 13:45
-Process 12224 przeszedl przez bramke 2
-Czas: 09:09
-Process 12248 przeszedl przez bramke 0
-Czas: 09:38
-Process 12248 przeszedl przez bramke 0
-Czas: 10:07
-Process 12248 przeszedl przez bramke 0
-Czas: 10:34
-Process 12248 przeszedl przez bramke 0
-Czas: 11:01
-Process 12248 przeszedl przez bramke 0
-Czas: 11:26
-Process 12248 przeszedl przez bramke 0
-Czas: 11:52
-Process 12248 przeszedl przez bramke 0
-Czas: 12:17
-Process 12248 przeszedl przez bramke 0
-Czas: 12:38
-Process 12248 przeszedl przez bramke 0
-Czas: 13:02
-Process 12248 przeszedl przez bramke 0
-Czas: 13:24
-Process 12248 przeszedl przez bramke 0
-Czas: 13:44
-Process 12248 przeszedl przez bramke 0
-Czas: 09:52
-Process 12261 przeszedl przez bramke 3
-Czas: 11:35
-Process 12261 przeszedl przez bramke 2
-Czas: 09:29
-Process 12235 przeszedl przez bramke 1
-Czas: 11:12
-Process 12235 przeszedl przez bramke 3
-Czas: 13:41
-Process 12235 przeszedl przez bramke 1
-Czas: 09:20
-Process 12226 przeszedl przez bramke 2
-Czas: 11:05
-Process 12226 przeszedl przez bramke 1
-Czas: 12:31
-Process 12226 przeszedl przez bramke 3
-Czas: 13:31
-Process 12226 przeszedl przez bramke 3
-Czas: 09:47
-Process 12259 przeszedl przez bramke 3
-Czas: 11:32
-Process 12259 przeszedl przez bramke 2
-Czas: 09:25
-Process 12245 przeszedl przez bramke 3
-Czas: 10:57
-Process 12245 przeszedl przez bramke 2
-Czas: 12:20
-Process 12245 przeszedl przez bramke 3
-Czas: 13:36
-Process 12245 przeszedl przez bramke 3
-Czas: 08:13
-Process 12146 przeszedl przez bramke 1
-Czas: 08:35
-Process 12146 przeszedl przez bramke 1
-Czas: 09:31
-Process 12146 przeszedl przez bramke 1
-Czas: 11:12
-Process 12146 przeszedl przez bramke 2
-Czas: 12:58
-Process 12146 przeszedl przez bramke 2
-Czas: 10:15
-Process 12269 przeszedl przez bramke 1
-Czas: 11:45
-Process 12269 przeszedl przez bramke 3
-Czas: 09:11
-Process 12213 przeszedl przez bramke 1
-Czas: 10:41
-Process 12213 przeszedl przez bramke 2
-Czas: 13:03
-Process 12213 przeszedl przez bramke 1
-Czas: 10:37
-Process 12237 przeszedl przez bramke 1
-z dzieckiem
-Czas: 09:25
-Process 12227 przeszedl przez bramke 1
-Czas: 11:06
-Process 12227 przeszedl przez bramke 3
-Czas: 13:29
-Process 12227 przeszedl przez bramke 1
-Czas: 08:29
-Process 12173 przeszedl przez bramke 1
-Czas: 09:18
-Process 12173 przeszedl przez bramke 1
-Czas: 10:59
-Process 12173 przeszedl przez bramke 1
-Czas: 12:44
-Process 12173 przeszedl przez bramke 2
-Czas: 10:09
-Process 12279 przeszedl przez bramke 3
-Czas: 12:23
-Process 12279 przeszedl przez bramke 1
-Czas: 09:00
-Process 12215 przeszedl przez bramke 2
-Czas: 10:12
-Process 12215 przeszedl przez bramke 3
-Czas: 12:25
-Process 12215 przeszedl przez bramke 1
-Czas: 13:42
-Process 12215 przeszedl przez bramke 3
-Czas: 09:42
-Process 12232 przeszedl przez bramke 1
-Czas: 11:30
-Process 12232 przeszedl przez bramke 2
-Czas: 13:12
-Process 12232 przeszedl przez bramke 2
-Czas: 09:32
-Process 12238 przeszedl przez bramke 1
-Czas: 11:38
-Process 12238 przeszedl przez bramke 1
-Czas: 08:51
-Process 12194 przeszedl przez bramke 1
-Czas: 10:01
-Process 12194 przeszedl przez bramke 3
-Czas: 11:32
-Process 12194 przeszedl przez bramke 3
-Czas: 13:05
-Process 12194 przeszedl przez bramke 2
-Czas: 09:08
-Process 12221 przeszedl przez bramke 3
-Czas: 10:39
-Process 12221 przeszedl przez bramke 3
-Czas: 12:07
-Process 12221 przeszedl przez bramke 3
-Czas: 13:33
-Process 12221 przeszedl przez bramke 2
-Czas: 09:34
-Process 12233 przeszedl przez bramke 2
-Czas: 11:16
-Process 12233 przeszedl przez bramke 3
-Czas: 12:33
-Process 12233 przeszedl przez bramke 3
-Czas: 13:53
-Process 12233 przeszedl przez bramke 2
-Czas: 08:45
-Process 12201 przeszedl przez bramke 2
-Czas: 09:44
-Process 12201 przeszedl przez bramke 3
-Czas: 11:30
-Process 12201 przeszedl przez bramke 2
-Czas: 09:38
-Process 12236 przeszedl przez bramke 2
-Czas: 11:22
-Process 12236 przeszedl przez bramke 2
-Czas: 13:56
-Process 12236 przeszedl przez bramke 1
-Czas: 10:33
-Process 12289 przeszedl przez bramke 3
-Czas: 12:50
-Process 12289 przeszedl przez bramke 1
-Czas: 09:41
-Process 12242 przeszedl przez bramke 1
-Czas: 11:24
-Process 12242 przeszedl przez bramke 2
-Czas: 12:46
-Process 12242 przeszedl przez bramke 3
-Czas: 09:49
-Process 12254 przeszedl przez bramke 2
-Czas: 11:26
-Process 12254 przeszedl przez bramke 3
-Czas: 13:06
-Process 12254 przeszedl przez bramke 2
-Czas: 09:20
-Process 12234 przeszedl przez bramke 3
-Czas: 10:59
-Process 12234 przeszedl przez bramke 1
-Czas: 13:19
-Process 12234 przeszedl przez bramke 1
-Czas: 09:38
-Process 12240 przeszedl przez bramke 2
-Czas: 11:23
-Process 12240 przeszedl przez bramke 2
-Czas: 13:56
-Process 12240 przeszedl przez bramke 1
-Czas: 10:21
-Process 12247 przeszedl przez bramke 3
-z dzieckiem
-Czas: 10:40
-Process 12297 przeszedl przez bramke 3
-Czas: 12:08
-Process 12297 przeszedl przez bramke 3
-Czas: 13:22
-Process 12297 przeszedl przez bramke 3
-Czas: 09:41
-Process 12243 przeszedl przez bramke 1
-Czas: 11:42
-Process 12243 przeszedl przez bramke 1
-Czas: 13:19
-Process 12243 przeszedl przez bramke 2
-Czas: 10:02
-Process 12255 przeszedl przez bramke 1
-Czas: 11:52
-Process 12255 przeszedl przez bramke 2
-Czas: 09:54
-Process 12250 przeszedl przez bramke 1
-Czas: 11:42
-Process 12250 przeszedl przez bramke 2
-Czas: 09:56
-Process 12264 przeszedl przez bramke 2
-Czas: 11:45
-Process 12264 przeszedl przez bramke 2
-Czas: 13:21
-Process 12264 przeszedl przez bramke 2
-Czas: 09:35
-Process 12253 przeszedl przez bramke 3
-Czas: 11:16
-Process 12253 przeszedl przez bramke 2
-Czas: 13:01
-Process 12253 przeszedl przez bramke 2
-Czas: 09:52
-Process 12246 przeszedl przez bramke 1
-Czas: 11:41
-Process 12246 przeszedl przez bramke 2
-Czas: 13:15
-Process 12246 przeszedl przez bramke 2
-Czas: 10:46
-Process 12299 przeszedl przez bramke 2
-Czas: 12:11
-Process 12299 przeszedl przez bramke 3
-Czas: 13:26
-Process 12299 przeszedl przez bramke 3
-Czas: 10:00
-Process 12267 przeszedl przez bramke 2
-Czas: 12:07
-Process 12267 przeszedl przez bramke 1
-Czas: 13:21
-Process 12267 przeszedl przez bramke 3
-Czas: 10:05
-Process 12257 przeszedl przez bramke 1
-Czas: 11:36
-Process 12257 przeszedl przez bramke 3
-Czas: 13:12
-Process 12257 przeszedl przez bramke 2
-Czas: 09:59
-Process 12265 przeszedl przez bramke 2
-Czas: 11:59
-Process 12265 przeszedl przez bramke 1
-Czas: 13:28
-Process 12265 przeszedl przez bramke 2
-Czas: 10:06
-Process 12260 przeszedl przez bramke 1
-Czas: 11:58
-Process 12260 przeszedl przez bramke 2
-Czas: 13:10
-Process 12260 przeszedl przez bramke 3
-Czas: 08:04
-Process 12127 przeszedl przez bramke 1
-Czas: 08:21
-Process 12127 przeszedl przez bramke 1
-Czas: 08:39
-Process 12127 przeszedl przez bramke 2
-Czas: 09:26
-Process 12127 przeszedl przez bramke 3
-Czas: 11:05
-Process 12127 przeszedl przez bramke 2
-Czas: 12:28
-Process 12127 przeszedl przez bramke 3
+Process 29288 przeszedl przez bramke 3
 Czas: 10:16
-Process 12282 przeszedl przez bramke 3
-Czas: 11:46
-Process 12282 przeszedl przez bramke 3
-Czas: 08:05
-Process 12128 przeszedl przez bramke 2
-Czas: 08:22
-Process 12128 przeszedl przez bramke 3
-Czas: 08:45
-Process 12128 przeszedl przez bramke 2
-Czas: 09:42
-Process 12128 przeszedl przez bramke 3
-Czas: 11:20
-Process 12128 przeszedl przez bramke 3
-Czas: 12:39
-Process 12128 przeszedl przez bramke 3
-Czas: 10:34
-Process 12291 przeszedl przez bramke 3
-Czas: 12:04
-Process 12291 przeszedl przez bramke 3
-Czas: 09:32
-Process 12249 przeszedl przez bramke 3
-Czas: 11:29
-Process 12249 przeszedl przez bramke 1
-Czas: 12:49
-Process 12249 przeszedl przez bramke 3
-Czas: 08:05
-Process 12129 przeszedl przez bramke 1
-Czas: 08:21
-Process 12129 przeszedl przez bramke 1
-Czas: 08:44
-Process 12129 przeszedl przez bramke 3
-Czas: 09:48
-Process 12129 przeszedl przez bramke 3
-Czas: 11:33
-Process 12129 przeszedl przez bramke 2
-Czas: 10:02
-Process 12272 przeszedl przez bramke 3
-Czas: 12:10
-Process 12272 przeszedl przez bramke 1
-Czas: 10:39
-Process 12293 przeszedl przez bramke 1
-Czas: 12:56
-Process 12293 przeszedl przez bramke 1
-Czas: 10:18
-Process 12275 przeszedl przez bramke 1
-Czas: 11:49
-Process 12275 przeszedl przez bramke 3
-Czas: 13:21
-Process 12275 przeszedl przez bramke 2
-Czas: 08:06
-Process 12130 przeszedl przez bramke 1
-Czas: 08:22
-Process 12130 przeszedl przez bramke 1
-Czas: 09:02
-Process 12130 przeszedl przez bramke 1
-Czas: 10:28
-Process 12130 przeszedl przez bramke 1
+Process 29288 przeszedl przez bramke 2
+Czas: 11:14
+Process 29288 przeszedl przez bramke 3
 Czas: 11:55
-Process 12130 przeszedl przez bramke 3
-Czas: 10:22
-Process 12276 przeszedl przez bramke 1
-Czas: 12:33
-Process 12276 przeszedl przez bramke 1
-Czas: 13:54
-Process 12276 przeszedl przez bramke 3
-Czas: 10:27
-Process 12278 przeszedl przez bramke 1
-Czas: 12:13
-Process 12278 przeszedl przez bramke 2
-Czas: 13:35
-Process 12278 przeszedl przez bramke 2
-Czas: 08:06
-Process 12131 przeszedl przez bramke 1
-Czas: 08:23
-Process 12131 przeszedl przez bramke 1
-Czas: 08:52
-Process 12131 przeszedl przez bramke 2
-Czas: 10:03
-Process 12131 przeszedl przez bramke 2
-Czas: 11:52
-Process 12131 przeszedl przez bramke 2
-Czas: 10:06
-Process 12277 przeszedl przez bramke 3
-Czas: 11:55
-Process 12277 przeszedl przez bramke 2
-Czas: 13:26
-Process 12277 przeszedl przez bramke 2
-Czas: 11:02
-Process 12311 przeszedl przez bramke 2
-Czas: 12:47
-Process 12311 przeszedl przez bramke 2
-Czas: 10:23
-Process 12280 przeszedl przez bramke 2
-Czas: 12:10
-Process 12280 przeszedl przez bramke 2
-Czas: 13:25
-Process 12280 przeszedl przez bramke 3
-Czas: 08:06
-Process 12132 przeszedl przez bramke 2
-Czas: 08:23
-Process 12132 przeszedl przez bramke 1
-Czas: 08:52
-Process 12132 przeszedl przez bramke 3
-Czas: 10:14
-Process 12132 przeszedl przez bramke 1
-Czas: 11:43
-Process 12132 przeszedl przez bramke 3
-Czas: 13:03
-Process 12132 przeszedl przez bramke 3
-Czas: 10:17
-Process 12283 przeszedl przez bramke 3
-Czas: 12:04
-Process 12283 przeszedl przez bramke 2
-Czas: 13:16
-Process 12283 przeszedl przez bramke 3
-Czas: 11:27
-Process 12321 przeszedl przez bramke 1
-Czas: 12:53
-Process 12321 przeszedl przez bramke 3
-Czas: 08:07
-Process 12133 przeszedl przez bramke 1
-Czas: 08:25
-Process 12133 przeszedl przez bramke 2
-Czas: 09:03
-Process 12133 przeszedl przez bramke 1
-Czas: 10:24
-Process 12133 przeszedl przez bramke 3
-Czas: 12:13
-Process 12133 przeszedl przez bramke 2
-Czas: 10:56
-Process 12304 przeszedl przez bramke 3
-Czas: 12:43
-Process 12304 przeszedl przez bramke 2
-Czas: 10:43
-Process 12295 przeszedl przez bramke 1
-Czas: 12:28
-Process 12295 przeszedl przez bramke 2
-Czas: 13:50
-Process 12295 przeszedl przez bramke 2
-Czas: 10:57
-Process 12310 przeszedl przez bramke 2
-Czas: 13:16
-Process 12310 przeszedl przez bramke 1
-Czas: 08:07
-Process 12134 przeszedl przez bramke 1
-Czas: 08:23
-Process 12134 przeszedl przez bramke 1
-Czas: 08:54
-Process 12134 przeszedl przez bramke 3
-Czas: 10:15
-Process 12134 przeszedl przez bramke 1
-Czas: 11:45
-Process 12134 przeszedl przez bramke 3
-Czas: 09:27
-Process 12231 przeszedl przez bramke 1
-Czas: 11:05
-Process 12231 przeszedl przez bramke 2
-Czas: 13:26
-Process 12231 przeszedl przez bramke 1
-Czas: 10:53
-Process 12305 przeszedl przez bramke 2
-Czas: 12:17
-Process 12305 przeszedl przez bramke 3
-Czas: 13:39
-Process 12305 przeszedl przez bramke 2
-Czas: 08:08
-Process 12135 przeszedl przez bramke 1
-Czas: 08:26
-Process 12135 przeszedl przez bramke 1
-Czas: 09:14
-Process 12135 przeszedl przez bramke 1
-Czas: 10:48
-Process 12135 przeszedl przez bramke 1
-Czas: 13:09
-Process 12135 przeszedl przez bramke 1
-Czas: 09:55
-Process 12251 przeszedl przez bramke 1
-Czas: 11:56
-Process 12251 przeszedl przez bramke 1
-Czas: 13:26
-Process 12251 przeszedl przez bramke 2
-Czas: 11:08
-Process 12309 przeszedl przez bramke 1
-Czas: 12:54
-Process 12309 przeszedl przez bramke 2
-Czas: 08:08
-Process 12136 przeszedl przez bramke 2
-Czas: 08:26
-Process 12136 przeszedl przez bramke 3
-Czas: 09:10
-Process 12136 przeszedl przez bramke 1
-Czas: 10:41
-Process 12136 przeszedl przez bramke 2
-Czas: 13:03
-Process 12136 przeszedl przez bramke 1
-Czas: 09:02
-Process 12203 przeszedl przez bramke 1
-Czas: 10:33
-Process 12203 przeszedl przez bramke 1
-Czas: 12:19
-Process 12203 przeszedl przez bramke 2
-Czas: 13:32
-Process 12203 przeszedl przez bramke 2
-Czas: 08:09
-Process 12137 przeszedl przez bramke 3
-Czas: 08:26
-Process 12137 przeszedl przez bramke 1
-Czas: 09:14
-Process 12137 przeszedl przez bramke 1
-Czas: 10:50
-Process 12137 przeszedl przez bramke 1
-Czas: 12:37
-Process 12137 przeszedl przez bramke 2
-Czas: 13:38
-Process 12137 przeszedl przez bramke 3
-Czas: 08:28
-Process 12172 przeszedl przez bramke 1
-Czas: 09:15
-Process 12172 przeszedl przez bramke 1
-Czas: 10:47
-Process 12172 przeszedl przez bramke 3
-Czas: 12:31
-Process 12172 przeszedl przez bramke 2
-Czas: 13:48
-Process 12172 przeszedl przez bramke 3
-Czas: 12:42
-Process 12303 przeszedl przez bramke 1
-z dzieckiem
-Czas: 10:31
-Process 12290 przeszedl przez bramke 2
-Czas: 11:59
-Process 12290 przeszedl przez bramke 3
-Czas: 08:09
-Process 12138 przeszedl przez bramke 2
-z dzieckiem
-Czas: 08:28
-Process 12138 przeszedl przez bramke 3
-z dzieckiem
-Czas: 09:34
-Process 12138 przeszedl przez bramke 3
-z dzieckiem
-Czas: 12:37
-Process 12138 przeszedl przez bramke 2
-z dzieckiem
-Czas: 08:10
-Process 12139 przeszedl przez bramke 3
-Czas: 08:26
-Process 12139 przeszedl przez bramke 1
-Czas: 09:00
-Process 12139 przeszedl przez bramke 2
-Czas: 10:06
-Process 12139 przeszedl przez bramke 3
-Czas: 11:53
-Process 12139 przeszedl przez bramke 2
-Czas: 10:44
-Process 12298 przeszedl przez bramke 3
-Czas: 13:06
-Process 12298 przeszedl przez bramke 1
-Czas: 11:00
-Process 12308 przeszedl przez bramke 1
-Czas: 12:26
-Process 12308 przeszedl przez bramke 3
-Czas: 11:02
-Process 12312 przeszedl przez bramke 2
-Czas: 12:50
-Process 12312 przeszedl przez bramke 2
-Czas: 08:10
-Process 12140 przeszedl przez bramke 1
-Czas: 08:28
-Process 12140 przeszedl przez bramke 2
-Czas: 09:10
-Process 12140 przeszedl przez bramke 2
-Czas: 10:43
-Process 12140 przeszedl przez bramke 2
-Czas: 12:22
-Process 12140 przeszedl przez bramke 2
-Czas: 13:39
-Process 12140 przeszedl przez bramke 3
-Czas: 10:12
-Process 12266 przeszedl przez bramke 1
-Czas: 12:25
-Process 12266 przeszedl przez bramke 1
-Czas: 13:47
-Process 12266 przeszedl przez bramke 2
-Czas: 09:55
-Process 12262 przeszedl przez bramke 3
-Czas: 11:55
-Process 12262 przeszedl przez bramke 1
-Czas: 11:08
-Process 12319 przeszedl przez bramke 2
-Czas: 12:54
-Process 12319 przeszedl przez bramke 2
-Czas: 08:11
-Process 12141 przeszedl przez bramke 3
-Czas: 08:28
-Process 12141 przeszedl przez bramke 1
-Czas: 09:08
-Process 12141 przeszedl przez bramke 3
-Czas: 10:33
-Process 12141 przeszedl przez bramke 2
-Czas: 12:49
-Process 12141 przeszedl przez bramke 1
-Czas: 10:47
-Process 12300 przeszedl przez bramke 1
-Czas: 12:32
-Process 12300 przeszedl przez bramke 2
-Czas: 10:15
-Process 12268 przeszedl przez bramke 1
-Czas: 12:01
-Process 12268 przeszedl przez bramke 2
-Czas: 13:13
-Process 12268 przeszedl przez bramke 3
-Czas: 10:25
-Process 12284 przeszedl przez bramke 2
-Czas: 11:53
-Process 12284 przeszedl przez bramke 3
-Czas: 13:25
-Process 12284 przeszedl przez bramke 2
-Czas: 08:12
-Process 12142 przeszedl przez bramke 2
-Czas: 08:27
-Process 12142 przeszedl przez bramke 3
-Czas: 09:03
-Process 12142 przeszedl przez bramke 3
-Czas: 10:22
-Process 12142 przeszedl przez bramke 3
-Czas: 12:10
-Process 12142 przeszedl przez bramke 2
-Czas: 11:15
-Process 12323 przeszedl przez bramke 2
-Czas: 13:48
-Process 12323 przeszedl przez bramke 1
-Czas: 10:50
-Process 12301 przeszedl przez bramke 1
-Czas: 12:15
-Process 12301 przeszedl przez bramke 3
-Czas: 10:30
-Process 12287 przeszedl przez bramke 2
-Czas: 12:01
-Process 12287 przeszedl przez bramke 3
-Czas: 10:08
-Process 12270 przeszedl przez bramke 2
-Czas: 12:01
-Process 12270 przeszedl przez bramke 2
-Czas: 13:28
-Process 12270 przeszedl przez bramke 2
-Czas: 08:12
-Process 12143 przeszedl przez bramke 3
-Czas: 08:33
-Process 12143 przeszedl przez bramke 1
-Czas: 09:35
-Process 12143 przeszedl przez bramke 2
-Czas: 11:38
-Process 12143 przeszedl przez bramke 1
-Czas: 13:12
-Process 12143 przeszedl przez bramke 2
-Czas: 11:00
-Process 12307 przeszedl przez bramke 3
-Czas: 12:46
-Process 12307 przeszedl przez bramke 2
-Czas: 10:30
-Process 12288 przeszedl przez bramke 2
-Czas: 12:43
-Process 12288 przeszedl przez bramke 1
-Czas: 10:08
-Process 12273 przeszedl przez bramke 2
-Czas: 11:58
-Process 12273 przeszedl przez bramke 2
-Czas: 13:10
-Process 12273 przeszedl przez bramke 3
-Czas: 08:14
-Process 12147 przeszedl przez bramke 2
-Czas: 08:32
-Process 12147 przeszedl przez bramke 2
-Czas: 09:25
-Process 12147 przeszedl przez bramke 2
-Czas: 11:11
-Process 12147 przeszedl przez bramke 1
-Czas: 13:35
-Process 12147 przeszedl przez bramke 1
-Czas: 10:14
-Process 12281 przeszedl przez bramke 3
-Czas: 12:02
-Process 12281 przeszedl przez bramke 2
-Czas: 11:08
-Process 12317 przeszedl przez bramke 3
-Czas: 13:35
-Process 12317 przeszedl przez bramke 1
-Czas: 10:39
-Process 12292 przeszedl przez bramke 1
-Czas: 12:58
-Process 12292 przeszedl przez bramke 1
-Czas: 10:36
-Process 12294 przeszedl przez bramke 3
-Czas: 12:20
-Process 12294 przeszedl przez bramke 2
-Czas: 10:40
-Process 12296 przeszedl przez bramke 2
-Czas: 12:28
-Process 12296 przeszedl przez bramke 2
-Czas: 08:14
-Process 12148 przeszedl przez bramke 3
-Czas: 08:35
-Process 12148 przeszedl przez bramke 1
-Czas: 09:36
-Process 12148 przeszedl przez bramke 1
-Czas: 11:32
-Process 12148 przeszedl przez bramke 1
-Czas: 12:56
-Process 12148 przeszedl przez bramke 3
-Czas: 08:53
-Process 12205 przeszedl przez bramke 2
-Czas: 10:14
-Process 12205 przeszedl przez bramke 2
-Czas: 12:29
-Process 12205 przeszedl przez bramke 1
-Czas: 13:47
-Process 12205 przeszedl przez bramke 2
-Czas: 10:59
-Process 12306 przeszedl przez bramke 3
-Czas: 12:23
-Process 12306 przeszedl przez bramke 3
-Czas: 08:15
-Process 12149 przeszedl przez bramke 3
-Czas: 08:33
-Process 12149 przeszedl przez bramke 3
-Czas: 09:27
-Process 12149 przeszedl przez bramke 2
-Czas: 11:09
-Process 12149 przeszedl przez bramke 3
-Czas: 12:58
-Process 12149 przeszedl przez bramke 2
-Czas: 10:53
-Process 12302 przeszedl przez bramke 3
-Czas: 12:40
-Process 12302 przeszedl przez bramke 2
-Czas: 13:47
-Process 12302 przeszedl przez bramke 2
-Czas: 11:29
-Process 12252 przeszedl przez bramke 1
-z dzieckiem
-Czas: 13:45
-Process 12252 przeszedl przez bramke 3
-z dzieckiem
-Czas: 08:15
-Process 12150 przeszedl przez bramke 1
-Czas: 08:34
-Process 12150 przeszedl przez bramke 2
-Czas: 09:22
-Process 12150 przeszedl przez bramke 3
-Czas: 11:09
-Process 12150 przeszedl przez bramke 1
-Czas: 13:29
-Process 12150 przeszedl przez bramke 1
-Czas: 11:06
-Process 12318 przeszedl przez bramke 2
-Czas: 12:53
-Process 12318 przeszedl przez bramke 2
-Czas: 11:09
-Process 12313 przeszedl przez bramke 1
-Czas: 13:33
-Process 12313 przeszedl przez bramke 1
-Czas: 11:15
-Process 12314 przeszedl przez bramke 1
-Czas: 13:42
-Process 12314 przeszedl przez bramke 1
-Czas: 11:13
-Process 12322 przeszedl przez bramke 2
-Czas: 13:48
-Process 12322 przeszedl przez bramke 1
-Czas: 08:17
-Process 12153 przeszedl przez bramke 0
-Czas: 08:37
-Process 12153 przeszedl przez bramke 0
-Czas: 09:05
-Process 12153 przeszedl przez bramke 0
-Czas: 09:34
-Process 12153 przeszedl przez bramke 0
-Czas: 10:00
-Process 12153 przeszedl przez bramke 0
-Czas: 10:26
-Process 12153 przeszedl przez bramke 0
-Czas: 10:53
-Process 12153 przeszedl przez bramke 0
-Czas: 11:18
-Process 12153 przeszedl przez bramke 0
-Czas: 11:42
-Process 12153 przeszedl przez bramke 0
-Czas: 12:07
-Process 12153 przeszedl przez bramke 0
-Czas: 12:31
-Process 12153 przeszedl przez bramke 0
-Czas: 12:55
-Process 12153 przeszedl przez bramke 0
-Czas: 13:17
-Process 12153 przeszedl przez bramke 0
-Czas: 13:39
-Process 12153 przeszedl przez bramke 0
-Czas: 11:19
-Process 12315 przeszedl przez bramke 1
-Czas: 13:01
-Process 12315 przeszedl przez bramke 2
-Czas: 08:17
-Process 12154 przeszedl przez bramke 2
-Czas: 08:37
-Process 12154 przeszedl przez bramke 3
-Czas: 09:29
-Process 12154 przeszedl przez bramke 3
-Czas: 11:15
-Process 12154 przeszedl przez bramke 2
-Czas: 12:32
-Process 12154 przeszedl przez bramke 3
-Czas: 13:53
-Process 12154 przeszedl przez bramke 2
-Czas: 08:18
-Process 12156 przeszedl przez bramke 2
-Czas: 08:48
-Process 12156 przeszedl przez bramke 1
-Czas: 09:58
-Process 12156 przeszedl przez bramke 2
-Czas: 11:56
-Process 12156 przeszedl przez bramke 1
-Czas: 13:07
-Process 12156 przeszedl przez bramke 3
-Czas: 11:12
-Process 12316 przeszedl przez bramke 2
-Czas: 13:00
-Process 12316 przeszedl przez bramke 2
-Czas: 11:23
-Process 12320 przeszedl przez bramke 1
+Process 29288 przeszedl przez bramke 3
+Czas: 12:21
+Process 29288 przeszedl przez bramke 3
 Czas: 12:44
-Process 12320 przeszedl przez bramke 3
-Czas: 08:19
-Process 12157 przeszedl przez bramke 1
-Czas: 08:37
-Process 12157 przeszedl przez bramke 2
-Czas: 09:54
-Process 12157 przeszedl przez bramke 1
-Czas: 11:43
-Process 12157 przeszedl przez bramke 2
-Czas: 13:00
-Process 12157 przeszedl przez bramke 3
-Czas: 08:19
-Process 12158 przeszedl przez bramke 3
-Czas: 08:48
-Process 12158 przeszedl przez bramke 1
-Czas: 09:56
-Process 12158 przeszedl przez bramke 3
-Czas: 11:30
-Process 12158 przeszedl przez bramke 3
-Czas: 13:07
-Process 12158 przeszedl przez bramke 2
-Czas: 08:20
-Process 12159 przeszedl przez bramke 1
-Czas: 08:41
-Process 12159 przeszedl przez bramke 3
-Czas: 09:55
-Process 12159 przeszedl przez bramke 1
-Czas: 11:44
-Process 12159 przeszedl przez bramke 2
-Czas: 13:19
-Process 12159 przeszedl przez bramke 2
+Process 29288 przeszedl przez bramke 3
+Czas: 08:05
+Process 29298 przeszedl przez bramke 2
 Czas: 08:21
-Process 12161 przeszedl przez bramke 2
-Czas: 08:52
-Process 12161 przeszedl przez bramke 1
-Czas: 10:08
-Process 12161 przeszedl przez bramke 2
-Czas: 12:15
-Process 12161 przeszedl przez bramke 1
-Czas: 13:39
-Process 12161 przeszedl przez bramke 2
-Czas: 08:38
-Process 12184 przeszedl przez bramke 1
-Czas: 09:41
-Process 12184 przeszedl przez bramke 2
-Czas: 11:17
-Process 12184 przeszedl przez bramke 3
-Czas: 12:37
-Process 12184 przeszedl przez bramke 3
-Czas: 13:57
-Process 12184 przeszedl przez bramke 3
-Czas: 08:22
-Process 12162 przeszedl przez bramke 1
-Czas: 08:41
-Process 12162 przeszedl przez bramke 2
-Czas: 09:49
-Process 12162 przeszedl przez bramke 2
-Czas: 11:51
-Process 12162 przeszedl przez bramke 1
-Czas: 13:05
-Process 12162 przeszedl przez bramke 3
-Czas: 08:22
-Process 12163 przeszedl przez bramke 1
-Czas: 08:47
-Process 12163 przeszedl przez bramke 2
-Czas: 09:56
-Process 12163 przeszedl przez bramke 2
-Czas: 11:56
-Process 12163 przeszedl przez bramke 1
-Czas: 13:10
-Process 12163 przeszedl przez bramke 3
-Czas: 08:38
-Process 12187 przeszedl przez bramke 1
-Czas: 09:42
-Process 12187 przeszedl przez bramke 1
-Czas: 11:19
-Process 12187 przeszedl przez bramke 3
-Czas: 12:39
-Process 12187 przeszedl przez bramke 3
-Czas: 13:59
-Process 12187 przeszedl przez bramke 2
-Czas: 08:23
-Process 12164 przeszedl przez bramke 3
-Czas: 09:02
-Process 12164 przeszedl przez bramke 1
-Czas: 10:11
-Process 12164 przeszedl przez bramke 3
-Czas: 12:16
-Process 12164 przeszedl przez bramke 1
-Czas: 13:41
-Process 12164 przeszedl przez bramke 2
-Czas: 08:24
-Process 12165 przeszedl przez bramke 3
-Czas: 08:55
-Process 12165 przeszedl przez bramke 3
-Czas: 10:09
-Process 12165 przeszedl przez bramke 2
-Czas: 11:36
-Process 12165 przeszedl przez bramke 3
-Czas: 13:15
-Process 12165 przeszedl przez bramke 2
-Czas: 08:24
-Process 12166 przeszedl przez bramke 3
-Czas: 08:55
-Process 12166 przeszedl przez bramke 2
-Czas: 10:11
-Process 12166 przeszedl przez bramke 2
-Czas: 11:41
-Process 12166 przeszedl przez bramke 3
-Czas: 08:25
-Process 12168 przeszedl przez bramke 2
-Czas: 08:59
-Process 12168 przeszedl przez bramke 3
-Czas: 10:22
-Process 12168 przeszedl przez bramke 2
-Czas: 12:08
-Process 12168 przeszedl przez bramke 2
-Czas: 08:26
-Process 12169 przeszedl przez bramke 1
-Czas: 09:06
-Process 12169 przeszedl przez bramke 3
-Czas: 10:30
-Process 12169 przeszedl przez bramke 2
-Czas: 11:58
-Process 12169 przeszedl przez bramke 3
-Czas: 08:27
-Process 12171 przeszedl przez bramke 1
-Czas: 08:59
-Process 12171 przeszedl przez bramke 3
-Czas: 10:21
-Process 12171 przeszedl przez bramke 2
-Czas: 12:08
-Process 12171 przeszedl przez bramke 2
-Czas: 08:29
-Process 12174 przeszedl przez bramke 1
-Czas: 09:16
-Process 12174 przeszedl przez bramke 1
-Czas: 10:53
-Process 12174 przeszedl przez bramke 2
-Czas: 12:36
-Process 12174 przeszedl przez bramke 2
-Czas: 08:29
-Process 12176 przeszedl przez bramke 3
-Czas: 09:10
-Process 12176 przeszedl przez bramke 3
-Czas: 10:36
-Process 12176 przeszedl przez bramke 2
-Czas: 12:51
-Process 12176 przeszedl przez bramke 1
-Czas: 08:36
-Process 12178 przeszedl przez bramke 1
-z dzieckiem
-Czas: 10:40
-Process 12178 przeszedl przez bramke 2
-z dzieckiem
-Czas: 13:30
-Process 12178 przeszedl przez bramke 2
-z dzieckiem
-Czas: 08:31
-Process 12180 przeszedl przez bramke 2
-Czas: 09:32
-Process 12180 przeszedl przez bramke 2
-Czas: 11:29
-Process 12180 przeszedl przez bramke 1
-Czas: 13:08
-Process 12180 przeszedl przez bramke 2
-Czas: 08:46
-Process 12190 przeszedl przez bramke 1
-Czas: 09:53
-Process 12190 przeszedl przez bramke 2
-Czas: 11:27
-Process 12190 przeszedl przez bramke 3
-Czas: 08:42
-Process 12192 przeszedl przez bramke 3
-Czas: 09:35
-Process 12192 przeszedl przez bramke 3
-Czas: 11:20
-Process 12192 przeszedl przez bramke 2
-Czas: 12:40
-Process 12192 przeszedl przez bramke 3
-Czas: 09:23
-Process 12222 przeszedl przez bramke 1
-Czas: 11:03
-Process 12222 przeszedl przez bramke 3
-Czas: 13:22
-Process 12222 przeszedl przez bramke 1
-Czas: 09:12
-Process 12223 przeszedl przez bramke 2
-Czas: 10:46
-Process 12223 przeszedl przez bramke 3
-Czas: 13:13
-Process 12223 przeszedl przez bramke 1
-Czas: 09:59
-Process 12263 przeszedl przez bramke 3
-Czas: 11:49
-Process 12263 przeszedl przez bramke 2
-Czas: 11:16
-Process 12271 przeszedl przez bramke 3
-z dzieckiem
-Czas: 13:24
-Process 12271 przeszedl przez bramke 3
-z dzieckiem
-Czas: 09:27
-Process 12228 przeszedl przez bramke 1
-Czas: 11:19
-Process 12228 przeszedl przez bramke 1
-Czas: 13:50
-Process 12228 przeszedl przez bramke 1
-Czas: 09:23
-Process 12274 przeszedl przez bramke 0
-Czas: 09:52
-Process 12274 przeszedl przez bramke 0
-Czas: 10:05
-Process 12274 przeszedl przez bramke 0
-Czas: 10:32
-Process 12274 przeszedl przez bramke 0
-Czas: 10:45
-Process 12274 przeszedl przez bramke 0
-Czas: 11:13
-Process 12274 przeszedl przez bramke 0
-Czas: 11:37
-Process 12274 przeszedl przez bramke 0
-Czas: 12:02
-Process 12274 przeszedl przez bramke 0
-Czas: 12:27
-Process 12274 przeszedl przez bramke 0
-Czas: 12:52
-Process 12274 przeszedl przez bramke 0
-Czas: 13:17
-Process 12274 przeszedl przez bramke 0
-Czas: 13:39
-Process 12274 przeszedl przez bramke 0
-Czas: 13:59
-Process 12274 przeszedl przez bramke 0
-Czas: 09:48
-Process 12258 przeszedl przez bramke 3
-Czas: 11:34
-Process 12258 przeszedl przez bramke 2
-Czas: 09:05
-Process 12214 przeszedl przez bramke 3
-Czas: 10:34
-Process 12214 przeszedl przez bramke 1
-Czas: 12:02
-Process 12214 przeszedl przez bramke 3
-Czas: 08:58
-Process 12209 przeszedl przez bramke 3
-Czas: 10:19
-Process 12209 przeszedl przez bramke 2
-Czas: 11:51
-Process 12209 przeszedl przez bramke 3
-Czas: 09:36
-Process 12256 przeszedl przez bramke 3
-Czas: 11:38
-Process 12256 przeszedl przez bramke 1
-Czas: 10:26
-Process 12286 przeszedl przez bramke 3
-Czas: 12:40
-Process 12286 przeszedl przez bramke 1
-Czas: 13:57
-Process 12286 przeszedl przez bramke 2
-Czas: 09:26
-Process 12229 przeszedl przez bramke 2
-Czas: 11:03
-Process 12229 przeszedl przez bramke 2
-Czas: 12:51
-Process 12229 przeszedl przez bramke 2
-Czas: 08:56
-Process 12207 przeszedl przez bramke 2
-Czas: 10:27
-Process 12207 przeszedl przez bramke 1
-Czas: 12:18
-Process 12207 przeszedl przez bramke 2
-Czas: 13:41
-Process 12207 przeszedl przez bramke 2
-Czas: 09:45
-Process 12244 przeszedl przez bramke 1
-Czas: 11:48
-Process 12244 przeszedl przez bramke 1
-Czas: 08:57
-Process 12200 przeszedl przez bramke 1
-Czas: 10:24
-Process 12200 przeszedl przez bramke 1
-Czas: 12:33
-Process 12200 przeszedl przez bramke 1
-Czas: 13:50
-Process 12200 przeszedl przez bramke 3
-Czas: 09:39
-Process 12241 przeszedl przez bramke 1
-Czas: 11:26
-Process 12241 przeszedl przez bramke 2
-Czas: 12:49
-Process 12241 przeszedl przez bramke 3
-Czas: 09:31
-Process 12230 przeszedl przez bramke 2
-Czas: 11:13
-Process 12230 przeszedl przez bramke 3
-Czas: 13:42
-Process 12230 przeszedl przez bramke 1
-Czas: 08:32
-Process 12183 przeszedl przez bramke 3
-Czas: 09:15
-Process 12183 przeszedl przez bramke 3
-Czas: 10:51
-Process 12183 przeszedl przez bramke 3
-Czas: 12:35
-Process 12183 przeszedl przez bramke 2
-Czas: 13:51
-Process 12183 przeszedl przez bramke 3
-Czas: 08:40
-Process 12196 przeszedl przez bramke 0
+Process 29298 przeszedl przez bramke 3
 Czas: 09:08
-Process 12196 przeszedl przez bramke 0
+Process 29298 przeszedl przez bramke 2
+Czas: 10:34
+Process 29298 przeszedl przez bramke 1
+Czas: 11:29
+Process 29298 przeszedl przez bramke 3
+Czas: 08:05
+Process 29297 przeszedl przez bramke 2
+Czas: 08:22
+Process 29297 przeszedl przez bramke 2
+Czas: 08:52
+Process 29297 przeszedl przez bramke 1
+Czas: 09:41
+Process 29297 przeszedl przez bramke 3
+Czas: 08:04
+Process 29294 przeszedl przez bramke 1
+Czas: 08:21
+Process 29294 przeszedl przez bramke 2
+Czas: 08:42
+Process 29294 przeszedl przez bramke 3
+Czas: 09:52
+Process 29294 przeszedl przez bramke 1
+Czas: 10:59
+Process 29294 przeszedl przez bramke 3
+Czas: 13:19
+Process 29294 przeszedl przez bramke 1
+Czas: 08:03
+Process 29292 przeszedl przez bramke 3
+Czas: 08:18
+Process 29292 przeszedl przez bramke 2
+Czas: 08:40
+Process 29292 przeszedl przez bramke 1
+Czas: 09:44
+Process 29292 przeszedl przez bramke 1
+Czas: 11:28
+Process 29292 przeszedl przez bramke 1
+Czas: 12:10
+Process 29292 przeszedl przez bramke 3
+Czas: 12:32
+Process 29292 przeszedl przez bramke 3
+Czas: 08:11
+Process 29311 przeszedl przez bramke 3
+Czas: 08:27
+Process 29311 przeszedl przez bramke 1
+Czas: 09:22
+Process 29311 przeszedl przez bramke 1
+Czas: 10:50
+Process 29311 przeszedl przez bramke 1
+Czas: 11:44
+Process 29311 przeszedl przez bramke 3
+Czas: 08:15
+Process 29316 przeszedl przez bramke 3
+Czas: 08:38
+Process 29316 przeszedl przez bramke 1
+Czas: 09:34
+Process 29316 przeszedl przez bramke 1
+Czas: 10:34
+Process 29316 przeszedl przez bramke 3
+Czas: 08:07
+Process 29302 przeszedl przez bramke 3
+Czas: 08:24
+Process 29302 przeszedl przez bramke 3
+Czas: 09:00
+Process 29302 przeszedl przez bramke 1
+Czas: 09:54
+Process 29302 przeszedl przez bramke 3
+Czas: 08:13
+Process 29315 przeszedl przez bramke 1
+Czas: 08:30
+Process 29315 przeszedl przez bramke 3
+Czas: 09:07
+Process 29315 przeszedl przez bramke 3
+Czas: 12:09
+Process 29315 przeszedl przez bramke 2
+Czas: 08:12
+Process 29313 przeszedl przez bramke 3
+Czas: 08:35
+Process 29313 przeszedl przez bramke 2
+Czas: 09:31
+Process 29313 przeszedl przez bramke 1
+Czas: 10:30
+Process 29313 przeszedl przez bramke 3
+Czas: 08:07
+Process 29303 przeszedl przez bramke 0
+Czas: 08:23
+Process 29303 przeszedl przez bramke 0
+Czas: 08:43
+Process 29303 przeszedl przez bramke 0
+Czas: 09:10
+Process 29303 przeszedl przez bramke 0
 Czas: 09:38
-Process 12196 przeszedl przez bramke 0
-Czas: 10:06
-Process 12196 przeszedl przez bramke 0
-Czas: 10:35
-Process 12196 przeszedl przez bramke 0
-Czas: 11:01
-Process 12196 przeszedl przez bramke 0
-Czas: 11:25
-Process 12196 przeszedl przez bramke 0
-Czas: 11:51
-Process 12196 przeszedl przez bramke 0
-Czas: 12:16
-Process 12196 przeszedl przez bramke 0
+Process 29303 przeszedl przez bramke 0
+Czas: 10:04
+Process 29303 przeszedl przez bramke 0
+Czas: 10:29
+Process 29303 przeszedl przez bramke 0
+Czas: 10:55
+Process 29303 przeszedl przez bramke 0
+Czas: 11:19
+Process 29303 przeszedl przez bramke 0
+Czas: 11:41
+Process 29303 przeszedl przez bramke 0
+Czas: 12:04
+Process 29303 przeszedl przez bramke 0
+Czas: 12:27
+Process 29303 przeszedl przez bramke 0
+Czas: 12:51
+Process 29303 przeszedl przez bramke 0
+Czas: 13:09
+Process 29303 przeszedl przez bramke 0
+Czas: 13:28
+Process 29303 przeszedl przez bramke 0
+Czas: 13:45
+Process 29303 przeszedl przez bramke 0
+Czas: 14:03
+Process 29303 przeszedl przez bramke 0
+Czas: 14:06
+Process 29303 przeszedl przez bramke 0
+Czas: 14:23
+Process 29303 przeszedl przez bramke 0
+Czas: 14:25
+Process 29303 przeszedl przez bramke 0
+Czas: 16:20
+Process 29303 przeszedl przez bramke 0
+Czas: 16:24
+Process 29303 przeszedl przez bramke 0
+Czas: 08:33
+Process 29354 przeszedl przez bramke 0
+Czas: 08:59
+Process 29354 przeszedl przez bramke 0
+Czas: 09:25
+Process 29354 przeszedl przez bramke 0
+Czas: 09:51
+Process 29354 przeszedl przez bramke 0
+Czas: 10:15
+Process 29354 przeszedl przez bramke 0
+Czas: 10:24
+Process 29354 przeszedl przez bramke 0
+Czas: 10:48
+Process 29354 przeszedl przez bramke 0
+Czas: 11:12
+Process 29354 przeszedl przez bramke 0
+Czas: 11:35
+Process 29354 przeszedl przez bramke 0
+Czas: 11:56
+Process 29354 przeszedl przez bramke 0
+Czas: 12:17
+Process 29354 przeszedl przez bramke 0
+Czas: 12:39
+Process 29354 przeszedl przez bramke 0
+Czas: 12:59
+Process 29354 przeszedl przez bramke 0
+Czas: 13:18
+Process 29354 przeszedl przez bramke 0
+Czas: 13:35
+Process 29354 przeszedl przez bramke 0
+Czas: 13:53
+Process 29354 przeszedl przez bramke 0
+Czas: 13:56
+Process 29354 przeszedl przez bramke 0
+Czas: 14:12
+Process 29354 przeszedl przez bramke 0
+Czas: 14:29
+Process 29354 przeszedl przez bramke 0
+Czas: 14:31
+Process 29354 przeszedl przez bramke 0
+Czas: 14:47
+Process 29354 przeszedl przez bramke 0
+Czas: 15:02
+Process 29354 przeszedl przez bramke 0
+Czas: 15:20
+Process 29354 przeszedl przez bramke 0
+Czas: 15:23
+Process 29354 przeszedl przez bramke 0
+Czas: 15:39
+Process 29354 przeszedl przez bramke 0
+Czas: 15:57
+Process 29354 przeszedl przez bramke 0
+Czas: 16:13
+Process 29354 przeszedl przez bramke 0
+Czas: 16:29
+Process 29354 przeszedl przez bramke 0
+Czas: 16:45
+Process 29354 przeszedl przez bramke 0
+Czas: 08:08
+Process 29305 przeszedl przez bramke 2
+Czas: 08:26
+Process 29305 przeszedl przez bramke 2
+Czas: 09:15
+Process 29305 przeszedl przez bramke 1
+Czas: 10:43
+Process 29305 przeszedl przez bramke 1
+Czas: 13:00
+Process 29305 przeszedl przez bramke 1
+Czas: 08:09
+Process 29308 przeszedl przez bramke 3
+Czas: 08:25
+Process 29308 przeszedl przez bramke 1
+Czas: 09:03
+Process 29308 przeszedl przez bramke 1
+Czas: 12:03
+Process 29308 przeszedl przez bramke 2
+Czas: 12:26
+Process 29308 przeszedl przez bramke 3
+Czas: 08:34
+Process 29356 przeszedl przez bramke 3
+Czas: 10:15
+Process 29356 przeszedl przez bramke 2
+Czas: 12:26
+Process 29356 przeszedl przez bramke 1
+Czas: 08:09
+Process 29306 przeszedl przez bramke 1
+Czas: 08:28
+Process 29306 przeszedl przez bramke 2
+Czas: 09:19
+Process 29306 przeszedl przez bramke 1
+Czas: 12:54
+Process 29306 przeszedl przez bramke 2
+Czas: 08:14
+Process 29317 przeszedl przez bramke 3
+Czas: 08:38
+Process 29317 przeszedl przez bramke 1
+Czas: 09:43
+Process 29317 przeszedl przez bramke 1
+Czas: 10:49
+Process 29317 przeszedl przez bramke 3
+Czas: 08:08
+Process 29304 przeszedl przez bramke 3
+Czas: 08:24
+Process 29304 przeszedl przez bramke 3
+Czas: 09:34
+Process 29304 przeszedl przez bramke 2
+Czas: 11:12
+Process 29304 przeszedl przez bramke 1
+Czas: 11:55
+Process 29304 przeszedl przez bramke 3
+Czas: 12:21
+Process 29304 przeszedl przez bramke 3
 Czas: 12:43
-Process 12196 przeszedl przez bramke 0
-Czas: 13:07
-Process 12196 przeszedl przez bramke 0
+Process 29304 przeszedl przez bramke 3
+Czas: 09:00
+Process 29392 przeszedl przez bramke 3
+Czas: 11:50
+Process 29392 przeszedl przez bramke 2
+Czas: 08:06
+Process 29301 przeszedl przez bramke 2
+Czas: 08:24
+Process 29301 przeszedl przez bramke 3
+Czas: 09:00
+Process 29301 przeszedl przez bramke 1
+Czas: 09:52
+Process 29301 przeszedl przez bramke 3
+Czas: 10:58
+Process 29301 przeszedl przez bramke 3
+Czas: 08:15
+Process 29319 przeszedl przez bramke 3
+Czas: 08:36
+Process 29319 przeszedl przez bramke 1
+Czas: 10:24
+Process 29319 przeszedl przez bramke 2
+Czas: 11:20
+Process 29319 przeszedl przez bramke 3
+Czas: 12:03
+Process 29319 przeszedl przez bramke 3
+Czas: 08:10
+Process 29310 przeszedl przez bramke 1
+Czas: 08:29
+Process 29310 przeszedl przez bramke 1
+Czas: 10:07
+Process 29310 przeszedl przez bramke 2
+Czas: 08:06
+Process 29299 przeszedl przez bramke 3
+Czas: 08:23
+Process 29299 przeszedl przez bramke 3
+Czas: 09:20
+Process 29299 przeszedl przez bramke 2
+Czas: 10:21
+Process 29299 przeszedl przez bramke 3
+Czas: 11:20
+Process 29299 przeszedl przez bramke 3
+Czas: 08:23
+Process 29336 przeszedl przez bramke 3
+Czas: 09:25
+Process 29336 przeszedl przez bramke 2
+Czas: 13:10
+Process 29336 przeszedl przez bramke 2
+Czas: 09:08
+Process 29400 przeszedl przez bramke 3
+Czas: 10:05
+Process 29400 przeszedl przez bramke 3
+Czas: 11:06
+Process 29400 przeszedl przez bramke 3
+Czas: 08:15
+Process 29322 przeszedl przez bramke 2
+Czas: 08:39
+Process 29322 przeszedl przez bramke 1
+Czas: 09:20
+Process 29322 przeszedl przez bramke 3
+Czas: 10:53
+Process 29322 przeszedl przez bramke 1
+Czas: 11:45
+Process 29322 przeszedl przez bramke 3
+Czas: 08:12
+Process 29314 przeszedl przez bramke 2
+Czas: 08:33
+Process 29314 przeszedl przez bramke 2
+Czas: 09:05
+Process 29314 przeszedl przez bramke 3
+Czas: 10:05
+Process 29314 przeszedl przez bramke 3
+Czas: 11:56
+Process 29314 przeszedl przez bramke 1
+Czas: 08:04
+Process 29295 przeszedl przez bramke 3
+Czas: 08:20
+Process 29295 przeszedl przez bramke 2
+Czas: 08:40
+Process 29295 przeszedl przez bramke 3
+Czas: 09:20
+Process 29295 przeszedl przez bramke 3
+Czas: 10:18
+Process 29295 przeszedl przez bramke 3
+Czas: 11:14
+Process 29295 przeszedl przez bramke 3
+Czas: 11:59
+Process 29295 przeszedl przez bramke 3
+Czas: 12:24
+Process 29295 przeszedl przez bramke 3
+Czas: 08:25
+Process 29340 przeszedl przez bramke 2
+Czas: 09:07
+Process 29340 przeszedl przez bramke 1
+Czas: 12:22
+Process 29340 przeszedl przez bramke 2
+Czas: 10:24
+Process 29405 przeszedl przez bramke 2
+Czas: 12:45
+Process 29405 przeszedl przez bramke 1
+Czas: 13:05
+Process 29405 przeszedl przez bramke 3
+Czas: 08:19
+Process 29329 przeszedl przez bramke 3
+Czas: 08:37
+Process 29329 przeszedl przez bramke 3
+Czas: 09:13
+Process 29329 przeszedl przez bramke 3
+Czas: 10:14
+Process 29329 przeszedl przez bramke 3
+Czas: 08:16
+Process 29323 przeszedl przez bramke 0
+Czas: 08:33
+Process 29323 przeszedl przez bramke 0
+Czas: 09:00
+Process 29323 przeszedl przez bramke 0
+Czas: 09:27
+Process 29323 przeszedl przez bramke 0
+Czas: 09:51
+Process 29323 przeszedl przez bramke 0
+Czas: 10:13
+Process 29323 przeszedl przez bramke 0
+Czas: 10:38
+Process 29323 przeszedl przez bramke 0
+Czas: 11:02
+Process 29323 przeszedl przez bramke 0
+Czas: 11:26
+Process 29323 przeszedl przez bramke 0
+Czas: 11:49
+Process 29323 przeszedl przez bramke 0
+Czas: 11:58
+Process 29323 przeszedl przez bramke 0
+Czas: 12:19
+Process 29323 przeszedl przez bramke 0
+Czas: 12:39
+Process 29323 przeszedl przez bramke 0
+Czas: 13:01
+Process 29323 przeszedl przez bramke 0
+Czas: 13:20
+Process 29323 przeszedl przez bramke 0
+Czas: 13:40
+Process 29323 przeszedl przez bramke 0
+Czas: 13:57
+Process 29323 przeszedl przez bramke 0
+Czas: 14:14
+Process 29323 przeszedl przez bramke 0
+Czas: 14:16
+Process 29323 przeszedl przez bramke 0
+Czas: 14:33
+Process 29323 przeszedl przez bramke 0
+Czas: 14:36
+Process 29323 przeszedl przez bramke 0
+Czas: 14:52
+Process 29323 przeszedl przez bramke 0
+Czas: 15:09
+Process 29323 przeszedl przez bramke 0
+Czas: 15:24
+Process 29323 przeszedl przez bramke 0
+Czas: 15:41
+Process 29323 przeszedl przez bramke 0
+Czas: 15:57
+Process 29323 przeszedl przez bramke 0
+Czas: 16:14
+Process 29323 przeszedl przez bramke 0
+Czas: 08:26
+Process 29341 przeszedl przez bramke 2
+z dzieckiem
+Czas: 12:34
+Process 29341 przeszedl przez bramke 2
+z dzieckiem
+Czas: 12:58
+Process 29341 przeszedl przez bramke 3
+z dzieckiem
+Czas: 08:02
+Process 29291 przeszedl przez bramke 2
+Czas: 08:20
+Process 29291 przeszedl przez bramke 1
+Czas: 09:01
+Process 29291 przeszedl przez bramke 2
+Czas: 11:56
+Process 29291 przeszedl przez bramke 2
+Czas: 09:38
+Process 29412 przeszedl przez bramke 1
+Czas: 10:44
+Process 29412 przeszedl przez bramke 3
+Czas: 11:38
+Process 29412 przeszedl przez bramke 3
+Czas: 10:59
+Process 29426 przeszedl przez bramke 2
+Czas: 11:51
+Process 29426 przeszedl przez bramke 3
+Czas: 12:18
+Process 29426 przeszedl przez bramke 3
+Czas: 12:40
+Process 29426 przeszedl przez bramke 3
+Czas: 13:00
+Process 29426 przeszedl przez bramke 3
+Czas: 10:40
+Process 29414 przeszedl przez bramke 2
+Czas: 11:31
+Process 29414 przeszedl przez bramke 3
+Czas: 08:22
+Process 29334 przeszedl przez bramke 1
+Czas: 08:46
+Process 29334 przeszedl przez bramke 3
+Czas: 09:30
+Process 29334 przeszedl przez bramke 3
+Czas: 13:12
+Process 29334 przeszedl przez bramke 2
 Czas: 13:29
-Process 12196 przeszedl przez bramke 0
-Czas: 13:51
-Process 12196 przeszedl przez bramke 0
+Process 29334 przeszedl przez bramke 3
+Czas: 08:29
+Process 29346 przeszedl przez bramke 3
+Czas: 09:02
+Process 29346 przeszedl przez bramke 3
+Czas: 10:24
+Process 29346 przeszedl przez bramke 1
+Czas: 12:39
+Process 29346 przeszedl przez bramke 1
+Czas: 08:04
+Process 29293 przeszedl przez bramke 2
+Czas: 10:31
+Process 29406 przeszedl przez bramke 2
+Czas: 11:22
+Process 29406 przeszedl przez bramke 3
+Czas: 12:06
+Process 29406 przeszedl przez bramke 3
+Czas: 09:23
+Process 29417 przeszedl przez bramke 3
+Czas: 10:57
+Process 29417 przeszedl przez bramke 1
+Czas: 11:47
+Process 29417 przeszedl przez bramke 3
+Czas: 09:50
+Process 29443 przeszedl przez bramke 3
+Czas: 10:53
+Process 29443 przeszedl przez bramke 3
+Czas: 08:28
+Process 29344 przeszedl przez bramke 2
+Czas: 09:18
+Process 29344 przeszedl przez bramke 1
+Czas: 10:46
+Process 29344 przeszedl przez bramke 1
+Czas: 11:34
+Process 29344 przeszedl przez bramke 3
+Czas: 09:29
+Process 29402 przeszedl przez bramke 1
+Czas: 13:14
+Process 29402 przeszedl przez bramke 2
+Czas: 08:06
+Process 29300 przeszedl przez bramke 3
+Czas: 08:22
+Process 29300 przeszedl przez bramke 2
+Czas: 09:17
+Process 29300 przeszedl przez bramke 2
+Czas: 10:14
+Process 29300 przeszedl przez bramke 3
+Czas: 08:49
+Process 29362 przeszedl przez bramke 1
+Czas: 09:35
+Process 29362 przeszedl przez bramke 3
+Czas: 10:38
+Process 29362 przeszedl przez bramke 3
+Czas: 09:57
+Process 29449 przeszedl przez bramke 3
+Czas: 11:42
+Process 29449 przeszedl przez bramke 1
+Czas: 09:45
+Process 29418 przeszedl przez bramke 1
+Czas: 10:55
+Process 29418 przeszedl przez bramke 3
+Czas: 08:34
+Process 29349 przeszedl przez bramke 1
+z dzieckiem
+Czas: 10:25
+Process 29349 przeszedl przez bramke 1
+z dzieckiem
+Czas: 13:03
+Process 29468 przeszedl przez bramke 2
+Czas: 08:12
+Process 29312 przeszedl przez bramke 3
+Czas: 08:30
+Process 29312 przeszedl przez bramke 1
+Czas: 09:23
+Process 29312 przeszedl przez bramke 1
+Czas: 13:06
+Process 29312 przeszedl przez bramke 2
+Czas: 13:24
+Process 29312 przeszedl przez bramke 3
+Czas: 09:55
+Process 29424 przeszedl przez bramke 1
+Czas: 10:59
+Process 29424 przeszedl przez bramke 3
+Czas: 11:08
+Process 29483 przeszedl przez bramke 1
+Czas: 09:04
+Process 29364 przeszedl przez bramke 2
+Czas: 10:02
+Process 29364 przeszedl przez bramke 3
+Czas: 08:58
+Process 29375 przeszedl przez bramke 1
+Czas: 09:48
+Process 29375 przeszedl przez bramke 3
+Czas: 09:16
+Process 29396 przeszedl przez bramke 1
+Czas: 10:43
+Process 29396 przeszedl przez bramke 1
+Czas: 13:03
+Process 29396 przeszedl przez bramke 1
+Czas: 12:17
+Process 29452 przeszedl przez bramke 2
+Czas: 08:16
+Process 29318 przeszedl przez bramke 1
+Czas: 08:51
+Process 29318 przeszedl przez bramke 2
+Czas: 10:11
+Process 29318 przeszedl przez bramke 1
+Czas: 11:11
+Process 29318 przeszedl przez bramke 3
+Czas: 13:36
+Process 29318 przeszedl przez bramke 1
+Czas: 09:59
+Process 29425 przeszedl przez bramke 1
+Czas: 11:45
+Process 29425 przeszedl przez bramke 1
+Czas: 08:50
+Process 29366 przeszedl przez bramke 1
+Czas: 09:33
+Process 29366 przeszedl przez bramke 3
+Czas: 13:20
+Process 29366 przeszedl przez bramke 2
+Czas: 10:47
+Process 29492 przeszedl przez bramke 3
+Czas: 12:29
+Process 29382 przeszedl przez bramke 2
+z dzieckiem
+Czas: 12:51
+Process 29382 przeszedl przez bramke 3
+z dzieckiem
+Czas: 13:14
+Process 29382 przeszedl przez bramke 3
+z dzieckiem
+Czas: 13:33
+Process 29382 przeszedl przez bramke 3
+z dzieckiem
+Czas: 09:58
+Process 29395 przeszedl przez bramke 2
+Czas: 11:45
+Process 29395 przeszedl przez bramke 1
+Czas: 08:16
+Process 29324 przeszedl przez bramke 1
+Czas: 08:36
+Process 29324 przeszedl przez bramke 2
+Czas: 10:32
+Process 29324 przeszedl przez bramke 2
+Czas: 11:27
+Process 29324 przeszedl przez bramke 3
+Czas: 10:04
+Process 29427 przeszedl przez bramke 1
+Czas: 11:53
+Process 29427 przeszedl przez bramke 1
+Czas: 09:09
+Process 29403 przeszedl przez bramke 3
+Czas: 12:21
+Process 29403 przeszedl przez bramke 2
+Czas: 12:29
+Process 29403 przeszedl przez bramke 3
+Czas: 09:51
+Process 29393 przeszedl przez bramke 2
+Czas: 10:56
+Process 29393 przeszedl przez bramke 3
+Czas: 11:47
+Process 29393 przeszedl przez bramke 3
+Czas: 10:27
+Process 29476 przeszedl przez bramke 3
+Czas: 11:15
+Process 29435 przeszedl przez bramke 2
+Czas: 13:43
+Process 29435 przeszedl przez bramke 1
+Czas: 09:06
+Process 29385 przeszedl przez bramke 1
+Czas: 10:05
+Process 29385 przeszedl przez bramke 3
+Czas: 12:01
+Process 29385 przeszedl przez bramke 1
+Czas: 09:44
+Process 29416 przeszedl przez bramke 1
+Czas: 09:51
+Process 29472 przeszedl przez bramke 0
+Czas: 10:18
+Process 29472 przeszedl przez bramke 0
+Czas: 10:43
+Process 29472 przeszedl przez bramke 0
+Czas: 11:05
+Process 29472 przeszedl przez bramke 0
+Czas: 11:28
+Process 29472 przeszedl przez bramke 0
+Czas: 11:50
+Process 29472 przeszedl przez bramke 0
+Czas: 11:59
+Process 29472 przeszedl przez bramke 0
+Czas: 12:21
+Process 29472 przeszedl przez bramke 0
+Czas: 12:44
+Process 29472 przeszedl przez bramke 0
+Czas: 13:07
+Process 29472 przeszedl przez bramke 0
+Czas: 13:25
+Process 29472 przeszedl przez bramke 0
+Czas: 13:44
+Process 29472 przeszedl przez bramke 0
+Czas: 14:01
+Process 29472 przeszedl przez bramke 0
+Czas: 15:56
+Process 29472 przeszedl przez bramke 0
+Czas: 16:12
+Process 29472 przeszedl przez bramke 0
+Czas: 16:28
+Process 29472 przeszedl przez bramke 0
+Czas: 16:43
+Process 29472 przeszedl przez bramke 0
+Czas: 17:00
+Process 29472 przeszedl przez bramke 0
+Czas: 08:02
+Process 29290 przeszedl przez bramke 1
+Czas: 08:19
+Process 29290 przeszedl przez bramke 1
+Czas: 08:48
+Process 29290 przeszedl przez bramke 1
+Czas: 10:07
+Process 29290 przeszedl przez bramke 1
+Czas: 11:06
+Process 29290 przeszedl przez bramke 3
+Czas: 08:55
+Process 29387 przeszedl przez bramke 3
+Czas: 10:19
+Process 29387 przeszedl przez bramke 1
+Czas: 10:07
+Process 29429 przeszedl przez bramke 1
+Czas: 12:02
+Process 29429 przeszedl przez bramke 1
+Czas: 13:22
+Process 29478 przeszedl przez bramke 2
+Czas: 13:38
+Process 29478 przeszedl przez bramke 3
+Czas: 13:56
+Process 29478 przeszedl przez bramke 3
+Czas: 10:40
+Process 29461 przeszedl przez bramke 1
+Czas: 11:34
+Process 29461 przeszedl przez bramke 3
+Czas: 11:29
+Process 29440 przeszedl przez bramke 2
+Czas: 12:09
+Process 29440 przeszedl przez bramke 3
+Czas: 12:31
+Process 29440 przeszedl przez bramke 3
+Czas: 12:53
+Process 29440 przeszedl przez bramke 3
+Czas: 13:11
+Process 29440 przeszedl przez bramke 3
+Czas: 13:29
+Process 29440 przeszedl przez bramke 3
+Czas: 13:49
+Process 29440 przeszedl przez bramke 3
+Czas: 14:03
+Process 29440 przeszedl przez bramke 3
+Czas: 08:09
+Process 29307 przeszedl przez bramke 2
+Czas: 08:26
+Process 29307 przeszedl przez bramke 1
+Czas: 09:45
+Process 29307 przeszedl przez bramke 2
+Czas: 11:38
+Process 29307 przeszedl przez bramke 1
+Czas: 12:12
+Process 29307 przeszedl przez bramke 3
+Czas: 10:09
+Process 29430 przeszedl przez bramke 1
+Czas: 12:19
+Process 29430 przeszedl przez bramke 1
+Czas: 12:40
+Process 29430 przeszedl przez bramke 3
+Czas: 13:04
+Process 29430 przeszedl przez bramke 3
+Czas: 10:30
+Process 29479 przeszedl przez bramke 3
+Czas: 12:49
+Process 29458 przeszedl przez bramke 2
+Czas: 13:08
+Process 29458 przeszedl przez bramke 3
+Czas: 09:25
+Process 29398 przeszedl przez bramke 1
+Czas: 11:03
+Process 29398 przeszedl przez bramke 1
+Czas: 11:51
+Process 29398 przeszedl przez bramke 3
+Czas: 12:18
+Process 29398 przeszedl przez bramke 3
+Czas: 11:43
+Process 29445 przeszedl przez bramke 2
+Czas: 08:10
+Process 29309 przeszedl przez bramke 1
+Czas: 08:25
+Process 29309 przeszedl przez bramke 3
+Czas: 09:10
+Process 29309 przeszedl przez bramke 1
+Czas: 10:35
+Process 29309 przeszedl przez bramke 1
+Czas: 11:27
+Process 29309 przeszedl przez bramke 3
+Czas: 09:27
+Process 29399 przeszedl przez bramke 1
+Czas: 10:21
+Process 29399 przeszedl przez bramke 3
+Czas: 11:09
+Process 29399 przeszedl przez bramke 3
+Czas: 13:34
+Process 29399 przeszedl przez bramke 1
+Czas: 09:11
+Process 29391 przeszedl przez bramke 1
+Czas: 12:42
+Process 29391 przeszedl przez bramke 2
+Czas: 13:06
+Process 29391 przeszedl przez bramke 3
+Czas: 13:26
+Process 29391 przeszedl przez bramke 3
+Czas: 09:18
+Process 29431 przeszedl przez bramke 0
+Czas: 09:44
+Process 29431 przeszedl przez bramke 0
+Czas: 10:09
+Process 29431 przeszedl przez bramke 0
+Czas: 10:34
+Process 29431 przeszedl przez bramke 0
+Czas: 10:56
+Process 29431 przeszedl przez bramke 0
+Czas: 11:19
+Process 29431 przeszedl przez bramke 0
+Czas: 11:41
+Process 29431 przeszedl przez bramke 0
+Czas: 12:05
+Process 29431 przeszedl przez bramke 0
+Czas: 12:32
+Process 29431 przeszedl przez bramke 0
+Czas: 12:41
+Process 29431 przeszedl przez bramke 0
+Czas: 13:02
+Process 29431 przeszedl przez bramke 0
+Czas: 13:20
+Process 29431 przeszedl przez bramke 0
+Czas: 13:38
+Process 29431 przeszedl przez bramke 0
+Czas: 13:54
+Process 29431 przeszedl przez bramke 0
+Czas: 13:56
+Process 29431 przeszedl przez bramke 0
+Czas: 14:13
+Process 29431 przeszedl przez bramke 0
+Czas: 14:29
+Process 29431 przeszedl przez bramke 0
+Czas: 14:46
+Process 29431 przeszedl przez bramke 0
+Czas: 15:04
+Process 29431 przeszedl przez bramke 0
+Czas: 15:20
+Process 29431 przeszedl przez bramke 0
+Czas: 15:35
+Process 29431 przeszedl przez bramke 0
+Czas: 15:53
+Process 29431 przeszedl przez bramke 0
+Czas: 11:09
+Process 29434 przeszedl przez bramke 2
+Czas: 13:33
+Process 29434 przeszedl przez bramke 1
+Czas: 11:55
+Process 29448 przeszedl przez bramke 2
+Czas: 08:17
+Process 29325 przeszedl przez bramke 3
+Czas: 08:45
+Process 29325 przeszedl przez bramke 1
+Czas: 09:25
+Process 29325 przeszedl przez bramke 3
+Czas: 11:05
+Process 29325 przeszedl przez bramke 1
+Czas: 13:26
+Process 29325 przeszedl przez bramke 1
+Czas: 10:22
+Process 29442 przeszedl przez bramke 1
+Czas: 12:32
+Process 29442 przeszedl przez bramke 1
+Czas: 09:36
+Process 29409 przeszedl przez bramke 1
+Czas: 10:35
+Process 29409 przeszedl przez bramke 3
+Czas: 12:51
+Process 29409 przeszedl przez bramke 1
+Czas: 09:38
+Process 29388 przeszedl przez bramke 2
+Czas: 10:41
+Process 29388 przeszedl przez bramke 3
+Czas: 11:34
+Process 29388 przeszedl przez bramke 3
+Czas: 12:10
+Process 29388 przeszedl przez bramke 3
+Czas: 09:19
+Process 29415 przeszedl przez bramke 3
+Czas: 10:49
+Process 29415 przeszedl przez bramke 1
+Czas: 13:06
+Process 29415 przeszedl przez bramke 1
+Czas: 13:24
+Process 29415 przeszedl przez bramke 3
+Czas: 13:41
+Process 29415 przeszedl przez bramke 3
+Czas: 13:57
+Process 29415 przeszedl przez bramke 3
+Czas: 14:13
+Process 29415 przeszedl przez bramke 3
+Czas: 10:03
+Process 29451 przeszedl przez bramke 3
+Czas: 11:51
+Process 29451 przeszedl przez bramke 1
+Czas: 08:21
+Process 29332 przeszedl przez bramke 2
+Czas: 09:07
+Process 29332 przeszedl przez bramke 2
+Czas: 10:28
+Process 29332 przeszedl przez bramke 1
+Czas: 09:16
+Process 29410 przeszedl przez bramke 3
+Czas: 12:51
+Process 29410 przeszedl przez bramke 2
+Czas: 10:40
+Process 29408 przeszedl przez bramke 2
+Czas: 12:54
+Process 29408 przeszedl przez bramke 1
+Czas: 10:09
+Process 29460 przeszedl przez bramke 3
+Czas: 12:08
+Process 29460 przeszedl przez bramke 1
+Czas: 08:57
+Process 29386 przeszedl przez bramke 3
+Czas: 11:35
+Process 29386 przeszedl przez bramke 2
+Czas: 10:50
+Process 29465 przeszedl przez bramke 1
+Czas: 13:12
+Process 29465 przeszedl przez bramke 1
+Czas: 08:24
+Process 29335 przeszedl przez bramke 1
+Czas: 09:30
+Process 29335 przeszedl przez bramke 2
+Czas: 10:28
+Process 29335 przeszedl przez bramke 3
+Czas: 10:18
+Process 29464 przeszedl przez bramke 3
+Czas: 11:17
+Process 29464 przeszedl przez bramke 3
+Czas: 09:03
+Process 29407 przeszedl przez bramke 0
+Czas: 09:31
+Process 29407 przeszedl przez bramke 0
+Czas: 09:54
+Process 29407 przeszedl przez bramke 0
+Czas: 10:19
+Process 29407 przeszedl przez bramke 0
+Czas: 10:44
+Process 29407 przeszedl przez bramke 0
+Czas: 11:07
+Process 29407 przeszedl przez bramke 0
+Czas: 11:29
+Process 29407 przeszedl przez bramke 0
+Czas: 11:52
+Process 29407 przeszedl przez bramke 0
+Czas: 12:14
+Process 29407 przeszedl przez bramke 0
+Czas: 12:21
+Process 29407 przeszedl przez bramke 0
+Czas: 12:31
+Process 29407 przeszedl przez bramke 0
+Czas: 12:53
+Process 29407 przeszedl przez bramke 0
+Czas: 13:12
+Process 29407 przeszedl przez bramke 0
+Czas: 13:31
+Process 29407 przeszedl przez bramke 0
+Czas: 13:50
+Process 29407 przeszedl przez bramke 0
+Czas: 14:05
+Process 29407 przeszedl przez bramke 0
+Czas: 14:20
+Process 29407 przeszedl przez bramke 0
+Czas: 14:36
+Process 29407 przeszedl przez bramke 0
+Czas: 14:53
+Process 29407 przeszedl przez bramke 0
+Czas: 15:09
+Process 29407 przeszedl przez bramke 0
+Czas: 15:26
+Process 29407 przeszedl przez bramke 0
+Czas: 15:31
+Process 29407 przeszedl przez bramke 0
+Czas: 15:33
+Process 29407 przeszedl przez bramke 0
+Czas: 15:48
+Process 29407 przeszedl przez bramke 0
+Czas: 16:05
+Process 29407 przeszedl przez bramke 0
+Czas: 16:23
+Process 29407 przeszedl przez bramke 0
+Czas: 16:40
+Process 29407 przeszedl przez bramke 0
+Czas: 16:57
+Process 29407 przeszedl przez bramke 0
+Czas: 09:40
+Process 29413 przeszedl przez bramke 1
+Czas: 11:21
+Process 29413 przeszedl przez bramke 1
+Czas: 12:05
+Process 29413 przeszedl przez bramke 3
+Czas: 12:27
+Process 29413 przeszedl przez bramke 3
+Czas: 08:48
+Process 29381 przeszedl przez bramke 0
+Czas: 09:16
+Process 29381 przeszedl przez bramke 0
+Czas: 09:42
+Process 29381 przeszedl przez bramke 0
+Czas: 10:04
+Process 29381 przeszedl przez bramke 0
+Czas: 10:29
+Process 29381 przeszedl przez bramke 0
+Czas: 10:54
+Process 29381 przeszedl przez bramke 0
+Czas: 11:16
+Process 29381 przeszedl przez bramke 0
+Czas: 11:37
+Process 29381 przeszedl przez bramke 0
+Czas: 12:00
+Process 29381 przeszedl przez bramke 0
+Czas: 12:23
+Process 29381 przeszedl przez bramke 0
+Czas: 12:47
+Process 29381 przeszedl przez bramke 0
+Czas: 13:08
+Process 29381 przeszedl przez bramke 0
+Czas: 13:25
+Process 29381 przeszedl przez bramke 0
+Czas: 13:44
+Process 29381 przeszedl przez bramke 0
+Czas: 14:01
+Process 29381 przeszedl przez bramke 0
+Czas: 14:18
+Process 29381 przeszedl przez bramke 0
+Czas: 14:34
+Process 29381 przeszedl przez bramke 0
+Czas: 14:36
+Process 29381 przeszedl przez bramke 0
+Czas: 14:53
+Process 29381 przeszedl przez bramke 0
+Czas: 15:09
+Process 29381 przeszedl przez bramke 0
+Czas: 15:24
+Process 29381 przeszedl przez bramke 0
+Czas: 15:41
+Process 29381 przeszedl przez bramke 0
+Czas: 15:58
+Process 29381 przeszedl przez bramke 0
+Czas: 16:14
+Process 29381 przeszedl przez bramke 0
+Czas: 16:30
+Process 29381 przeszedl przez bramke 0
+Czas: 16:46
+Process 29381 przeszedl przez bramke 0
+Czas: 12:56
+Process 29466 przeszedl przez bramke 2
+Czas: 13:16
+Process 29466 przeszedl przez bramke 3
+Czas: 08:23
+Process 29337 przeszedl przez bramke 1
+Czas: 08:49
+Process 29337 przeszedl przez bramke 3
+Czas: 09:33
+Process 29337 przeszedl przez bramke 3
+Czas: 11:11
+Process 29337 przeszedl przez bramke 1
+Czas: 10:22
+Process 29473 przeszedl przez bramke 3
+Czas: 12:39
+Process 29473 przeszedl przez bramke 1
+Czas: 09:11
+Process 29404 przeszedl przez bramke 3
+Czas: 10:08
+Process 29404 przeszedl przez bramke 3
+Czas: 09:47
+Process 29419 przeszedl przez bramke 1
+Czas: 11:31
+Process 29419 przeszedl przez bramke 1
+Czas: 12:01
+Process 29419 przeszedl przez bramke 3
+Czas: 09:30
+Process 29379 przeszedl przez bramke 2
+Czas: 13:25
+Process 29379 przeszedl przez bramke 2
+Czas: 13:43
+Process 29379 przeszedl przez bramke 3
+Czas: 13:59
+Process 29379 przeszedl przez bramke 3
+Czas: 14:16
+Process 29379 przeszedl przez bramke 3
+Czas: 14:33
+Process 29379 przeszedl przez bramke 3
+Czas: 10:52
+Process 29496 przeszedl przez bramke 3
+Czas: 13:13
+Process 29496 przeszedl przez bramke 1
+Czas: 10:56
+Process 29469 przeszedl przez bramke 1
+Czas: 08:25
+Process 29339 przeszedl przez bramke 2
+z dzieckiem
+Czas: 09:51
+Process 29339 przeszedl przez bramke 1
+z dzieckiem
+Czas: 11:22
+Process 29339 przeszedl przez bramke 3
+z dzieckiem
+Czas: 09:16
+Process 29428 przeszedl przez bramke 0
+Czas: 09:45
+Process 29428 przeszedl przez bramke 0
+Czas: 10:11
+Process 29428 przeszedl przez bramke 0
+Czas: 10:36
+Process 29428 przeszedl przez bramke 0
+Czas: 10:59
+Process 29428 przeszedl przez bramke 0
+Czas: 11:24
+Process 29428 przeszedl przez bramke 0
+Czas: 11:47
+Process 29428 przeszedl przez bramke 0
+Czas: 12:09
+Process 29428 przeszedl przez bramke 0
+Czas: 12:32
+Process 29428 przeszedl przez bramke 0
+Czas: 12:55
+Process 29428 przeszedl przez bramke 0
+Czas: 13:15
+Process 29428 przeszedl przez bramke 0
+Czas: 13:32
+Process 29428 przeszedl przez bramke 0
+Czas: 13:50
+Process 29428 przeszedl przez bramke 0
+Czas: 15:44
+Process 29428 przeszedl przez bramke 0
+Czas: 15:46
+Process 29428 przeszedl przez bramke 0
+Czas: 15:47
+Process 29428 przeszedl przez bramke 0
+Czas: 16:05
+Process 29428 przeszedl przez bramke 0
+Czas: 16:22
+Process 29428 przeszedl przez bramke 0
+Czas: 16:38
+Process 29428 przeszedl przez bramke 0
+Czas: 16:53
+Process 29428 przeszedl przez bramke 0
+Czas: 09:03
+Process 29378 przeszedl przez bramke 1
+Czas: 10:01
+Process 29378 przeszedl przez bramke 3
+Czas: 09:28
+Process 29377 przeszedl przez bramke 2
+Czas: 13:13
+Process 29377 przeszedl przez bramke 2
+Czas: 08:27
+Process 29345 przeszedl przez bramke 1
+Czas: 09:01
+Process 29345 przeszedl przez bramke 3
+Czas: 09:57
+Process 29345 przeszedl przez bramke 3
+Czas: 13:17
+Process 29477 przeszedl przez bramke 2
+Czas: 08:52
+Process 29376 przeszedl przez bramke 3
+Czas: 11:15
+Process 29376 przeszedl przez bramke 2
+Czas: 11:58
+Process 29376 przeszedl przez bramke 3
+Czas: 12:22
+Process 29376 przeszedl przez bramke 3
+Czas: 12:44
+Process 29376 przeszedl przez bramke 3
+Czas: 13:04
+Process 29376 przeszedl przez bramke 3
+Czas: 09:34
+Process 29433 przeszedl przez bramke 3
+Czas: 11:11
+Process 29433 przeszedl przez bramke 1
+Czas: 13:37
+Process 29433 przeszedl przez bramke 1
+Czas: 08:53
+Process 29373 przeszedl przez bramke 1
+Czas: 11:21
+Process 29373 przeszedl przez bramke 2
+Czas: 12:05
+Process 29373 przeszedl przez bramke 3
+Czas: 10:32
+Process 29482 przeszedl przez bramke 3
+Czas: 13:27
+Process 29481 przeszedl przez bramke 2
+Czas: 08:39
+Process 29351 przeszedl przez bramke 2
+Czas: 10:47
+Process 29351 przeszedl przez bramke 2
+Czas: 11:40
+Process 29351 przeszedl przez bramke 3
+Czas: 12:13
+Process 29351 przeszedl przez bramke 3
+Czas: 08:55
+Process 29374 przeszedl przez bramke 1
+Czas: 09:43
+Process 29374 przeszedl przez bramke 3
+Czas: 09:40
+Process 29436 przeszedl przez bramke 3
+Czas: 11:18
+Process 29436 przeszedl przez bramke 1
+Czas: 08:52
+Process 29357 przeszedl przez bramke 2
+Czas: 09:41
+Process 29357 przeszedl przez bramke 3
+Czas: 10:46
+Process 29357 przeszedl przez bramke 3
+Czas: 11:05
+Process 29474 przeszedl przez bramke 1
+Czas: 11:53
+Process 29474 przeszedl przez bramke 3
+Czas: 09:13
+Process 29369 przeszedl przez bramke 2
+Czas: 10:37
+Process 29369 przeszedl przez bramke 1
+Czas: 11:15
+Process 29484 przeszedl przez bramke 1
+Czas: 11:59
+Process 29484 przeszedl przez bramke 3
+Czas: 08:49
+Process 29371 przeszedl przez bramke 3
+Czas: 11:08
+Process 29371 przeszedl przez bramke 2
+Czas: 13:31
+Process 29371 przeszedl przez bramke 1
+Czas: 08:48
+Process 29361 przeszedl przez bramke 1
+Czas: 10:03
+Process 29361 przeszedl przez bramke 1
+Czas: 11:05
+Process 29361 przeszedl przez bramke 3
+Czas: 13:29
+Process 29361 przeszedl przez bramke 1
+Czas: 10:44
+Process 29490 przeszedl przez bramke 3
+Czas: 11:36
+Process 29490 przeszedl przez bramke 3
+Czas: 10:19
+Process 29439 przeszedl przez bramke 1
+Czas: 11:17
+Process 29439 przeszedl przez bramke 3
+Czas: 13:40
+Process 29439 przeszedl przez bramke 1
+Czas: 08:46
+Process 29367 przeszedl przez bramke 3
+Czas: 11:02
+Process 29367 przeszedl przez bramke 2
+Czas: 09:16
+Process 29370 przeszedl przez bramke 2
+Czas: 10:14
+Process 29370 przeszedl przez bramke 3
+Czas: 10:05
+Process 29491 przeszedl przez bramke 0
+Czas: 10:29
+Process 29491 przeszedl przez bramke 0
+Czas: 10:54
+Process 29491 przeszedl przez bramke 0
+Czas: 11:18
+Process 29491 przeszedl przez bramke 0
+Czas: 11:40
+Process 29491 przeszedl przez bramke 0
+Czas: 12:03
+Process 29491 przeszedl przez bramke 0
+Czas: 12:25
+Process 29491 przeszedl przez bramke 0
+Czas: 12:35
+Process 29491 przeszedl przez bramke 0
+Czas: 12:59
+Process 29491 przeszedl przez bramke 0
+Czas: 13:16
+Process 29491 przeszedl przez bramke 0
+Czas: 13:34
+Process 29491 przeszedl przez bramke 0
+Czas: 13:38
+Process 29491 przeszedl przez bramke 0
+Czas: 13:56
+Process 29491 przeszedl przez bramke 0
+Czas: 15:49
+Process 29491 przeszedl przez bramke 0
+Czas: 16:05
+Process 29491 przeszedl przez bramke 0
+Czas: 16:23
+Process 29491 przeszedl przez bramke 0
+Czas: 16:39
+Process 29491 przeszedl przez bramke 0
+Czas: 16:55
+Process 29491 przeszedl przez bramke 0
+Czas: 08:37
+Process 29360 przeszedl przez bramke 3
+Czas: 09:37
+Process 29360 przeszedl przez bramke 1
+Czas: 09:05
+Process 29365 przeszedl przez bramke 2
+Czas: 12:15
+Process 29365 przeszedl przez bramke 2
+Czas: 09:44
+Process 29441 przeszedl przez bramke 3
+Czas: 10:52
+Process 29441 przeszedl przez bramke 3
+Czas: 11:41
+Process 29441 przeszedl przez bramke 3
+Czas: 12:15
+Process 29441 przeszedl przez bramke 3
+Czas: 12:37
+Process 29441 przeszedl przez bramke 3
+Czas: 10:38
+Process 29486 przeszedl przez bramke 3
+Czas: 12:45
+Process 29486 przeszedl przez bramke 1
+Czas: 12:54
+Process 29486 przeszedl przez bramke 3
+Czas: 11:25
+Process 29494 przeszedl przez bramke 1
+Czas: 12:08
+Process 29494 przeszedl przez bramke 3
+Czas: 12:34
+Process 29494 przeszedl przez bramke 3
+Czas: 11:18
+Process 29487 przeszedl przez bramke 1
+Czas: 13:44
+Process 29487 przeszedl przez bramke 1
+Czas: 08:43
+Process 29353 przeszedl przez bramke 2
+Czas: 09:55
+Process 29353 przeszedl przez bramke 1
+Czas: 11:39
+Process 29353 przeszedl przez bramke 1
+Czas: 08:58
+Process 29363 przeszedl przez bramke 2
+Czas: 09:50
+Process 29363 przeszedl przez bramke 3
+Czas: 11:32
+Process 29363 przeszedl przez bramke 1
+Czas: 09:57
+Process 29447 przeszedl przez bramke 3
+Czas: 11:02
+Process 29447 przeszedl przez bramke 3
+Czas: 13:22
+Process 29447 przeszedl przez bramke 1
+Czas: 13:40
+Process 29447 przeszedl przez bramke 3
+Czas: 10:49
+Process 29495 przeszedl przez bramke 3
+Czas: 13:09
+Process 29495 przeszedl przez bramke 1
+Czas: 10:25
+Process 29475 przeszedl przez bramke 3
+Czas: 11:12
+Process 29475 przeszedl przez bramke 3
+Czas: 13:39
+Process 29475 przeszedl przez bramke 1
+Czas: 10:41
+Process 29488 przeszedl przez bramke 3
+Czas: 12:57
+Process 29488 przeszedl przez bramke 1
+Czas: 13:17
+Process 29488 przeszedl przez bramke 3
+Czas: 13:36
+Process 29488 przeszedl przez bramke 3
+Czas: 08:29
+Process 29347 przeszedl przez bramke 3
+Czas: 09:04
+Process 29347 przeszedl przez bramke 3
+Czas: 10:28
+Process 29347 przeszedl przez bramke 1
+Czas: 08:36
+Process 29359 przeszedl przez bramke 3
+Czas: 09:30
+Process 29359 przeszedl przez bramke 1
+Czas: 10:25
+Process 29359 przeszedl przez bramke 3
+Czas: 11:20
+Process 29359 przeszedl przez bramke 3
+Czas: 12:01
+Process 29359 przeszedl przez bramke 3
+Czas: 12:02
+Process 29450 przeszedl przez bramke 2
+Czas: 12:24
+Process 29450 przeszedl przez bramke 3
+Czas: 11:35
+Process 29498 przeszedl przez bramke 1
+Czas: 10:57
+Process 29471 przeszedl przez bramke 1
+Czas: 13:17
+Process 29471 przeszedl przez bramke 1
+Czas: 13:34
+Process 29471 przeszedl przez bramke 3
+Czas: 08:46
+Process 29355 przeszedl przez bramke 2
+Czas: 09:59
+Process 29355 przeszedl przez bramke 1
+Czas: 11:50
+Process 29355 przeszedl przez bramke 1
+Czas: 08:27
+Process 29343 przeszedl przez bramke 1
+z dzieckiem
+Czas: 10:04
+Process 29343 przeszedl przez bramke 1
+z dzieckiem
+Czas: 12:27
+Process 29453 przeszedl przez bramke 2
+Czas: 12:50
+Process 29453 przeszedl przez bramke 3
+Czas: 13:08
+Process 29470 przeszedl przez bramke 2
+Czas: 13:26
+Process 29470 przeszedl przez bramke 3
+Czas: 08:39
+Process 29348 przeszedl przez bramke 2
+z dzieckiem
+Czas: 09:31
+Process 29348 przeszedl przez bramke 3
+z dzieckiem
+Czas: 08:26
+Process 29342 przeszedl przez bramke 1
+Czas: 09:43
+Process 29342 przeszedl przez bramke 2
+Czas: 11:24
+Process 29342 przeszedl przez bramke 1
+Czas: 08:21
+Process 29331 przeszedl przez bramke 2
+z dzieckiem
+Czas: 11:36
+Process 29331 przeszedl przez bramke 2
+z dzieckiem
+Czas: 12:41
+Process 29457 przeszedl przez bramke 2
+Czas: 13:03
+Process 29457 przeszedl przez bramke 3
+Czas: 10:30
+Process 29454 przeszedl przez bramke 1
+Czas: 08:31
+Process 29350 przeszedl przez bramke 3
+Czas: 10:08
+Process 29350 przeszedl przez bramke 2
+Czas: 08:24
+Process 29338 przeszedl przez bramke 3
+Czas: 08:53
+Process 29338 przeszedl przez bramke 3
+Czas: 10:18
+Process 29338 przeszedl przez bramke 1
+Czas: 12:32
+Process 29338 przeszedl przez bramke 1
+Czas: 12:06
+Process 29455 przeszedl przez bramke 1
+z dzieckiem
+Czas: 12:35
+Process 29456 przeszedl przez bramke 2
+Czas: 10:35
+Process 29485 przeszedl przez bramke 3
+Czas: 11:27
+Process 29485 przeszedl przez bramke 3
+Czas: 08:36
+Process 29352 przeszedl przez bramke 1
+Czas: 09:12
+Process 29352 przeszedl przez bramke 3
+Czas: 12:47
+Process 29352 przeszedl przez bramke 2
+Czas: 09:23
+Process 29421 przeszedl przez bramke 3
+Czas: 11:00
+Process 29421 przeszedl przez bramke 1
+Czas: 13:23
+Process 29421 przeszedl przez bramke 1
+Czas: 08:21
+Process 29333 przeszedl przez bramke 0
+Czas: 08:41
+Process 29333 przeszedl przez bramke 0
+Czas: 09:09
+Process 29333 przeszedl przez bramke 0
+Czas: 09:38
+Process 29333 przeszedl przez bramke 0
+Czas: 10:02
+Process 29333 przeszedl przez bramke 0
+Czas: 10:23
+Process 29333 przeszedl przez bramke 0
+Czas: 10:34
+Process 29333 przeszedl przez bramke 0
+Czas: 10:59
+Process 29333 przeszedl przez bramke 0
+Czas: 11:22
+Process 29333 przeszedl przez bramke 0
+Czas: 11:43
+Process 29333 przeszedl przez bramke 0
+Czas: 12:06
+Process 29333 przeszedl przez bramke 0
+Czas: 12:32
+Process 29333 przeszedl przez bramke 0
+Czas: 12:54
+Process 29333 przeszedl przez bramke 0
+Czas: 13:13
+Process 29333 przeszedl przez bramke 0
+Czas: 13:31
+Process 29333 przeszedl przez bramke 0
+Czas: 13:47
+Process 29333 przeszedl przez bramke 0
+Czas: 14:04
+Process 29333 przeszedl przez bramke 0
+Czas: 14:20
+Process 29333 przeszedl przez bramke 0
+Czas: 16:12
+Process 29333 przeszedl przez bramke 0
+Czas: 16:28
+Process 29333 przeszedl przez bramke 0
+Czas: 16:45
+Process 29333 przeszedl przez bramke 0
+Czas: 10:55
+Process 29420 przeszedl przez bramke 2
+Czas: 13:14
+Process 29420 przeszedl przez bramke 1
+Czas: 11:24
+Process 29493 przeszedl przez bramke 1
+Czas: 11:22
+Process 29437 przeszedl przez bramke 2
+Czas: 08:20
+Process 29330 przeszedl przez bramke 1
+Czas: 08:42
+Process 29330 przeszedl przez bramke 3
+Czas: 10:53
+Process 29330 przeszedl przez bramke 2
+Czas: 11:44
+Process 29330 przeszedl przez bramke 3
+Czas: 12:18
+Process 29330 przeszedl przez bramke 3
+Czas: 12:37
+Process 29330 przeszedl przez bramke 3
+Czas: 10:15
+Process 29438 przeszedl przez bramke 1
+Czas: 12:26
+Process 29438 przeszedl przez bramke 1
+Czas: 09:59
+Process 29397 przeszedl przez bramke 2
+Czas: 11:03
+Process 29397 przeszedl przez bramke 3
+Czas: 13:24
+Process 29397 przeszedl przez bramke 1
+Czas: 10:16
+Process 29463 przeszedl przez bramke 3
+Czas: 09:45
+Process 29432 przeszedl przez bramke 3
+Czas: 11:32
+Process 29432 przeszedl przez bramke 1
+Czas: 08:19
+Process 29328 przeszedl przez bramke 2
+Czas: 08:56
+Process 29328 przeszedl przez bramke 2
+Czas: 10:15
+Process 29328 przeszedl przez bramke 1
+Czas: 12:19
+Process 29328 przeszedl przez bramke 1
+Czas: 11:41
+Process 29444 przeszedl przez bramke 2
+Czas: 13:23
+Process 29394 przeszedl przez bramke 2
+z dzieckiem
+Czas: 12:53
+Process 29462 przeszedl przez bramke 2
+Czas: 09:52
+Process 29423 przeszedl przez bramke 1
+Czas: 11:17
+Process 29423 przeszedl przez bramke 1
+Czas: 13:43
+Process 29423 przeszedl przez bramke 1
+Czas: 11:48
+Process 29446 przeszedl przez bramke 2
+Czas: 08:18
+Process 29327 przeszedl przez bramke 3
+z dzieckiem
+Czas: 08:45
+Process 29327 przeszedl przez bramke 3
+z dzieckiem
+Czas: 09:51
+Process 29327 przeszedl przez bramke 3
+z dzieckiem
+Czas: 13:41
+Process 29327 przeszedl przez bramke 1
+z dzieckiem
+Czas: 10:09
+Process 29459 przeszedl przez bramke 3
+Czas: 12:14
+Process 29459 przeszedl przez bramke 1
+Czas: 08:58
+Process 29389 przeszedl przez bramke 3
+Czas: 11:28
+Process 29389 przeszedl przez bramke 2
+Czas: 09:04
+Process 29383 przeszedl przez bramke 1
+Czas: 12:08
+Process 29383 przeszedl przez bramke 2
+Czas: 08:18
+Process 29326 przeszedl przez bramke 3
+Czas: 08:42
+Process 29326 przeszedl przez bramke 1
+Czas: 10:47
+Process 29326 przeszedl przez bramke 2
+Czas: 11:40
+Process 29326 przeszedl przez bramke 3
+Czas: 12:16
+Process 29326 przeszedl przez bramke 3
+Czas: 09:19
+Process 29372 przeszedl przez bramke 2
+Czas: 13:00
+Process 29372 przeszedl przez bramke 2
