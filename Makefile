@@ -1,35 +1,23 @@
-# Makefile
-
-# Kompilatory i flagi
 CC = gcc
-CFLAGS = -Wall -g
+SRCS = kasjer.c narciarz.c pracownik.c
+TARGETS = kasjer narciarz pracownik
 
-# Pliki źródłowe
-SRC_NARCIARZ = narciarz.c
-SRC_PRACOWNIK = pracownik.c
-SRC_KASJER = kasjer.c
+all: $(TARGETS)
 
-# Pliki wykonywalne
-BIN_NARCIARZ = narciarz
-BIN_PRACOWNIK = pracownik
-BIN_KASJER = kasjer
+narciarz:
+	$(CC) narciarz.c -o narciarz
 
-# Cele
-all: $(BIN_NARCIARZ) $(BIN_PRACOWNIK) $(BIN_KASJER) run_kasjer
+pracownik:
+	$(CC) pracownik.c -o pracownik
 
-$(BIN_NARCIARZ): $(SRC_NARCIARZ)
-	$(CC) $(CFLAGS) -o $@ $<
+kasjer:
+	$(CC) kasjer.c -o kasjer
 
-$(BIN_PRACOWNIK): $(SRC_PRACOWNIK)
-	$(CC) $(CFLAGS) -o $@ $<
-
-$(BIN_KASJER): $(SRC_KASJER)
-	$(CC) $(CFLAGS) -o $@ $<
-
-run_kasjer: $(BIN_KASJER)
-	./$(BIN_KASJER)
+run: kasjer
+	./kasjer
 
 clean:
-	rm -f $(BIN_NARCIARZ) $(BIN_PRACOWNIK) $(BIN_KASJER)
+	rm -f $(TARGETS)
 
-.PHONY: all clean run_kasjer
+# Zawsze wykonuj kompilację
+.PHONY: all kasjer narciarz pracownik clean

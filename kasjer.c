@@ -11,13 +11,14 @@
 
 int semID1; //ID semafora do bramek
 int shmID1, semID2, semID3;  //ID kolejki kom., pamieci dzielonej
-int shmID2,semID4, semID5; // ID numeru krzesla
+int shmID2,semID4, semID5, semID6; // ID numeru krzesla
 
 pid_t ski_pid[P];
 pid_t pracownik_pid;
 
 // Funkcja obsługi sygnału SIGTERM
 void handle_sigterm(int signum) {
+    reset_color();
     //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
     if (semctl(semID1, 0, IPC_RMID) == -1) {
         perror("Blad semctl (main semID1)");
@@ -54,6 +55,7 @@ void handle_sigterm(int signum) {
 
 // Funkcja obsługi sygnału SIGINT
 void handle_sigint(int signum) {
+    reset_color();
     //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
     if (semctl(semID1, 0, IPC_RMID) == -1) {
         perror("Blad semctl (main semID1)");
@@ -88,11 +90,6 @@ void handle_sigint(int signum) {
     exit(0);
 }
 
-// Funkcja obsługi sygnału SIGINT
-void handle_sigstop(int signum) {
-    printf("Otrzymano sygnał SIGSTOP, zakończenie programu\n");
-    exit(0);
-}
 
 // Start procesu Pracownika
 pid_t spawnPracownik()
@@ -165,12 +162,13 @@ void init_time(long poczatek, long koniec){
         gettimeofday(&systemTime, NULL);
     }
 
+    reset_color();
     // Zakonczenie symulacji
     waitpid(pracownik_pid, NULL, 0);
     for (int i = 0; i < P; i++) {
         kill(ski_pid[i], SIGTERM);
     }
-    void reset_color();
+    
     gettimeofday(&systemTime,NULL);
     printf("Koniec symulacji\n");
     wyswietl_czas(STRT,systemTime.tv_usec/MINUTA);
@@ -317,6 +315,7 @@ void init_numer() {
         perror("Blad semctl (main semID4)");
         exit(1);
     }
+
 }
 
 // Funkcja zwalniajaca zasoby
@@ -363,7 +362,6 @@ int main(){
     // Ustawienie obsługi sygnału
     signal(SIGTERM, handle_sigterm);
     signal(SIGINT, handle_sigint);
-    signal(SIGSTOP, handle_sigstop);
     
     // Semafory do bramek
     init_bramki();

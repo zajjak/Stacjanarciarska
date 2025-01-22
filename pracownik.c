@@ -83,13 +83,22 @@ int main() {
     }
     semID4 = alokujSemafor(klucz4, 1, IPC_CREAT | 0666);
 
+    key_t klucz5;
+    int semID5;
+    if ( (klucz5 = ftok(".", 'G')) == -1 )
+    {
+        printf("Blad ftok (G)\n");
+        exit(2);
+    }
+    semID5 = alokujSemafor(klucz5, 1, IPC_CREAT | 0666);
+
     // ================= Poczatek czasu symulacji ========================
     gettimeofday(&systemTime, NULL);
     set_color("\033[32m"); // Zielony
     printf("Start of kolej simulation\n");
     wyswietl_czas(STRT, systemTime.tv_usec/MINUTA);
     long Tk =DURATION*MINUTA; // czas zamykania
-    long timeNow = systemTime.tv_usec/MINUTA;
+    //long timeNow = systemTime.tv_usec/MINUTA;
 
     // ==================== Proces potomny dojazdy/gorna stacja ====================
     pid_t gornaStacja;
@@ -100,11 +109,13 @@ int main() {
         while(1){
             gettimeofday(&systemTime,NULL);
             if(systemTime.tv_usec>=chairs[i].timeTop){
+                signalSemafor(semID5,0);
                 set_color("\033[32m"); // Zielony
-                printf("Chair %d arrived, people are disembarking[%d]\n", i,chairs[i].count);
+                // printf("Chair %d arrived, people are disembarking[%d]\n", i,chairs[i].count);
                 semctl(semID3, i, SETVAL, chairs[i].count); // Odblokowanie sem
                 for (int j = 0; j < chairs[i].count; j++) {
-                    // printf("Process %d disembarked from chair %d\n", chairs[i].pids[j], i);
+                    set_color("\033[32m");
+                    //printf("Process %ld disembarked from chair %d\n", chairs[i].pids[j], i);
                     chairs[i].pids[j] = 0;  // Usunięcie procesu z krzesełka
                 }
                 chairs[i].count = 0;  // Resetowanie licznika po wysiadaniu
@@ -122,8 +133,9 @@ int main() {
     // ======================= Odjazdy/dolna stacja ==========================
     while (systemTime.tv_usec < Tk+(15*MINUTA)) {
         for (int i = 0; i < NUM_CHAIRS; i++) {
+            waitSemafor(semID5,0,0);
             gettimeofday(&systemTime, NULL);
-            timeNow = systemTime.tv_usec/MINUTA;
+            //timeNow = systemTime.tv_usec/MINUTA;
 
             sharedNum->current_chair=i;
             usleep(SEKUNDA*30);
@@ -180,5 +192,7 @@ int main() {
     // ================== Koniec symulacji krzeselka =======================
     set_color("\033[32m"); // Zielony
     printf("End of kolej simulation\n");
+    gettimeofday(&systemTime,NULL);
+    wyswietl_czas(STRT,systemTime.tv_usec/MINUTA);
     return 0;
 }

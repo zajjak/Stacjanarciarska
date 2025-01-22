@@ -21,15 +21,15 @@
 #define MINUTA 1000 // czas jednej minuty w usleep
 #define SEKUNDA 17 // czas jednej sekundy w usleep
 #define STRT 480 // czas startu symulacji 00:00 + <STRT> minut
-#define DURATION 60 // Czas trwania symulacji w minutach
+#define DURATION 540 // Czas trwania symulacji w minutach
 
-#define P 50 // ilosc narciarzy
+#define P 200 // ilosc narciarzy
 #define SEAT_CAPACITY 3 // ilość miejsc na krześle
-#define NUM_CHAIRS 8 // ilość krzeselek
+#define NUM_CHAIRS 80 // ilość krzeselek
 
 // pamiec dzielona krzeselka
 struct Chair {
-    pid_t pids[SEAT_CAPACITY]; // pid na krzeselku
+    long pids[SEAT_CAPACITY]; // pid na krzeselku
     long timeTop; // czas o ktorym dotrze na gore
     int count; // liczba osob na krzeselku
 };
@@ -65,6 +65,7 @@ void reset_color() {
 
 // ===========================Działania semaforów===========================
 
+/*
 void sem_wait(int semid, int semnum) {
     struct sembuf op = {semnum, -1, 0};
     semop(semid, &op, 1);
@@ -74,6 +75,8 @@ void sem_signal(int semid, int semnum) {
     struct sembuf op = {semnum, 1, 0};
     semop(semid, &op, 1);
 }
+*/
+
 
 
 int alokujSemafor(key_t klucz, int number, int flagi)

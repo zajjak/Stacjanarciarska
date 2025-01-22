@@ -1,94 +1,1020 @@
-Czas: 08:01
-Process 12314 przeszedl przez bramke 1
-Czas: 08:02
-Process 12316 przeszedl przez bramke 2
-Czas: 08:12
-Process 12336 przeszedl przez bramke 2
-Czas: 08:02
-Process 12317 przeszedl przez bramke 2
-Czas: 08:03
-Process 12319 przeszedl przez bramke 3
-Czas: 08:03
-Process 12318 przeszedl przez bramke 3
-Czas: 08:04
-Process 12321 przeszedl przez bramke 2
-Czas: 08:04
-Process 12322 przeszedl przez bramke 3
-Czas: 08:04
-Process 12320 przeszedl przez bramke 1
-Czas: 08:05
-Process 12323 przeszedl przez bramke 1
-Czas: 08:06
-Process 12324 przeszedl przez bramke 1
-Czas: 08:12
-Process 12337 przeszedl przez bramke 2
-Czas: 08:07
-Process 12327 przeszedl przez bramke 1
-Czas: 08:08
-Process 12328 przeszedl przez bramke 0
-Czas: 08:07
-Process 12326 przeszedl przez bramke 3
-Czas: 08:08
-Process 12329 przeszedl przez bramke 1
-Czas: 08:06
-Process 12325 przeszedl przez bramke 1
-z dzieckiem
-Czas: 08:09
-Process 12330 przeszedl przez bramke 1
-Czas: 08:10
-Process 12332 przeszedl przez bramke 1
-Czas: 08:10
-Process 12331 przeszedl przez bramke 1
-Czas: 08:10
-Process 12333 przeszedl przez bramke 3
-Czas: 08:11
-Process 12334 przeszedl przez bramke 3
-Czas: 08:11
-Process 12335 przeszedl przez bramke 2
 Czas: 08:13
-Process 12338 przeszedl przez bramke 1
-Czas: 08:14
-Process 12339 przeszedl przez bramke 2
-Czas: 08:17
-Process 12347 przeszedl przez bramke 2
+Process 19405 przeszedl przez bramke 3
+Czas: 08:41
+Process 19405 przeszedl przez bramke 2
+Czas: 08:12
+Process 19400 przeszedl przez bramke 3
+Czas: 08:42
+Process 19400 przeszedl przez bramke 2
 Czas: 08:16
-Process 12344 przeszedl przez bramke 3
-Czas: 08:15
-Process 12342 przeszedl przez bramke 1
-Czas: 08:15
-Process 12343 przeszedl przez bramke 2
+Process 19410 przeszedl przez bramke 1
+Czas: 08:47
+Process 19410 przeszedl przez bramke 3
+Czas: 08:02
+Process 19374 przeszedl przez bramke 1
 Czas: 08:18
-Process 12348 przeszedl przez bramke 1
-Czas: 08:18
-Process 12349 przeszedl przez bramke 3
+Process 19374 przeszedl przez bramke 3
+Czas: 09:02
+Process 19374 przeszedl przez bramke 2
+Czas: 08:11
+Process 19399 przeszedl przez bramke 0
+Czas: 08:31
+Process 19399 przeszedl przez bramke 0
+Czas: 09:01
+Process 19399 przeszedl przez bramke 0
+Czas: 09:04
+Process 19455 przeszedl przez bramke 1
+Czas: 08:01
+Process 19370 przeszedl przez bramke 3
 Czas: 08:19
-Process 12351 przeszedl przez bramke 1
-Czas: 08:16
-Process 12345 przeszedl przez bramke 2
-Czas: 08:19
-Process 12350 przeszedl przez bramke 1
-Czas: 08:14
-Process 12340 przeszedl przez bramke 1
-z dzieckiem
-Czas: 08:20
-Process 12352 przeszedl przez bramke 3
-Czas: 08:20
-Process 12353 przeszedl przez bramke 1
+Process 19370 przeszedl przez bramke 2
+Czas: 09:04
+Process 19370 przeszedl przez bramke 3
 Czas: 08:21
-Process 12355 przeszedl przez bramke 1
-Czas: 08:24
-Process 12357 przeszedl przez bramke 3
+Process 19423 przeszedl przez bramke 2
+Czas: 09:08
+Process 19423 przeszedl przez bramke 3
+Czas: 09:08
+Process 19458 przeszedl przez bramke 1
+Czas: 08:40
+Process 19473 przeszedl przez bramke 0
+Czas: 09:15
+Process 19473 przeszedl przez bramke 0
+Czas: 08:22
+Process 19426 przeszedl przez bramke 2
+Czas: 09:18
+Process 19426 przeszedl przez bramke 3
+Czas: 09:24
+Process 19492 przeszedl przez bramke 2
 Czas: 08:23
-Process 12358 przeszedl przez bramke 2
-Czas: 08:25
-Process 12361 przeszedl przez bramke 3
-Czas: 08:24
-Process 12362 przeszedl przez bramke 2
-Czas: 08:25
-Process 12363 przeszedl przez bramke 3
-Czas: 08:17
-Process 12346 przeszedl przez bramke 2
+Process 19422 przeszedl przez bramke 3
+Czas: 09:26
+Process 19422 przeszedl przez bramke 3
+Czas: 08:19
+Process 19417 przeszedl przez bramke 3
+Czas: 09:29
+Process 19417 przeszedl przez bramke 1
+Czas: 09:29
+Process 19501 przeszedl przez bramke 3
+Czas: 08:26
+Process 19431 przeszedl przez bramke 3
+Czas: 09:38
+Process 19431 przeszedl przez bramke 3
+Czas: 08:07
+Process 19387 przeszedl przez bramke 2
+Czas: 08:27
+Process 19387 przeszedl przez bramke 2
+Czas: 09:35
+Process 19387 przeszedl przez bramke 2
+Czas: 08:28
+Process 19434 przeszedl przez bramke 2
+Czas: 09:36
+Process 19434 przeszedl przez bramke 2
+Czas: 08:26
+Process 19430 przeszedl przez bramke 3
+Czas: 09:40
+Process 19430 przeszedl przez bramke 3
+Czas: 09:42
+Process 19510 przeszedl przez bramke 3
+Czas: 09:43
+Process 19516 przeszedl przez bramke 2
+Czas: 09:46
+Process 19524 przeszedl przez bramke 2
+Czas: 08:05
+Process 19380 przeszedl przez bramke 1
 Czas: 08:21
-Process 12354 przeszedl przez bramke 2
+Process 19380 przeszedl przez bramke 2
+Czas: 09:50
+Process 19380 przeszedl przez bramke 1
+Czas: 09:54
+Process 19532 przeszedl przez bramke 2
+Czas: 09:56
+Process 19533 przeszedl przez bramke 2
+Czas: 09:56
+Process 19530 przeszedl przez bramke 2
+Czas: 09:57
+Process 19522 przeszedl przez bramke 3
+Czas: 08:10
+Process 19395 przeszedl przez bramke 3
+Czas: 08:35
+Process 19395 przeszedl przez bramke 3
+Czas: 10:02
+Process 19395 przeszedl przez bramke 3
+Czas: 10:00
+Process 19523 przeszedl przez bramke 3
+Czas: 09:09
+Process 19535 przeszedl przez bramke 0
+Czas: 09:38
+Process 19535 przeszedl przez bramke 0
+Czas: 10:04
+Process 19535 przeszedl przez bramke 0
+Czas: 10:07
+Process 19526 przeszedl przez bramke 3
+Czas: 10:09
+Process 19508 przeszedl przez bramke 1
+Czas: 10:12
+Process 19558 przeszedl przez bramke 2
+Czas: 10:10
+Process 19538 przeszedl przez bramke 3
+Czas: 10:16
+Process 19513 przeszedl przez bramke 1
+Czas: 10:19
+Process 19518 przeszedl przez bramke 1
+Czas: 10:20
+Process 19562 przeszedl przez bramke 2
+Czas: 08:08
+Process 19389 przeszedl przez bramke 3
+Czas: 08:34
+Process 19389 przeszedl przez bramke 3
+Czas: 10:26
+Process 19389 przeszedl przez bramke 1
+Czas: 08:52
+Process 19471 przeszedl przez bramke 3
+Czas: 10:27
+Process 19471 przeszedl przez bramke 2
+Czas: 08:37
+Process 19442 przeszedl przez bramke 3
+Czas: 10:30
+Process 19442 przeszedl przez bramke 1
+Czas: 10:35
+Process 19548 przeszedl przez bramke 3
+Czas: 10:35
+Process 19570 przeszedl przez bramke 2
+Czas: 10:39
+Process 19543 przeszedl przez bramke 1
+Czas: 08:48
+Process 19467 przeszedl przez bramke 3
+Czas: 10:45
+Process 19467 przeszedl przez bramke 3
+Czas: 08:01
+Process 19371 przeszedl przez bramke 0
+Czas: 08:18
+Process 19371 przeszedl przez bramke 0
+Czas: 08:40
+Process 19371 przeszedl przez bramke 0
+Czas: 09:11
+Process 19371 przeszedl przez bramke 0
+Czas: 09:38
+Process 19371 przeszedl przez bramke 0
+Czas: 10:05
+Process 19371 przeszedl przez bramke 0
+Czas: 10:28
+Process 19371 przeszedl przez bramke 0
+Czas: 10:51
+Process 19371 przeszedl przez bramke 0
+Czas: 08:55
+Process 19469 przeszedl przez bramke 2
+Czas: 10:49
+Process 19469 przeszedl przez bramke 3
+Czas: 10:52
+Process 19557 przeszedl przez bramke 1
+Czas: 10:55
+Process 19581 przeszedl przez bramke 2
+Czas: 08:55
+Process 19453 przeszedl przez bramke 1
+Czas: 10:52
+Process 19453 przeszedl przez bramke 3
+Czas: 10:56
+Process 19575 przeszedl przez bramke 3
+Czas: 10:58
+Process 19561 przeszedl przez bramke 1
+Czas: 11:04
+Process 19566 przeszedl przez bramke 1
 Czas: 08:14
-Process 12341 przeszedl przez bramke 3
+Process 19408 przeszedl przez bramke 2
+Czas: 09:17
+Process 19408 przeszedl przez bramke 1
+Czas: 11:10
+Process 19408 przeszedl przez bramke 3
+Czas: 09:11
+Process 19478 przeszedl przez bramke 2
+Czas: 11:15
+Process 19478 przeszedl przez bramke 2
+Czas: 11:16
+Process 19571 przeszedl przez bramke 1
+Czas: 09:12
+Process 19493 przeszedl przez bramke 3
+Czas: 11:16
+Process 19493 przeszedl przez bramke 2
+Czas: 08:16
+Process 19412 przeszedl przez bramke 3
+Czas: 08:58
+Process 19412 przeszedl przez bramke 3
+Czas: 11:17
+Process 19412 przeszedl przez bramke 1
+Czas: 08:02
+Process 19373 przeszedl przez bramke 3
+Czas: 08:17
+Process 19373 przeszedl przez bramke 3
+Czas: 08:59
+Process 19373 przeszedl przez bramke 2
+Czas: 11:20
+Process 19373 przeszedl przez bramke 1
+Czas: 08:27
+Process 19437 przeszedl przez bramke 0
+Czas: 09:45
+Process 19437 przeszedl przez bramke 0
+Czas: 11:22
+Process 19437 przeszedl przez bramke 0
+Czas: 09:14
+Process 19487 przeszedl przez bramke 2
+Czas: 11:22
+Process 19487 przeszedl przez bramke 2
+Czas: 11:26
+Process 19582 przeszedl przez bramke 1
+Czas: 08:16
+Process 19411 przeszedl przez bramke 1
+Czas: 09:20
+Process 19411 przeszedl przez bramke 1
+Czas: 11:28
+Process 19411 przeszedl przez bramke 2
+Czas: 09:50
+Process 19491 przeszedl przez bramke 1
+Czas: 11:30
+Process 19491 przeszedl przez bramke 3
+Czas: 08:25
+Process 19433 przeszedl przez bramke 2
+Czas: 09:32
+Process 19433 przeszedl przez bramke 2
+Czas: 11:36
+Process 19433 przeszedl przez bramke 2
+Czas: 09:39
+Process 19483 przeszedl przez bramke 1
+Czas: 11:38
+Process 19483 przeszedl przez bramke 3
+Czas: 08:45
+Process 19456 przeszedl przez bramke 3
+Czas: 10:14
+Process 19456 przeszedl przez bramke 2
+Czas: 11:40
+Process 19456 przeszedl przez bramke 3
+Czas: 10:09
+Process 19505 przeszedl przez bramke 1
+Czas: 11:39
+Process 19505 przeszedl przez bramke 3
+Czas: 08:09
+Process 19394 przeszedl przez bramke 3
+Czas: 08:38
+Process 19394 przeszedl przez bramke 3
+Czas: 10:30
+Process 19394 przeszedl przez bramke 1
+Czas: 11:44
+Process 19394 przeszedl przez bramke 3
+Czas: 09:01
+Process 19517 przeszedl przez bramke 0
+Czas: 09:31
+Process 19517 przeszedl przez bramke 0
+Czas: 09:58
+Process 19517 przeszedl przez bramke 0
+Czas: 10:23
+Process 19517 przeszedl przez bramke 0
+Czas: 10:46
+Process 19517 przeszedl przez bramke 0
+Czas: 11:08
+Process 19517 przeszedl przez bramke 0
+Czas: 11:28
+Process 19517 przeszedl przez bramke 0
+Czas: 11:45
+Process 19517 przeszedl przez bramke 0
+Czas: 08:13
+Process 19404 przeszedl przez bramke 3
+Czas: 08:37
+Process 19404 przeszedl przez bramke 2
+Czas: 10:32
+Process 19404 przeszedl przez bramke 1
+Czas: 11:47
+Process 19404 przeszedl przez bramke 3
+Czas: 08:07
+Process 19385 przeszedl przez bramke 0
+Czas: 08:23
+Process 19385 przeszedl przez bramke 0
+Czas: 08:51
+Process 19385 przeszedl przez bramke 0
+Czas: 09:22
+Process 19385 przeszedl przez bramke 0
+Czas: 09:48
+Process 19385 przeszedl przez bramke 0
+Czas: 10:14
+Process 19385 przeszedl przez bramke 0
+Czas: 10:36
+Process 19385 przeszedl przez bramke 0
+Czas: 10:58
+Process 19385 przeszedl przez bramke 0
+Czas: 11:19
+Process 19385 przeszedl przez bramke 0
+Czas: 11:40
+Process 19385 przeszedl przez bramke 0
+Czas: 11:55
+Process 19385 przeszedl przez bramke 0
+Czas: 12:10
+Process 19385 przeszedl przez bramke 0
+Czas: 12:26
+Process 19385 przeszedl przez bramke 0
+Czas: 12:41
+Process 19385 przeszedl przez bramke 0
+Czas: 08:51
+Process 19498 przeszedl przez bramke 0
+Czas: 09:21
+Process 19498 przeszedl przez bramke 0
+Czas: 09:49
+Process 19498 przeszedl przez bramke 0
+Czas: 10:15
+Process 19498 przeszedl przez bramke 0
+Czas: 10:37
+Process 19498 przeszedl przez bramke 0
+Czas: 11:01
+Process 19498 przeszedl przez bramke 0
+Czas: 11:22
+Process 19498 przeszedl przez bramke 0
+Czas: 11:43
+Process 19498 przeszedl przez bramke 0
+Czas: 12:00
+Process 19498 przeszedl przez bramke 0
+Czas: 12:17
+Process 19498 przeszedl przez bramke 0
+Czas: 12:34
+Process 19498 przeszedl przez bramke 0
+Czas: 12:51
+Process 19498 przeszedl przez bramke 0
+Czas: 13:07
+Process 19498 przeszedl przez bramke 0
+Czas: 13:24
+Process 19498 przeszedl przez bramke 0
+Czas: 13:42
+Process 19498 przeszedl przez bramke 0
+Czas: 13:59
+Process 19498 przeszedl przez bramke 0
+Czas: 14:15
+Process 19498 przeszedl przez bramke 0
+Czas: 14:32
+Process 19498 przeszedl przez bramke 0
+Czas: 14:48
+Process 19498 przeszedl przez bramke 0
+Czas: 09:23
+Process 19564 przeszedl przez bramke 0
+Czas: 09:51
+Process 19564 przeszedl przez bramke 0
+Czas: 10:15
+Process 19564 przeszedl przez bramke 0
+Czas: 10:39
+Process 19564 przeszedl przez bramke 0
+Czas: 10:59
+Process 19564 przeszedl przez bramke 0
+Czas: 11:20
+Process 19564 przeszedl przez bramke 0
+Czas: 11:38
+Process 19564 przeszedl przez bramke 0
+Czas: 11:55
+Process 19564 przeszedl przez bramke 0
+Czas: 12:12
+Process 19564 przeszedl przez bramke 0
+Czas: 12:29
+Process 19564 przeszedl przez bramke 0
+Czas: 12:44
+Process 19564 przeszedl przez bramke 0
+Czas: 14:36
+Process 19564 przeszedl przez bramke 0
+Czas: 14:52
+Process 19564 przeszedl przez bramke 0
+Czas: 15:10
+Process 19564 przeszedl przez bramke 0
+Czas: 09:29
+Process 19578 przeszedl przez bramke 0
+Czas: 09:55
+Process 19578 przeszedl przez bramke 0
+Czas: 10:19
+Process 19578 przeszedl przez bramke 0
+Czas: 10:44
+Process 19578 przeszedl przez bramke 0
+Czas: 11:04
+Process 19578 przeszedl przez bramke 0
+Czas: 11:22
+Process 19578 przeszedl przez bramke 0
+Czas: 11:42
+Process 19578 przeszedl przez bramke 0
+Czas: 11:59
+Process 19578 przeszedl przez bramke 0
+Czas: 12:16
+Process 19578 przeszedl przez bramke 0
+Czas: 12:32
+Process 19578 przeszedl przez bramke 0
+Czas: 12:47
+Process 19578 przeszedl przez bramke 0
+Czas: 14:38
+Process 19578 przeszedl przez bramke 0
+Czas: 14:56
+Process 19578 przeszedl przez bramke 0
+Czas: 15:13
+Process 19578 przeszedl przez bramke 0
+Czas: 15:28
+Process 19578 przeszedl przez bramke 0
+Czas: 08:27
+Process 19441 przeszedl przez bramke 0
+Czas: 08:56
+Process 19441 przeszedl przez bramke 0
+Czas: 09:24
+Process 19441 przeszedl przez bramke 0
+Czas: 09:51
+Process 19441 przeszedl przez bramke 0
+Czas: 10:18
+Process 19441 przeszedl przez bramke 0
+Czas: 10:39
+Process 19441 przeszedl przez bramke 0
+Czas: 10:59
+Process 19441 przeszedl przez bramke 0
+Czas: 11:18
+Process 19441 przeszedl przez bramke 0
+Czas: 11:37
+Process 19441 przeszedl przez bramke 0
+Czas: 11:53
+Process 19441 przeszedl przez bramke 0
+Czas: 12:11
+Process 19441 przeszedl przez bramke 0
+Czas: 12:28
+Process 19441 przeszedl przez bramke 0
+Czas: 12:46
+Process 19441 przeszedl przez bramke 0
+Czas: 13:02
+Process 19441 przeszedl przez bramke 0
+Czas: 13:19
+Process 19441 przeszedl przez bramke 0
+Czas: 13:36
+Process 19441 przeszedl przez bramke 0
+Czas: 13:54
+Process 19441 przeszedl przez bramke 0
+Czas: 14:12
+Process 19441 przeszedl przez bramke 0
+Czas: 14:27
+Process 19441 przeszedl przez bramke 0
+Czas: 14:44
+Process 19441 przeszedl przez bramke 0
+Czas: 15:01
+Process 19441 przeszedl przez bramke 0
+Czas: 08:44
+Process 19486 przeszedl przez bramke 0
+Czas: 09:18
+Process 19486 przeszedl przez bramke 0
+Czas: 09:43
+Process 19486 przeszedl przez bramke 0
+Czas: 10:08
+Process 19486 przeszedl przez bramke 0
+Czas: 10:32
+Process 19486 przeszedl przez bramke 0
+Czas: 10:56
+Process 19486 przeszedl przez bramke 0
+Czas: 11:16
+Process 19486 przeszedl przez bramke 0
+Czas: 11:34
+Process 19486 przeszedl przez bramke 0
+Czas: 11:51
+Process 19486 przeszedl przez bramke 0
+Czas: 12:06
+Process 19486 przeszedl przez bramke 0
+Czas: 12:21
+Process 19486 przeszedl przez bramke 0
+Czas: 12:38
+Process 19486 przeszedl przez bramke 0
+Czas: 12:54
+Process 19486 przeszedl przez bramke 0
+Czas: 13:12
+Process 19486 przeszedl przez bramke 0
+Czas: 13:27
+Process 19486 przeszedl przez bramke 0
+Czas: 13:42
+Process 19486 przeszedl przez bramke 0
+Czas: 14:00
+Process 19486 przeszedl przez bramke 0
+Czas: 14:16
+Process 19486 przeszedl przez bramke 0
+Czas: 14:34
+Process 19486 przeszedl przez bramke 0
+Czas: 14:50
+Process 19486 przeszedl przez bramke 0
+Czas: 15:07
+Process 19486 przeszedl przez bramke 0
+Czas: 15:25
+Process 19486 przeszedl przez bramke 0
+Czas: 15:41
+Process 19486 przeszedl przez bramke 0
+Czas: 16:04
+Process 19486 przeszedl przez bramke 0
+Czas: 16:20
+Process 19486 przeszedl przez bramke 0
+Czas: 16:35
+Process 19486 przeszedl przez bramke 0
+Czas: 16:51
+Process 19486 przeszedl przez bramke 0
+Czas: 08:03
+Process 19375 przeszedl przez bramke 2
+Czas: 08:20
+Process 19375 przeszedl przez bramke 2
+Czas: 09:49
+Process 19375 przeszedl przez bramke 1
+Czas: 08:03
+Process 19376 przeszedl przez bramke 1
+Czas: 08:18
+Process 19376 przeszedl przez bramke 3
+Czas: 09:31
+Process 19376 przeszedl przez bramke 1
+Czas: 08:03
+Process 19377 przeszedl przez bramke 3
+Czas: 08:21
+Process 19377 przeszedl przez bramke 3
+Czas: 09:24
+Process 19377 przeszedl przez bramke 2
+Czas: 08:04
+Process 19378 przeszedl przez bramke 3
+Czas: 08:20
+Process 19378 przeszedl przez bramke 2
+Czas: 09:12
+Process 19378 przeszedl przez bramke 2
+Czas: 08:04
+Process 19379 przeszedl przez bramke 3
+Czas: 08:20
+Process 19379 przeszedl przez bramke 2
+Czas: 09:14
+Process 19379 przeszedl przez bramke 2
+Czas: 11:19
+Process 19379 przeszedl przez bramke 2
+Czas: 08:14
+Process 19407 przeszedl przez bramke 3
+Czas: 08:42
+Process 19407 przeszedl przez bramke 2
+Czas: 10:32
+Process 19407 przeszedl przez bramke 3
+Czas: 11:45
+Process 19407 przeszedl przez bramke 3
+Czas: 08:05
+Process 19382 przeszedl przez bramke 1
+Czas: 08:22
+Process 19382 przeszedl przez bramke 1
+Czas: 09:57
+Process 19382 przeszedl przez bramke 1
+Czas: 11:33
+Process 19382 przeszedl przez bramke 3
+Czas: 08:16
+Process 19413 przeszedl przez bramke 3
+Czas: 08:48
+Process 19413 przeszedl przez bramke 3
+Czas: 10:59
+Process 19413 przeszedl przez bramke 1
+Czas: 08:07
+Process 19386 przeszedl przez bramke 1
+Czas: 08:31
+Process 19386 przeszedl przez bramke 3
+Czas: 09:49
+Process 19386 przeszedl przez bramke 3
+Czas: 08:15
+Process 19409 przeszedl przez bramke 2
+Czas: 08:52
+Process 19409 przeszedl przez bramke 2
+Czas: 10:27
+Process 19409 przeszedl przez bramke 2
+Czas: 08:11
+Process 19398 przeszedl przez bramke 1
+Czas: 08:32
+Process 19398 przeszedl przez bramke 2
+Czas: 10:22
+Process 19398 przeszedl przez bramke 1
+Czas: 08:05
+Process 19381 przeszedl przez bramke 3
+Czas: 08:25
+Process 19381 przeszedl przez bramke 3
+Czas: 09:31
+Process 19381 przeszedl przez bramke 3
+Czas: 11:19
+Process 19381 przeszedl przez bramke 3
+Czas: 08:06
+Process 19383 przeszedl przez bramke 1
+Czas: 08:24
+Process 19383 przeszedl przez bramke 2
+Czas: 09:26
+Process 19383 przeszedl przez bramke 2
+Czas: 11:34
+Process 19383 przeszedl przez bramke 2
+Czas: 08:17
+Process 19414 przeszedl przez bramke 3
+Czas: 09:01
+Process 19414 przeszedl przez bramke 2
+Czas: 10:41
+Process 19414 przeszedl przez bramke 2
+Czas: 08:22
+Process 19425 przeszedl przez bramke 1
+Czas: 09:23
+Process 19425 przeszedl przez bramke 2
+Czas: 08:19
+Process 19418 przeszedl przez bramke 1
+Czas: 09:31
+Process 19418 przeszedl przez bramke 1
+Czas: 08:13
+Process 19403 przeszedl przez bramke 3
+Czas: 08:45
+Process 19403 przeszedl przez bramke 1
+Czas: 10:42
+Process 19403 przeszedl przez bramke 3
+Czas: 08:27
+Process 19435 przeszedl przez bramke 1
+Czas: 10:09
+Process 19435 przeszedl przez bramke 1
+Czas: 08:06
+Process 19384 przeszedl przez bramke 1
+Czas: 08:24
+Process 19384 przeszedl przez bramke 3
+Czas: 09:59
+Process 19384 przeszedl przez bramke 1
+Czas: 08:09
+Process 19390 przeszedl przez bramke 3
+Czas: 08:38
+Process 19390 przeszedl przez bramke 1
+Czas: 10:38
+Process 19390 przeszedl przez bramke 3
+Czas: 08:40
+Process 19447 przeszedl przez bramke 1
+Czas: 10:14
+Process 19447 przeszedl przez bramke 3
+Czas: 08:10
+Process 19396 przeszedl przez bramke 1
+Czas: 08:33
+Process 19396 przeszedl przez bramke 1
+Czas: 10:23
+Process 19396 przeszedl przez bramke 1
+Czas: 08:23
+Process 19428 przeszedl przez bramke 1
+Czas: 09:24
+Process 19428 przeszedl przez bramke 3
+Czas: 11:31
+Process 19428 przeszedl przez bramke 2
+Czas: 08:11
+Process 19397 przeszedl przez bramke 2
+Czas: 08:47
+Process 19397 przeszedl przez bramke 1
+Czas: 10:13
+Process 19397 przeszedl przez bramke 2
+Czas: 08:45
+Process 19463 przeszedl przez bramke 2
+Czas: 10:53
+Process 19463 przeszedl przez bramke 1
+Czas: 08:19
+Process 19419 przeszedl przez bramke 1
+Czas: 09:42
+Process 19419 przeszedl przez bramke 1
+Czas: 08:09
+Process 19391 przeszedl przez bramke 2
+Czas: 08:29
+Process 19391 przeszedl przez bramke 2
+Czas: 10:14
+Process 19391 przeszedl przez bramke 1
+Czas: 08:08
+Process 19388 przeszedl przez bramke 2
+Czas: 08:30
+Process 19388 przeszedl przez bramke 3
+Czas: 09:46
+Process 19388 przeszedl przez bramke 3
+Czas: 08:31
+Process 19438 przeszedl przez bramke 1
+Czas: 09:45
+Process 19438 przeszedl przez bramke 2
+Czas: 08:26
+Process 19429 przeszedl przez bramke 3
+Czas: 09:34
+Process 19429 przeszedl przez bramke 2
+Czas: 08:18
+Process 19416 przeszedl przez bramke 3
+Czas: 08:58
+Process 19416 przeszedl przez bramke 2
+Czas: 10:35
+Process 19416 przeszedl przez bramke 2
+Czas: 11:46
+Process 19416 przeszedl przez bramke 3
+Czas: 08:42
+Process 19461 przeszedl przez bramke 2
+Czas: 10:47
+Process 19461 przeszedl przez bramke 1
+Czas: 08:12
+Process 19401 przeszedl przez bramke 2
+Czas: 08:40
+Process 19401 przeszedl przez bramke 2
+Czas: 10:37
+Process 19401 przeszedl przez bramke 1
+Czas: 08:23
+Process 19424 przeszedl przez bramke 3
+Czas: 09:20
+Process 19424 przeszedl przez bramke 3
+Czas: 11:15
+Process 19424 przeszedl przez bramke 3
+Czas: 08:28
+Process 19440 przeszedl przez bramke 2
+Czas: 10:17
+Process 19440 przeszedl przez bramke 1
+Czas: 09:21
+Process 19466 przeszedl przez bramke 1
+Czas: 11:15
+Process 19466 przeszedl przez bramke 3
+Czas: 08:48
+Process 19449 przeszedl przez bramke 1
+Czas: 11:02
+Process 19449 przeszedl przez bramke 2
+Czas: 08:53
+Process 19450 przeszedl przez bramke 1
+Czas: 11:09
+Process 19450 przeszedl przez bramke 1
+Czas: 08:30
+Process 19445 przeszedl przez bramke 2
+Czas: 09:38
+Process 19445 przeszedl przez bramke 2
+Czas: 11:36
+Process 19445 przeszedl przez bramke 2
+Czas: 08:44
+Process 19452 przeszedl przez bramke 3
+Czas: 10:24
+Process 19452 przeszedl przez bramke 3
+Czas: 11:42
+Process 19452 przeszedl przez bramke 3
+Czas: 09:17
+Process 19460 przeszedl przez bramke 1
+Czas: 09:26
+Process 19468 przeszedl przez bramke 1
+Czas: 11:16
+Process 19468 przeszedl przez bramke 3
+Czas: 08:13
+Process 19406 przeszedl przez bramke 1
+Czas: 09:04
+Process 19406 przeszedl przez bramke 1
+Czas: 11:01
+Process 19406 przeszedl przez bramke 3
+Czas: 09:25
+Process 19500 przeszedl przez bramke 2
+Czas: 08:22
+Process 19427 przeszedl przez bramke 1
+Czas: 09:17
+Process 19427 przeszedl przez bramke 3
+Czas: 11:24
+Process 19427 przeszedl przez bramke 2
+Czas: 09:28
+Process 19470 przeszedl przez bramke 1
+Czas: 09:02
+Process 19454 przeszedl przez bramke 1
+Czas: 11:08
+Process 19454 przeszedl przez bramke 2
+Czas: 08:44
+Process 19462 przeszedl przez bramke 2
+Czas: 10:37
+Process 19462 przeszedl przez bramke 3
+Czas: 08:20
+Process 19420 przeszedl przez bramke 3
+Czas: 09:22
+Process 19420 przeszedl przez bramke 2
+Czas: 09:02
+Process 19476 przeszedl przez bramke 2
+Czas: 10:48
+Process 19476 przeszedl przez bramke 2
+Czas: 09:34
+Process 19506 przeszedl przez bramke 2
+Czas: 08:24
+Process 19432 przeszedl przez bramke 1
+Czas: 10:00
+Process 19432 przeszedl przez bramke 1
+Czas: 09:50
+Process 19519 przeszedl przez bramke 3
+Czas: 09:10
+Process 19459 przeszedl przez bramke 1
+Czas: 11:05
+Process 19459 przeszedl przez bramke 3
+Czas: 08:20
+Process 19421 przeszedl przez bramke 2
+Czas: 09:40
+Process 19421 przeszedl przez bramke 1
+Czas: 09:11
+Process 19480 przeszedl przez bramke 2
+Czas: 11:06
+Process 19480 przeszedl przez bramke 3
+Czas: 08:33
+Process 19443 przeszedl przez bramke 1
+Czas: 10:23
+Process 19443 przeszedl przez bramke 1
+Czas: 09:19
+Process 19465 przeszedl przez bramke 1
+Czas: 11:13
+Process 19465 przeszedl przez bramke 3
+Czas: 08:58
+Process 19512 przeszedl przez bramke 0
+Czas: 09:26
+Process 19512 przeszedl przez bramke 0
+Czas: 09:53
+Process 19512 przeszedl przez bramke 0
+Czas: 10:20
+Process 19512 przeszedl przez bramke 0
+Czas: 10:46
+Process 19512 przeszedl przez bramke 0
+Czas: 11:07
+Process 19512 przeszedl przez bramke 0
+Czas: 11:25
+Process 19512 przeszedl przez bramke 0
+Czas: 11:44
+Process 19512 przeszedl przez bramke 0
+Czas: 12:01
+Process 19512 przeszedl przez bramke 0
+Czas: 12:18
+Process 19512 przeszedl przez bramke 0
+Czas: 12:33
+Process 19512 przeszedl przez bramke 0
+Czas: 12:49
+Process 19512 przeszedl przez bramke 0
+Czas: 13:06
+Process 19512 przeszedl przez bramke 0
+Czas: 13:23
+Process 19512 przeszedl przez bramke 0
+Czas: 13:40
+Process 19512 przeszedl przez bramke 0
+Czas: 13:56
+Process 19512 przeszedl przez bramke 0
+Czas: 14:13
+Process 19512 przeszedl przez bramke 0
+Czas: 14:31
+Process 19512 przeszedl przez bramke 0
+Czas: 14:49
+Process 19512 przeszedl przez bramke 0
+Czas: 15:07
+Process 19512 przeszedl przez bramke 0
+Czas: 15:22
+Process 19512 przeszedl przez bramke 0
+Czas: 15:39
+Process 19512 przeszedl przez bramke 0
+Czas: 10:17
+Process 19541 przeszedl przez bramke 3
+Czas: 09:18
+Process 19464 przeszedl przez bramke 1
+Czas: 11:30
+Process 19464 przeszedl przez bramke 2
+Czas: 08:34
+Process 19436 przeszedl przez bramke 3
+Czas: 09:53
+Process 19436 przeszedl przez bramke 2
+Czas: 08:47
+Process 19448 przeszedl przez bramke 1
+Czas: 10:19
+Process 19448 przeszedl przez bramke 2
+Czas: 09:02
+Process 19472 przeszedl przez bramke 2
+Czas: 10:59
+Process 19472 przeszedl przez bramke 2
+Czas: 09:05
+Process 19484 przeszedl przez bramke 3
+Czas: 11:27
+Process 19484 przeszedl przez bramke 1
+Czas: 10:19
+Process 19542 przeszedl przez bramke 3
+Czas: 09:38
+Process 19482 przeszedl przez bramke 1
+Czas: 10:29
+Process 19529 przeszedl przez bramke 1
+Czas: 08:35
+Process 19444 przeszedl przez bramke 1
+Czas: 10:03
+Process 19444 przeszedl przez bramke 3
+Czas: 10:02
+Process 19504 przeszedl przez bramke 1
+Czas: 09:07
+Process 19457 przeszedl przez bramke 1
+Czas: 11:10
+Process 19457 przeszedl przez bramke 2
+Czas: 09:43
+Process 19488 przeszedl przez bramke 1
+Czas: 08:30
+Process 19446 przeszedl przez bramke 2
+Czas: 09:45
+Process 19446 przeszedl przez bramke 2
+Czas: 10:58
+Process 19560 przeszedl przez bramke 1
+Czas: 10:51
+Process 19568 przeszedl przez bramke 3
+Czas: 09:43
+Process 19515 przeszedl przez bramke 2
+Czas: 09:18
+Process 19495 przeszedl przez bramke 3
+Czas: 11:12
+Process 19495 przeszedl przez bramke 3
+Czas: 09:47
+Process 19489 przeszedl przez bramke 1
+Czas: 09:29
+Process 19475 przeszedl przez bramke 1
+Czas: 11:34
+Process 19475 przeszedl przez bramke 2
+Czas: 09:52
+Process 19520 przeszedl przez bramke 3
+Czas: 10:55
+Process 19573 przeszedl przez bramke 3
+Czas: 09:15
+Process 19490 przeszedl przez bramke 2
+Czas: 11:27
+Process 19490 przeszedl przez bramke 2
+Czas: 11:23
+Process 19577 przeszedl przez bramke 1
+Czas: 09:10
+Process 19477 przeszedl przez bramke 2
+Czas: 11:29
+Process 19477 przeszedl przez bramke 3
+Czas: 09:53
+Process 19521 przeszedl przez bramke 3
+Czas: 11:32
+Process 19521 przeszedl przez bramke 3
+Czas: 09:05
+Process 19481 przeszedl przez bramke 3
+Czas: 11:13
+Process 19481 przeszedl przez bramke 2
+Czas: 09:53
+Process 19531 przeszedl przez bramke 2
+Czas: 11:31
+Process 19531 przeszedl przez bramke 3
+Czas: 09:59
+Process 19496 przeszedl przez bramke 1
+Czas: 11:33
+Process 19496 przeszedl przez bramke 3
+Czas: 09:46
+Process 19528 przeszedl przez bramke 2
+Czas: 10:22
+Process 19536 przeszedl przez bramke 3
+Czas: 09:52
+Process 19494 przeszedl przez bramke 1
+Czas: 09:39
+Process 19507 przeszedl przez bramke 3
+Czas: 11:37
+Process 19507 przeszedl przez bramke 2
+Czas: 10:42
+Process 19544 przeszedl przez bramke 1
+Czas: 10:59
+Process 19580 przeszedl przez bramke 3
+Czas: 10:29
+Process 19547 przeszedl przez bramke 3
+Czas: 11:43
+Process 19547 przeszedl przez bramke 3
+Czas: 11:08
+Process 19584 przeszedl przez bramke 3
+Czas: 10:48
+Process 19579 przeszedl przez bramke 2
+Czas: 10:08
+Process 19503 przeszedl przez bramke 1
+Czas: 10:39
+Process 19540 przeszedl przez bramke 1
+Czas: 09:56
+Process 19534 przeszedl przez bramke 2
+Czas: 11:05
+Process 19583 przeszedl przez bramke 2
+Czas: 10:47
+Process 19551 przeszedl przez bramke 1
+Czas: 10:04
+Process 19545 przeszedl przez bramke 2
+Czas: 10:57
+Process 19574 przeszedl przez bramke 3
+Czas: 10:32
+Process 19537 przeszedl przez bramke 1
+Czas: 10:10
+Process 19527 przeszedl przez bramke 3
+Czas: 10:38
+Process 19555 przeszedl przez bramke 3
+Czas: 10:17
+Process 19514 przeszedl przez bramke 1
+Czas: 10:24
+Process 19525 przeszedl przez bramke 1
+Czas: 11:41
+Process 19525 przeszedl przez bramke 3
+Czas: 10:47
+Process 19565 przeszedl przez bramke 3
+Czas: 10:48
+Process 19567 przeszedl przez bramke 3
+Czas: 10:06
+Process 19550 przeszedl przez bramke 2
+Czas: 10:26
+Process 19546 przeszedl przez bramke 3
+Czas: 11:43
+Process 19546 przeszedl przez bramke 3
+Czas: 10:10
+Process 19511 przeszedl przez bramke 1
+Czas: 10:41
+Process 19556 przeszedl przez bramke 3
+Czas: 11:13
+Process 19572 przeszedl przez bramke 1
+Czas: 10:55
+Process 19559 przeszedl przez bramke 1
+Czas: 10:03
+Process 19539 przeszedl przez bramke 2
+Czas: 10:49
+Process 19552 przeszedl przez bramke 1
+Czas: 10:20
+Process 19563 przeszedl przez bramke 2
+Czas: 11:40
+Process 19563 przeszedl przez bramke 3
+Czas: 10:41
+Process 19576 przeszedl przez bramke 2
+Czas: 09:35
+Process 19502 przeszedl przez bramke 3
+Czas: 11:19
+Process 19502 przeszedl przez bramke 3
+Czas: 09:28
+Process 19499 przeszedl przez bramke 3
+Czas: 11:17
+Process 19499 przeszedl przez bramke 3
+Czas: 09:25
+Process 19497 przeszedl przez bramke 2
+Czas: 11:33
+Process 19497 przeszedl przez bramke 2
