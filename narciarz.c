@@ -24,7 +24,13 @@ int semID1;
 int semID2;
 int semID4;
 
-// Funkcja obsługi sygnału SIGTERM
+/**
+ * @brief Obsługuje sygnał SIGTERM.
+ * 
+ * Funkcja wywoływana po otrzymaniu sygnału SIGTERM. Zwalnia semafory i kończy program.
+ * 
+ * @param signum Numer sygnału (SIGTERM).
+ */
 void handle_sigterm(int signum) {
     //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
     sem_destroy(&child_sem1);
@@ -35,6 +41,11 @@ void handle_sigterm(int signum) {
     exit(0);
 }
 
+/**
+ * @brief Inicjalizuje semafory i pamięć współdzieloną.
+ * 
+ * Tworzy unikalne klucze i przypisuje semafory do globalnych identyfikatorów semaforów.
+ */
 void init_shmsem(){
     key_t klucz1;
     if ( (klucz1 = ftok(".", 'A')) == -1 )
@@ -70,6 +81,11 @@ void init_shmsem(){
     semID4 = alokujSemafor(klucz4, 1, IPC_CREAT | 0666);
 }
 
+/**
+ * @brief Generuje czas wygaśnięcia biletu na podstawie losowego wyboru.
+ * 
+ * @return Czas wygaśnięcia biletu w mikrosekundach.
+ */
 long ticketBuy(){
     struct timeval systemTime;
     gettimeofday(&systemTime, NULL);
@@ -93,10 +109,12 @@ long ticketBuy(){
     }
     return Bt;
 }
-/*
-Bt = czas dzialania biletu
-*/
-// Funkcja symulujaca zjazd osoby doroslej
+
+/**
+ * @brief Symuluje zjazd osoby dorosłej.
+ * 
+ * @param wybor Numer wybranej trasy (1 - łatwa, 2 - średnia, 3 - trudna).
+ */
 void zjazd(int wybor){
     if(wybor == 1){
         //printf("Wybrano latwa trase\n");
@@ -111,7 +129,12 @@ void zjazd(int wybor){
         usleep(3*MINUTA);
     }
 }
-// Funkcja symulujaca zjazd osoby niepelnoletniej (wolniej od osoby doroslej)
+
+/**
+ * @brief Symuluje zjazd osoby niepełnoletniej.
+ * 
+ * @param wybor Numer wybranej trasy (1 - łatwa, 2 - średnia, 3 - trudna).
+ */
 void zjazdDzieci(int wybor){
     if(wybor == 1){
         //printf("Wybrano latwa trase\n");
@@ -127,7 +150,14 @@ void zjazdDzieci(int wybor){
     }
 }
 
-// Funkcja watku dizcka
+/**
+ * @brief Funkcja wątku dziecka (1 dziecko).
+ * 
+ * Obsługuje zachowanie dziecka podczas korzystania z kolejki linowej.
+ * 
+ * @param arg Argument wątku (nieużywany).
+ * @return NULL
+ */
 void* child_thread_function1(void* arg) {
     set_color("\033[34m");
     // printf("jesem watek %ld\n",pthread_self());
@@ -143,6 +173,15 @@ void* child_thread_function1(void* arg) {
     // printf("jesem watek koncze dzialanie %ld\n",pthread_self());
     return NULL;
 }
+
+/**
+ * @brief Funkcja wątku dziecka (2 dzieci).
+ * 
+ * Obsługuje zachowanie dzieci podczas korzystania z kolejki linowej.
+ * 
+ * @param arg Argument wątku (nieużywany).
+ * @return NULL
+ */
 void* child_thread_function2(void* arg) {
     set_color("\033[34m");
     // printf("jesem watek %ld\n",pthread_self());

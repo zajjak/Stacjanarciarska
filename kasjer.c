@@ -17,6 +17,11 @@ pid_t ski_pid[P];
 pid_t pracownik_pid;
 
 // Funkcja obsługi sygnału SIGTERM
+/**
+ * @brief Obsługuje sygnał SIGTERM wysyłany do procesu.
+ * Usuwa wszystkie semafory i pamięć dzieloną, po czym kończy działanie programu.
+ * @param signum Numer sygnału (SIGTERM).
+ */
 void handle_sigterm(int signum) {
     reset_color();
     //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
@@ -54,6 +59,11 @@ void handle_sigterm(int signum) {
 }
 
 // Funkcja obsługi sygnału SIGINT
+/**
+ * @brief Obsługuje sygnał SIGINT wysyłany do procesu (np. przez Ctrl+C).
+ * Usuwa wszystkie semafory i pamięć dzieloną, po czym kończy działanie programu.
+ * @param signum Numer sygnału (SIGINT).
+ */
 void handle_sigint(int signum) {
     reset_color();
     //printf("Otrzymano sygnał SIGTERM, zakończenie programu\n");
@@ -92,6 +102,11 @@ void handle_sigint(int signum) {
 
 
 // Start procesu Pracownika
+/**
+ * @brief Tworzy nowy proces potomny dla pracownika.
+ * Proces potomny wykonuje program "pracownik", natomiast proces macierzysty zwraca jego PID.
+ * @return PID nowego procesu potomnego.
+ */
 pid_t spawnPracownik()
 {
     pid_t pracownik_pid = fork();
@@ -106,7 +121,13 @@ pid_t spawnPracownik()
     }
     return pracownik_pid;
 }
+
 // Start procesu Narciarza
+/**
+ * @brief Tworzy nowy proces potomny dla narciarza.
+ * Proces potomny wykonuje program "narciarz", natomiast proces macierzysty zwraca jego PID.
+ * @return PID nowego procesu potomnego.
+ */
 pid_t spawnNarciarz()
 {
     pid_t ski_pid = fork();
@@ -123,6 +144,13 @@ pid_t spawnNarciarz()
 }
 
 // Inicjacja czasu symulacji
+/**
+ * @brief Rozpoczyna symulację czasu.
+ * Usuwa istniejący raport, inicjuje czas symulacji oraz uruchamia procesy dla pracownika i narciarzy.
+ * Kończy symulację po osiągnięciu zadanej liczby minut.
+ * @param poczatek Liczba minut od 00:00, kiedy symulacja się rozpoczyna.
+ * @param koniec Czas trwania symulacji w minutach.
+ */
 void init_time(long poczatek, long koniec){
 
     const char *filename = "raport.txt";
@@ -162,7 +190,6 @@ void init_time(long poczatek, long koniec){
         gettimeofday(&systemTime, NULL);
     }
 
-    reset_color();
     // Zakonczenie symulacji
     waitpid(pracownik_pid, NULL, 0);
     for (int i = 0; i < P; i++) {
@@ -170,14 +197,18 @@ void init_time(long poczatek, long koniec){
     }
     
     gettimeofday(&systemTime,NULL);
+    reset_color();
     printf("Koniec symulacji\n");
+    reset_color();
     wyswietl_czas(STRT,systemTime.tv_usec/MINUTA);
 }
-/*
-start = liczba minut od 00:00
-koniec = liczba minut symulacji
-*/
+
 // Inicjalizacja bramek na dole krzeselka
+/**
+ * @brief Tworzy N semaforów (bramek) na dolnym peronie.
+ * Każdy semafor jest inicjowany wartością NUM_RESOURCES, co pozwala kontrolować liczbę narciarzy.
+ * NUM_RESOURCES * N określa maksymalną liczbę narciarzy na peronie.
+ */
 void init_bramki(){
     key_t klucz1;
     if ( (klucz1 = ftok(".", 'A')) == -1 )
@@ -196,13 +227,13 @@ void init_bramki(){
         }
     }
 }
-/*
-Inicjalizuje N semaforow(bramek)
-Wartosc poczatkowa semaforow = NUM_RESOURCES
-NUM_RESOURCES * N = liczba narciarzy możliwych na dolnym peronie
-*/
 
 // Inicjalizacja semaforow do kolejki
+/**
+ * @brief Tworzy semafory i pamięć dzieloną na potrzeby kolejki.
+ * Każdy semafor odpowiada za pojedyncze krzesło w kolejce.
+ * Pamięć dzielona przechowuje informacje o krzesłach, takie jak czas dotarcia na górę oraz PID-y narciarzy na każdym krześle.
+ */
 void init_kolejka(){
     key_t klucz2, kluczm1, klucz3;
 
@@ -259,10 +290,13 @@ void init_kolejka(){
             exit(1);
         }
     }
-
 }
 
-// Incjalizacja numera krzesleka pamiecia dzielona
+// Inicjalizacja numeru krzesła w pamięci dzielonej
+/**
+ * @brief Tworzy pamięć dzieloną oraz semafory do przechowywania i synchronizacji numeru aktualnego krzesła.
+ * Inicjalizuje wartość numeru krzesła na 0.
+ */
 void init_numer() {
     key_t klucz4, kluczm2, klucz5;
 
@@ -280,7 +314,6 @@ void init_numer() {
         exit(1);
     }
 
-    // Tworzenie pamięci współdzielonej
     if ((kluczm2 = ftok(".", 'F')) == -1) {
         printf("Blad ftok (main F)\n");
         exit(1);
@@ -289,18 +322,12 @@ void init_numer() {
         perror("Blad shmget (main shmID2)");
         exit(1);
     }
-
-    // Inicjalizacja aktualnego numeru krzesła w pamięci współdzielonej
     struct SharedNum *sharedNum = (struct SharedNum *)shmat(shmID2, NULL, 0);
     if (sharedNum == (void *)-1) {
         perror("Blad shmat (main sharedNum)");
         exit(1);
     }
-
-    // Inicjalizacja wartości w pamięci współdzielonej
     sharedNum->current_chair = 0;
-
-    // Zakończenie operacji na pamięci współdzielonej
     shmdt(sharedNum);
 
     if ((klucz5 = ftok(".", 'G')) == -1) {
@@ -315,10 +342,13 @@ void init_numer() {
         perror("Blad semctl (main semID4)");
         exit(1);
     }
-
 }
 
-// Funkcja zwalniajaca zasoby
+// Funkcja zwalniająca zasoby
+/**
+ * @brief Usuwa wszystkie utworzone semafory i segmenty pamięci dzielonej.
+ * Funkcja jest wywoływana na końcu programu lub w momencie zakończenia symulacji.
+ */
 void destroy() {
     // Usuwanie semaforów
     if (semctl(semID1, 0, IPC_RMID) == -1) {
@@ -350,11 +380,9 @@ void destroy() {
         exit(1);
     }
 
+    reset_color();
     printf("Semafory i pamięć dzielona zostały usunięte.\n");
 }
-/*
-Usuwanie semaforow i pamieci dzielonej.
-*/
 
 
 int main(){

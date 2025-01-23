@@ -111,7 +111,7 @@ int main() {
             if(systemTime.tv_usec>=chairs[i].timeTop){
                 signalSemafor(semID5,0);
                 set_color("\033[32m"); // Zielony
-                // printf("Chair %d arrived, people are disembarking[%d]\n", i,chairs[i].count);
+                printf("Chair %d arrived, people are disembarking[%d]\n", i,chairs[i].count);
                 semctl(semID3, i, SETVAL, chairs[i].count); // Odblokowanie sem
                 for (int j = 0; j < chairs[i].count; j++) {
                     set_color("\033[32m");
